@@ -1,43 +1,43 @@
 [
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
-      "name": "Type of Platform",
+      "name": "Shared Web hosting",
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
-    "corda": [
+    "aws": [
       {
-        "name": "DLT Platform - no blocks",
+        "name": "",
         "ref": "",
-        "icon": "blocks.png",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
-        "name": "Blockchain - blocks",
+        "name": "Azure shared App Services",
         "ref": "https://azure.microsoft.com/en-in/services/app-service/web/",
-        "icon": "blocks.png",
+        "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
-        "name": "Blockchain - blocks",
+        "name": "",
         "ref": "",
-        "icon": "blocks.png",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
-        "name": "Blockchain - blocks",
+        "name": "",
         "ref": "",
-        "icon": "blocks.png",
+        "icon": "none.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -66,47 +66,41 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
-      "name": "Version",
+      "name": "Virtual Server",
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
-    "corda": [
+    "aws": [
       {
-        "name": "Open Source v. 4",
-        "ref": "https://aws.amazon.com/ec2/",
-        "icon": "Compute_AmazonEC2.png",
-        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
-      },
-      {
-        "name": "Enterprise v. 4",
+        "name": "Amazon EC2",
         "ref": "https://aws.amazon.com/ec2/",
         "icon": "Compute_AmazonEC2.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
-        "name": "Open Source v. 1.4",
+        "name": "Azure Virtual Machine",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/",
         "icon": "Azure Virtual Machine.png",
         "Properties": [ "18", "No", "Yes", "1 Shared � 32 dedicated CPU", "0,6 � 208 GB", "3 TB" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
-        "name": "Open Source 1.0.5",
+        "name": "Compute Engine",
         "ref": "https://cloud.google.com/compute/",
         "icon": "Compute-Engine.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
-        "name": "Open Source 2.0.2",
+        "name": "Virtual Server Infrastructure (VSi)",
         "ref": "https://www.ibm.com/cloud/virtual-servers",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -114,7 +108,7 @@
     ],
     "oracle": [
       {
-        "name": "Basic Info",
+        "name": "Compute",
         "ref": "https://cloud.oracle.com/en_US/compute",
         "icon": "compute.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -131,7 +125,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -139,7 +133,7 @@
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon EC2 Bare Metal Instance (Preview)",
         "ref": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-bare-metal-instances-with-direct-access-to-hardware/",
@@ -147,7 +141,7 @@
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Bare Metal Servers (Large Instance Only for SAP Hana)",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture",
@@ -155,15 +149,15 @@
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
-    "multichain": [
-     {
+    "google": [
+      {
         "name": "None",
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Bare Metal Servers",
         "ref": "https://console.bluemix.net/docs/bare-metal/about.html#about",
@@ -172,7 +166,7 @@
       }
     ],
     "oracle": [
-       {
+      {
         "name": "Bare Metal Servers",
         "ref": "https://cloud.oracle.com/compute/bare-metal/features",
         "icon": "compute.png",
@@ -190,7 +184,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -198,7 +192,7 @@
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon EC2 Dedicated Hosts",
         "ref": "https://aws.amazon.com/ec2/dedicated-hosts/",
@@ -206,7 +200,7 @@
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "None",
         "ref": "http://#",
@@ -214,15 +208,15 @@
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
-    "multichain": [
-     {
+    "google": [
+      {
         "name": "Sole Tenant Node (Beta)",
         "ref": "https://cloud.google.com/compute/docs/nodes/",
         "icon": "Compute-Engine.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Dedicated Virtual Servers Infrastructure (VSi)",
         "ref": "https://console.bluemix.net/docs/vsi/vsi_dedicated_host.html#dedicated-hosts-and-dedicated-instances",
@@ -231,7 +225,7 @@
       }
     ],
     "oracle": [
-       {
+      {
         "name": "Dedicated Compute Classic",
         "ref": "https://cloud.oracle.com/compute-classic/dedicated/features",
         "icon": "compute.png",
@@ -249,7 +243,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -257,7 +251,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon EC2 Container Registry",
         "ref": "https://aws.amazon.com/ecr/",
@@ -265,7 +259,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Container Registry ",
         "ref": "https://azure.microsoft.com/en-in/services/container-registry/",
@@ -273,7 +267,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Container Registry",
         "ref": "https://cloud.google.com/container-registry/",
@@ -281,7 +275,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "IBM Cloud Container Registry",
         "ref": "https://www.ibm.com/cloud/container-registry",
@@ -308,7 +302,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -316,7 +310,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon EC2 Container Service",
         "ref": "https://aws.amazon.com/ecs/",
@@ -330,7 +324,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Kubernetes Service (AKS)",
         "ref": "https://azure.microsoft.com/services/kubernetes-service/",
@@ -344,7 +338,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Kubernetes Engine",
         "ref": "https://cloud.google.com/kubernetes-engine/",
@@ -352,7 +346,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "IBM Cloud Kubernetes Service",
         "ref": "https://www.ibm.com/cloud/container-service",
@@ -385,7 +379,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -393,7 +387,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Lambda",
         "ref": "https://aws.amazon.com/lambda/",
@@ -401,7 +395,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Service Fabric",
         "ref": "https://azure.microsoft.com/en-in/services/service-fabric/",
@@ -421,7 +415,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Google Cloud Functions",
         "ref": "https://cloud.google.com/functions/",
@@ -429,7 +423,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "IBM Cloud Functions",
         "ref": "https://www.ibm.com/cloud/functions",
@@ -456,7 +450,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -464,7 +458,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Lightsail",
         "ref": "https://amazonlightsail.com/",
@@ -472,7 +466,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure App Service Environment",
         "ref": "https://docs.microsoft.com/en-us/azure/app-service-web/app-service-app-service-environment-intro",
@@ -480,7 +474,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "http://#",
@@ -488,7 +482,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Virtual Server Infrastructure (VSi)",
         "ref": "https://www.ibm.com/cloud/virtual-servers",
@@ -515,7 +509,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -523,7 +517,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Auto Scaling",
         "ref": "https://aws.amazon.com/autoscaling/",
@@ -531,7 +525,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Autoscale",
         "ref": "https://azure.microsoft.com/en-us/features/autoscale/",
@@ -545,7 +539,7 @@
         "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Auto Scaler",
         "ref": "https://cloud.google.com/compute/docs/autoscaler/",
@@ -553,7 +547,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Auto Scaling",
         "ref": "https://www.ibm.com/cloud/auto-scaling",
@@ -580,7 +574,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -588,7 +582,7 @@
       "ref": "https://en.wikipedia.org/wiki/Batch_processing",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Batch",
         "ref": "https://aws.amazon.com/batch/",
@@ -596,7 +590,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Batch",
         "ref": "https://azure.microsoft.com/en-in/services/batch/",
@@ -604,7 +598,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Preemptible VMs",
         "ref": "https://cloud.google.com/preemptible-vms/",
@@ -612,7 +606,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Workload Scheduler",
         "ref": "https://console.bluemix.net/catalog/services/workload-scheduler",
@@ -639,7 +633,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -647,7 +641,7 @@
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Elastic Beanstalk",
         "ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
@@ -655,7 +649,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Web Apps",
         "ref": "https://azure.microsoft.com/en-in/services/batch/",
@@ -669,7 +663,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Google App engine",
         "ref": "https://cloud.google.com/appengine/",
@@ -677,7 +671,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Cloud Foundry Apps",
         "ref": "https://www.ibm.com/cloud/cloud-foundry",
@@ -692,7 +686,7 @@
         "icon": "applicationcontainer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
-	{
+      {
         "name": "Java Cloud Service",
         "ref": "https://cloud.oracle.com/en_US/java",
         "icon": "applicationcontainer.png",
@@ -710,7 +704,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Compute",
       "ref": "http://#"
     },
     "service": {
@@ -718,7 +712,7 @@
       "ref": "https://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Lambda",
         "ref": "#",
@@ -726,7 +720,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Functions",
         "ref": "https://azure.microsoft.com/en-in/services/functions/",
@@ -739,7 +733,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Functions",
         "ref": "https://cloud.google.com/functions/",
@@ -747,7 +741,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "IBM Cloud Functions",
         "ref": "https://www.ibm.com/cloud/functions",
@@ -782,7 +776,7 @@
       "ref": "https://",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Simple Storage Service (S3)",
         "ref": "https://aws.amazon.com/documentation/s3/",
@@ -790,7 +784,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Blob Storage",
         "ref": "https://azure.microsoft.com/en-in/services/storage/blobs/",
@@ -798,7 +792,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Storage",
         "ref": "https://cloud.google.com/storage/",
@@ -806,7 +800,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Cloud Object Storage",
         "ref": "https://www.ibm.com/cloud/object-storage",
@@ -841,7 +835,7 @@
       "ref": "http://##",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Elastic Block Storage (EBS)",
         "ref": "https://aws.amazon.com/ebs/",
@@ -849,7 +843,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Page Blobs / Premium Storage",
         "ref": "https://azure.microsoft.com/en-in/services/storage/disks/",
@@ -863,7 +857,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Persistent Disk",
         "ref": "https://cloud.google.com/persistent-disk/",
@@ -871,7 +865,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Block Storage",
         "ref": "https://console.bluemix.net/catalog/infrastructure/block-storage",
@@ -906,7 +900,7 @@
       "ref": "https://en.wikipedia.org/wiki/Network-attached_storage",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Elastic File System (EFS)",
         "ref": "https://aws.amazon.com/efs/pricing/",
@@ -914,7 +908,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure File Storage",
         "ref": "https://azure.microsoft.com/en-in/services/storage/files/",
@@ -922,7 +916,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "File Store",
         "ref": "http://cloud.google.com/filestore",
@@ -930,7 +924,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "File Storage",
         "ref": "https://console.bluemix.net/catalog/infrastructure/file-storage",
@@ -965,7 +959,7 @@
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Glacier",
         "ref": "https://aws.amazon.com/glacier/",
@@ -973,7 +967,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Archive Storage",
         "ref": "https://azure.microsoft.com/en-us/services/storage/archive/",
@@ -987,7 +981,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Storage",
         "ref": "https://cloud.google.com/storage/",
@@ -1001,7 +995,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Object Storage-ColdVault",
         "ref": "https://www.ibm.com/cloud/object-storage",
@@ -1017,7 +1011,7 @@
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
     ]
-    ,
+  ,
     "alibaba": [
       {
         "name": "Object Storage Archive",
@@ -1037,7 +1031,7 @@
       "ref": "https://en.wikipedia.org/wiki/Cloud_storage_gateway",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Storage Gateway",
         "ref": "https://aws.amazon.com/storagegateway/details/",
@@ -1045,7 +1039,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Storsimple",
         "ref": "https://azure.microsoft.com/en-in/services/storsimple/",
@@ -1053,7 +1047,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "http://#",
@@ -1061,7 +1055,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -1096,7 +1090,7 @@
       "ref": "https://en.wikipedia.org/wiki/Relational_database_management_system",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Aurora",
         "ref": "https://aws.amazon.com/rds/aurora/details/",
@@ -1110,7 +1104,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure SQL Database",
         "ref": "https://azure.microsoft.com/en-in/services/sql-database/",
@@ -1136,7 +1130,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud SQL",
         "ref": "https://cloud.google.com/sql/",
@@ -1150,7 +1144,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Db2",
         "ref": "https://console.bluemix.net/catalog/services/db2",
@@ -1234,7 +1228,7 @@
       "ref": "https://en.wikipedia.org/wiki/NoSQL",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon DynamoDB",
         "ref": "https://aws.amazon.com/dynamodb/",
@@ -1254,7 +1248,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure CosmosDB",
         "ref": "https://docs.microsoft.com/en-us/azure/cosmos-db/",
@@ -1267,14 +1261,14 @@
         "icon": "Azure Storage - Table.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
-       {
+      {
         "name": "Azure Time Series Insights",
         "ref": "https://azure.microsoft.com/en-us/services/time-series-insights/",
         "icon": "Azure DocumentDB.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Datastore",
         "ref": "https://cloud.google.com/datastore/",
@@ -1288,7 +1282,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Cloudant NoSQL DB",
         "ref": "https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db/",
@@ -1341,7 +1335,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon DynamoDB",
         "ref": "https://aws.amazon.com/dynamodb/",
@@ -1349,7 +1343,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Time Series Insights",
         "ref": "https://azure.microsoft.com/en-us/services/time-series-insights/",
@@ -1357,7 +1351,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud BigTable",
         "ref": "https://cloud.google.com/bigtable/",
@@ -1365,7 +1359,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -1400,7 +1394,7 @@
       "ref": "https://en.wikipedia.org/wiki/In-memory_database",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon ElastiCache",
         "ref": "https://aws.amazon.com/elasticache/",
@@ -1408,7 +1402,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure RedisCache",
         "ref": "https://azure.microsoft.com/en-in/services/cache/",
@@ -1416,7 +1410,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud MemoryStore (Beta)",
         "ref": "https://cloud.google.com/memorystore/",
@@ -1424,7 +1418,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Compose for Redis",
         "ref": "https://console.bluemix.net/catalog/services/compose-for-redis",
@@ -1459,7 +1453,7 @@
       "ref": "https://en.wikipedia.org/wiki/Data_warehouse",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Redshift",
         "ref": "https://aws.amazon.com/redshift/",
@@ -1467,7 +1461,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure SQL Data Warehouse",
         "ref": "https://azure.microsoft.com/en-in/services/sql-data-warehouse/",
@@ -1475,7 +1469,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Big Query",
         "ref": "https://cloud.google.com/bigquery/",
@@ -1483,7 +1477,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Db2 Warehouse",
         "ref": "https://console.bluemix.net/catalog/services/db2-warehouse",
@@ -1524,7 +1518,7 @@
       "ref": "https://en.wikipedia.org/wiki/Data_migration",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Database Migration Service",
         "ref": "https://aws.amazon.com/dms/",
@@ -1532,7 +1526,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Database Migration Service (Preview)",
         "ref": "https://azure.microsoft.com/en-in/blog/azure-database-migration-service-announcement-at-build/",
@@ -1540,7 +1534,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "#",
@@ -1548,7 +1542,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Lift",
         "ref": "https://console.ng.bluemix.net/catalog/services/lift/",
@@ -1583,7 +1577,7 @@
       "ref": "#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Server Migration Service",
         "ref": "https://aws.amazon.com/server-migration-service/",
@@ -1591,21 +1585,21 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Site Recovery",
         "ref": "https://docs.microsoft.com/azure/site-recovery/site-recovery-migrate-to-azure",
         "icon": "Azure Site Recovery.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
-	  {
+      {
         "name": "Azure Websites Migration Assistant",
         "ref": "https://azure.microsoft.com/en-us/downloads/migration-assistant/",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "#",
@@ -1613,7 +1607,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -1648,7 +1642,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Import/Export",
         "ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
@@ -1656,7 +1650,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Import/Export",
         "ref": "https://azure.microsoft.com/en-in/pricing/details/storage-import-export/",
@@ -1664,7 +1658,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "http://#",
@@ -1672,7 +1666,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Data Transfer Service",
         "ref": "https://console.bluemix.net/docs/infrastructure/DataTransferService/index.html#getting-started-with-data-transfer-service",
@@ -1713,7 +1707,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Snowball",
         "ref": "https://aws.amazon.com/snowball/",
@@ -1721,7 +1715,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "",
         "ref": "#",
@@ -1729,7 +1723,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "#",
@@ -1737,7 +1731,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Mass Data Migration Service",
         "ref": "https://console.bluemix.net/docs/infrastructure/mass-data-migration/index.html#getting-started-with-ibm-cloud-mass-data-migration",
@@ -1772,7 +1766,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Snowball Edge",
         "ref": "https://aws.amazon.com/snowball-edge/",
@@ -1780,7 +1774,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Data Box (Preview)",
         "ref": "https://azure.microsoft.com/en-us/services/storage/databox/",
@@ -1788,7 +1782,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Transfer Appliance (Beta)",
         "ref": "https://cloud.google.com/transfer-appliance/",
@@ -1796,7 +1790,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Mass Data Migration Service",
         "ref": "https://console.bluemix.net/docs/infrastructure/mass-data-migration/index.html#getting-started-with-ibm-cloud-mass-data-migration",
@@ -1831,7 +1825,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Snowmobile",
         "ref": "https://aws.amazon.com/snowmobile/",
@@ -1839,7 +1833,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "",
         "ref": "#",
@@ -1847,7 +1841,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "#",
@@ -1855,7 +1849,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -1890,7 +1884,7 @@
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Application Discovery Service",
         "ref": "https://aws.amazon.com/application-discovery/",
@@ -1898,7 +1892,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Active Directory",
         "ref": "https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/cloud-app-discovery",
@@ -1906,7 +1900,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "#",
@@ -1914,7 +1908,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -1949,7 +1943,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon VPC",
         "ref": "https://aws.amazon.com/vpc/",
@@ -1957,7 +1951,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure VNet",
         "ref": "https://azure.microsoft.com/en-in/services/virtual-network/",
@@ -1965,7 +1959,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Virtual Network",
         "ref": "https://cloud.google.com/products/networking/",
@@ -1973,7 +1967,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -2009,7 +2003,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon VPN",
         "ref": "http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpn-connections.html/",
@@ -2017,7 +2011,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure VPN Gateway",
         "ref": "https://azure.microsoft.com/en-in/pricing/details/vpn-gateway/",
@@ -2025,7 +2019,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud VPN",
         "ref": "https://cloud.google.com/products/networking/",
@@ -2033,7 +2027,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "VPN",
         "ref": "http://knowledgelayer.softlayer.com/learning/introduction-vpn",
@@ -2068,7 +2062,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon CloudFront",
         "ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
@@ -2076,7 +2070,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure CDN",
         "ref": "https://azure.microsoft.com/en-in/services/cdn/",
@@ -2084,7 +2078,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud CDN",
         "ref": "https://cloud.google.com/cdn/",
@@ -2092,7 +2086,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Content Delivery Network",
         "ref": "https://console.bluemix.net/catalog/infrastructure/cdn-powered-by-akamai",
@@ -2127,7 +2121,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Route 53",
         "ref": "https://aws.amazon.com/route53/",
@@ -2135,7 +2129,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure DNS",
         "ref": "https://azure.microsoft.com/en-in/services/dns/",
@@ -2143,7 +2137,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud DNS",
         "ref": "https://cloud.google.com/dns/",
@@ -2151,7 +2145,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Internet Services",
         "ref": "https://console.bluemix.net/catalog/services/internet-services",
@@ -2176,7 +2170,7 @@
       }
     ]
   },
- {
+  {
     "category": {
       "name": "Networking",
       "ref": "http://#"
@@ -2186,7 +2180,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Route 53 Traffic Flow",
         "ref": "https://aws.amazon.com/blogs/aws/new-route-53-traffic-flow/",
@@ -2194,7 +2188,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Traffic Manager",
         "ref": "https://azure.microsoft.com/en-in/services/traffic-manager/",
@@ -2202,7 +2196,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "#",
@@ -2210,7 +2204,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Internet Services",
         "ref": "https://console.bluemix.net/catalog/services/internet-services",
@@ -2245,7 +2239,7 @@
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Direct Connect",
         "ref": "https://aws.amazon.com/directconnect/",
@@ -2259,7 +2253,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Express Route",
         "ref": "https://azure.microsoft.com/en-in/services/expressroute/",
@@ -2267,7 +2261,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud InterConnect",
         "ref": "https://cloud.google.com/interconnect/",
@@ -2275,7 +2269,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Direct Link",
         "ref": "https://www.ibm.com/cloud-computing/bluemix/direct-link",
@@ -2310,7 +2304,7 @@
       "ref": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Elastic Load Balancing",
         "ref": "https://aws.amazon.com/elasticloadbalancing/",
@@ -2318,7 +2312,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Load Balancer",
         "ref": "https://azure.microsoft.com/en-in/services/load-balancer/",
@@ -2326,7 +2320,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Load Balancing",
         "ref": "https://cloud.google.com/load-balancing/",
@@ -2334,7 +2328,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Local Load Balancing",
         "ref": "https://console.bluemix.net/catalog/infrastructure/load-balancer-group",
@@ -2381,13 +2375,13 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [{
+    "aws": [{
       "name": "AWS Cloud9",
       "ref": "https://aws.amazon.com/cloud9/",
       "icon": "aws.png",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-       {
+      {
         "name": "AWS Code Star",
         "ref": "https://aws.amazon.com/codestar/",
         "icon": "Developer-Tools_AWSCodeCommit.png",
@@ -2425,7 +2419,7 @@
       }
 
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Visual Studio Team Services",
         "ref": "https://www.visualstudio.com/team-services/",
@@ -2433,7 +2427,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Source Repositories",
         "ref": "https://cloud.google.com/source-repositories/",
@@ -2441,7 +2435,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Active Deploy",
         "ref": "https://console.ng.bluemix.net/catalog/services/active-deploy/",
@@ -2500,7 +2494,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS SDK",
         "ref": "#",
@@ -2508,7 +2502,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure SDK Visual Studio",
         "ref": "https://www.visualstudio.com/team-services/",
@@ -2516,7 +2510,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud SDK Cloud Tools for IntelliJ",
         "ref": "http://#",
@@ -2542,7 +2536,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "IBM Cloud Developer Tool",
         "ref": "https://marketplace.visualstudio.com/items?itemName=IBM.ibm-developer",
@@ -2557,25 +2551,25 @@
       }
     ],
     "oracle": [
-	  {
+      {
         "name": "Visual Builder",
         "ref": "https://cloud.oracle.com/en_US/visual-builder",
         "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
-	  {
+      {
         "name": "API Catalog",
         "ref": "https://cloud.oracle.com/en_US/api-catalog",
         "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       },
-	  {
+      {
         "name": "Oracle Enterprise Pack for Eclipse",
         "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-eclipse-ide-oracle-developer-cloud-service.html",
         "icon": "developer.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       } ,
-	  {
+      {
         "name": "Oracle Enterprise Pack for Netbeans",
         "ref": "https://docs.oracle.com/en/cloud/paas/developer-cloud/csdcs/using-netbeans-ide-oracle-developer-cloud-service.html",
         "icon": "developer.png",
@@ -2602,7 +2596,7 @@
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon EC2 Systems Manager",
         "ref": "https://aws.amazon.com/documentation/elastic-beanstalk/",
@@ -2610,7 +2604,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Operational Insights ",
         "ref": "https://azure.microsoft.com/en-us/resources/videos/azure-operational-insights-overview/",
@@ -2618,7 +2612,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "http://#",
@@ -2626,7 +2620,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -2661,7 +2655,7 @@
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS CloudFormation",
         "ref": "https://aws.amazon.com/cloudformation/",
@@ -2669,7 +2663,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Resource Manager",
         "ref": "https://azure.microsoft.com/en-us/features/resource-manager/",
@@ -2683,7 +2677,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Resource Manager",
         "ref": "https://cloud.google.com/resource-manager/",
@@ -2697,7 +2691,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Terraform",
         "ref": "https://ibm-cloud.github.io/tf-ibm-docs/index.html",
@@ -2732,7 +2726,7 @@
       "ref": "https://en.wikipedia.org/wiki/Log_management",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon CloudWatch",
         "ref": "https://aws.amazon.com/cloudwatch/",
@@ -2746,7 +2740,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Log Analytics",
         "ref": "https://azure.microsoft.com/en-in/services/log-analytics/",
@@ -2767,7 +2761,7 @@
       }
 
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Google StackDriver",
         "ref": "https://cloud.google.com/stackdriver/",
@@ -2805,7 +2799,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Log Analysis",
         "ref": "https://console.bluemix.net/catalog/services/log-analysis",
@@ -2865,7 +2859,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Config",
         "ref": "https://aws.amazon.com/config/",
@@ -2873,7 +2867,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure portal (audit logs)",
         "ref": "",
@@ -2881,7 +2875,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Security Scanner",
         "ref": "",
@@ -2901,7 +2895,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -2936,7 +2930,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS OpsWorks",
         "ref": "https://aws.amazon.com/opsworks/",
@@ -2944,7 +2938,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Resource Manager",
         "ref": "https://azure.microsoft.com/en-us/features/resource-manager/",
@@ -2964,7 +2958,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -2972,7 +2966,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3007,7 +3001,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Service Catalog",
         "ref": "https://aws.amazon.com/servicecatalog/",
@@ -3015,7 +3009,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "",
         "ref": "",
@@ -3023,7 +3017,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3031,7 +3025,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3066,7 +3060,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Trusted Advisor",
         "ref": "https://aws.amazon.com/premiumsupport/trustedadvisor/",
@@ -3074,7 +3068,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Advisor",
         "ref": "https://azure.microsoft.com/en-in/services/advisor/",
@@ -3088,7 +3082,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Google Cloud Platform Security",
         "ref": "https://cloud.google.com/security/",
@@ -3096,7 +3090,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3131,7 +3125,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Personal Health Dashboard",
         "ref": "",
@@ -3139,21 +3133,21 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Monitor",
         "ref": "https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-azure-monitor",
         "icon": "Azure monitor.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
-	  {
+      {
         "name": "Azure Operations Management Suite (OMS)",
         "ref": "https://www.microsoft.com/en-us/cloud-platform/operations-management-suite",
         "icon": "Azure OMS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3161,7 +3155,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3196,7 +3190,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Command Line Interface",
         "ref": "",
@@ -3210,7 +3204,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Command Line Interface",
         "ref": "",
@@ -3236,7 +3230,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Shell",
         "ref": "https://cloud.google.com/shell/",
@@ -3262,7 +3256,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3315,7 +3309,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Managed Services",
         "ref": "https://aws.amazon.com/managed-services/",
@@ -3323,7 +3317,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "",
         "ref": "",
@@ -3331,7 +3325,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3339,7 +3333,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3374,7 +3368,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Disaster Recovery",
         "ref": "https://aws.amazon.com/disaster-recovery/",
@@ -3382,7 +3376,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Site Recovery",
         "ref": "https://azure.microsoft.com/en-us/services/site-recovery/",
@@ -3396,7 +3390,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3404,7 +3398,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3445,7 +3439,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Identity and Access Management (IAM)",
         "ref": "https://aws.amazon.com/documentation/iam/",
@@ -3453,7 +3447,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Active Directory",
         "ref": "https://azure.microsoft.com/en-in/services/active-directory/",
@@ -3461,7 +3455,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud IAM",
         "ref": "https://cloud.google.com/iam/",
@@ -3475,7 +3469,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Identity & Access Management",
         "ref": "https://console.bluemix.net/docs/iam/quickstart.html#getstarted",
@@ -3510,7 +3504,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Inspector",
         "ref": "https://aws.amazon.com/inspector/",
@@ -3524,7 +3518,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Security Center",
         "ref": "https://azure.microsoft.com/en-in/services/security-center/",
@@ -3532,7 +3526,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3540,7 +3534,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Infrastructure Vulnerability Scan",
         "ref": "https://console.bluemix.net/docs/infrastructure/SLmonitoring/vuln_scan.html#vulnerability-scans",
@@ -3581,7 +3575,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Certificate Manager",
         "ref": "https://aws.amazon.com/certificate-manager/",
@@ -3589,7 +3583,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "App Service Certificate",
         "ref": "https://azure.microsoft.com/en-us/updates/introducing-app-service-certificates/",
@@ -3597,7 +3591,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3605,7 +3599,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "SSL Certificates",
         "ref": "https://console.bluemix.net/docs/infrastructure/ssl-certificates/index.html#getting-started-with-ssl-certificates",
@@ -3640,7 +3634,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS CloudHSM",
         "ref": "https://aws.amazon.com/cloudhsm/",
@@ -3654,7 +3648,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Key Vault",
         "ref": "https://azure.microsoft.com/en-in/services/key-vault/",
@@ -3662,7 +3656,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Key Management Service",
         "ref": "https://cloud.google.com/kms/",
@@ -3670,7 +3664,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Key Protect",
         "ref": "https://console.ng.bluemix.net/catalog/services/key-protect/",
@@ -3705,7 +3699,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Directory Service",
         "ref": "https://aws.amazon.com/directoryservice/",
@@ -3713,7 +3707,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Active Directory",
         "ref": "https://azure.microsoft.com/en-us/services/active-directory/",
@@ -3739,7 +3733,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud IAM",
         "ref": "https://cloud.google.com/iam/",
@@ -3759,7 +3753,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "App ID",
         "ref": "https://console.bluemix.net/catalog/services/app-id",
@@ -3794,7 +3788,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Key Management Service",
         "ref": "",
@@ -3802,7 +3796,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Key Vault",
         "ref": "https://azure.microsoft.com/en-us/services/key-vault/",
@@ -3810,7 +3804,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Key Management Service",
         "ref": "https://cloud.google.com/kms/",
@@ -3818,7 +3812,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -3853,7 +3847,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Organizations",
         "ref": "",
@@ -3861,7 +3855,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Management Groups",
         "ref": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management-groups-overview",
@@ -3869,7 +3863,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3877,7 +3871,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Resource Group",
         "ref": "https://console.bluemix.net/docs/tutorials/users-teams-applications.html#best-practices-for-organizing-users-teams-applications",
@@ -3912,7 +3906,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Shield",
         "ref": "https://aws.amazon.com/shield/",
@@ -3920,7 +3914,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure DDoS Protection",
         "ref": "https://azure.microsoft.com/en-in/services/ddos-protection/",
@@ -3928,7 +3922,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Armor (Beta)",
         "ref": "https://cloud.google.com/armor/",
@@ -3936,7 +3930,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Internet Services",
         "ref": "https://console.bluemix.net/catalog/services/internet-services",
@@ -3971,7 +3965,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS WAF",
         "ref": "https://aws.amazon.com/waf/",
@@ -3979,7 +3973,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure WAF",
         "ref": "",
@@ -3987,7 +3981,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -3995,7 +3989,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Internet Services",
         "ref": "https://console.bluemix.net/catalog/services/internet-services",
@@ -4030,7 +4024,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Artifact",
         "ref": "https://aws.amazon.com/artifact/",
@@ -4038,7 +4032,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Security & Compliance",
         "ref": "https://azure.microsoft.com/en-in/support/trust-center/",
@@ -4046,7 +4040,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Security Command Center (Alpha)",
         "ref": "https://cloud.google.com/security-command-center/",
@@ -4054,7 +4048,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -4089,7 +4083,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Athena",
         "ref": "https://aws.amazon.com/athena/",
@@ -4097,7 +4091,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Data Lake Analytics",
         "ref": "https://azure.microsoft.com/en-in/services/data-lake-analytics/",
@@ -4105,7 +4099,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "BigQuery",
         "ref": "https://cloud.google.com/bigquery/",
@@ -4113,7 +4107,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "SQL Query",
         "ref": "https://console.bluemix.net/catalog/services/sql-query",
@@ -4148,7 +4142,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon EMR",
         "ref": "https://aws.amazon.com/emr/",
@@ -4156,7 +4150,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure HDInsight",
         "ref": "https://azure.microsoft.com/en-in/services/hdinsight/",
@@ -4164,7 +4158,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud DataProc",
         "ref": "https://cloud.google.com/dataproc/",
@@ -4172,7 +4166,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "BigInsights for Apache Hadoop",
         "ref": "https://console.ng.bluemix.net/catalog/services/biginsights-for-apache-hadoop/",
@@ -4207,7 +4201,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon CloudSearch",
         "ref": "https://aws.amazon.com/cloudsearch/",
@@ -4221,7 +4215,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Search",
         "ref": "",
@@ -4229,7 +4223,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -4237,7 +4231,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Compose for Elasticsearch",
         "ref": "https://console.bluemix.net/catalog/services/compose-for-elasticsearch",
@@ -4272,7 +4266,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Kinesis",
         "ref": "https://aws.amazon.com/kinesis/streams/",
@@ -4286,7 +4280,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Stream Analytics",
         "ref": "https://azure.microsoft.com/en-us/services/stream-analytics/",
@@ -4300,7 +4294,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Dataflow",
         "ref": "https://cloud.google.com/dataflow/",
@@ -4308,7 +4302,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Streaming Analytics",
         "ref": "https://console.ng.bluemix.net/catalog/services/streaming-analytics/",
@@ -4343,7 +4337,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Redshift",
         "ref": "https://aws.amazon.com/redshift/",
@@ -4351,7 +4345,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure SQL Data Warehouse",
         "ref": "https://azure.microsoft.com/en-in/services/sql-data-warehouse/",
@@ -4359,7 +4353,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Big Query",
         "ref": "https://cloud.google.com/bigquery/",
@@ -4367,7 +4361,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Db2 Warehouse",
         "ref": "https://console.bluemix.net/catalog/services/db2-warehouse",
@@ -4402,7 +4396,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon QuickSight",
         "ref": "https://quicksight.aws/",
@@ -4410,7 +4404,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "PowerBI",
         "ref": "https://powerbi.microsoft.com/en-us/",
@@ -4418,7 +4412,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Google Data Studio (Beta)",
         "ref": "https://cloud.google.com/data-studio/",
@@ -4426,7 +4420,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Watson studio",
         "ref": "https://console.bluemix.net/catalog/services/watson-studio",
@@ -4467,7 +4461,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Data Pipeline",
         "ref": "https://aws.amazon.com/datapipeline/",
@@ -4487,7 +4481,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Data Factory",
         "ref": "https://azure.microsoft.com/en-in/services/data-factory/",
@@ -4507,7 +4501,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud DataPrep (Private Beta)",
         "ref": "https://cloud.google.com/dataprep/",
@@ -4521,7 +4515,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -4562,7 +4556,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Lex",
         "ref": "https://aws.amazon.com/lex/",
@@ -4577,8 +4571,8 @@
       }
 
     ],
-    "fabric": [
-	{
+    "azure": [
+      {
         "name": "LUIS (Language Understanding Intelligent Service)",
         "ref": "https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/",
         "icon": "Azure Cognative Services - luis_COLOR.png",
@@ -4597,7 +4591,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Natural Language API",
         "ref": "https://cloud.google.com/natural-language/",
@@ -4617,7 +4611,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Natural Language Classifier",
         "ref": "https://console.ng.bluemix.net/catalog/services/natural-language-classifier/",
@@ -4688,7 +4682,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Polly",
         "ref": "",
@@ -4708,7 +4702,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Bing Speech API",
         "ref": "",
@@ -4716,7 +4710,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Translation API",
         "ref": "https://cloud.google.com/translate/",
@@ -4730,7 +4724,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Speech to Text",
         "ref": "https://console.bluemix.net/catalog/services/speech-to-text",
@@ -4765,7 +4759,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Rekognition",
         "ref": "",
@@ -4773,7 +4767,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Emotion API",
         "ref": "https://azure.microsoft.com/en-us/services/cognitive-services/emotion/",
@@ -4793,7 +4787,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Vision API",
         "ref": "",
@@ -4807,7 +4801,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Visual Recognition",
         "ref": "https://console.ng.bluemix.net/catalog/services/visual-recognition/",
@@ -4842,7 +4836,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Machine Learning",
         "ref": "",
@@ -4856,7 +4850,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Machine Learning",
         "ref": "https://studio.azureml.net/",
@@ -4875,7 +4869,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud DataLab",
         "ref": "",
@@ -4895,7 +4889,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Machine Learning",
         "ref": "https://console.bluemix.net/catalog/services/machine-learning",
@@ -4930,7 +4924,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Mobile Hub",
         "ref": "",
@@ -4938,7 +4932,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Mobile Apps",
         "ref": "https://azure.microsoft.com/en-us/services/app-service/mobile/",
@@ -4946,7 +4940,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Mobile App",
         "ref": "",
@@ -4954,7 +4948,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Cloud Mobile App",
         "ref": "https://www.ibm.com/cloud-computing/bluemix/mobile?lnk=mn",
@@ -4989,7 +4983,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon API Gateway",
         "ref": "",
@@ -4997,7 +4991,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure API Management",
         "ref": "",
@@ -5005,7 +4999,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Endpoints",
         "ref": "",
@@ -5013,7 +5007,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "API Connect",
         "ref": "https://console.bluemix.net/catalog/services/api-connect",
@@ -5048,7 +5042,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Cognito",
         "ref": "",
@@ -5056,7 +5050,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Mobile SDK,Offline/Sync",
         "ref": "",
@@ -5064,7 +5058,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Firebase Authentication",
         "ref": "",
@@ -5072,7 +5066,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "App ID",
         "ref": "https://console.bluemix.net/catalog/services/app-id",
@@ -5107,7 +5101,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Pinpoint",
         "ref": "",
@@ -5115,7 +5109,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Mobile Engagement",
         "ref": "",
@@ -5123,7 +5117,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -5131,7 +5125,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Mobile Foundation",
         "ref": "https://console.bluemix.net/catalog/services/mobile-foundation",
@@ -5166,7 +5160,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Managed Services",
         "ref": "https://aws.amazon.com/managed-services/",
@@ -5174,7 +5168,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "",
         "ref": "",
@@ -5182,7 +5176,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -5190,7 +5184,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -5225,7 +5219,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Device Farm",
         "ref": "",
@@ -5233,7 +5227,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Xamarin Test Cloud (Front End)",
         "ref": "",
@@ -5247,7 +5241,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Test Lab",
         "ref": "https://firebase.google.com/docs/test-lab/",
@@ -5255,7 +5249,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -5290,7 +5284,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Mobile SDK",
         "ref": "",
@@ -5298,7 +5292,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Mobile SDK",
         "ref": "",
@@ -5306,7 +5300,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Tools for Android Studio",
         "ref": "https://cloud.google.com/android-studio/",
@@ -5314,7 +5308,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -5349,7 +5343,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Step Functions",
         "ref": "",
@@ -5357,7 +5351,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Microsoft Flow",
         "ref": "https://flow.microsoft.com/",
@@ -5389,7 +5383,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "App Engine",
         "ref": "https://cloud.google.com/appengine/",
@@ -5397,7 +5391,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "IBM Cloud Functions",
         "ref": "https://www.ibm.com/cloud/functions",
@@ -5432,7 +5426,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Mobile Analytics",
         "ref": "https://aws.amazon.com/mobileanalytics/",
@@ -5440,7 +5434,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Hockey App",
         "ref": "https://azure.microsoft.com/en-in/services/hockeyapp/",
@@ -5448,7 +5442,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Firebase Analytics",
         "ref": "https://firebase.google.com/docs/analytics/",
@@ -5456,7 +5450,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Mobile Analyics",
         "ref": "https://console.bluemix.net/catalog/services/mobile-analytics",
@@ -5491,7 +5485,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon API Gateway",
         "ref": "",
@@ -5499,7 +5493,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure API Management",
         "ref": "",
@@ -5507,7 +5501,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Apigee API Platform",
         "ref": "https://cloud.google.com/apigee-api-management/",
@@ -5539,7 +5533,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Api connect",
         "ref": "https://console.bluemix.net/catalog/services/api-connect",
@@ -5574,7 +5568,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Elastic Transcoder",
         "ref": "",
@@ -5618,7 +5612,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Media Services",
         "ref": "https://azure.microsoft.com/en-us/services/media-services",
@@ -5650,7 +5644,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -5658,7 +5652,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Digital Transcoding",
         "ref": "https://console.bluemix.net/docs/infrastructure/digital-transcoding/tc_index.html#getting-started-with-digital-transcoding",
@@ -5693,7 +5687,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon SQS",
         "ref": "",
@@ -5707,7 +5701,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Service Bus queues",
         "ref": "",
@@ -5733,7 +5727,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Pub/Sub",
         "ref": "",
@@ -5741,7 +5735,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Message Hub",
         "ref": "https://console.bluemix.net/catalog/services/message-hub",
@@ -5782,7 +5776,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Pinpoint",
         "ref": "",
@@ -5790,7 +5784,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Mobile Engagement",
         "ref": "",
@@ -5798,7 +5792,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -5806,7 +5800,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Mobile Analytics",
         "ref": "https://console.bluemix.net/catalog/services/mobile-analytics",
@@ -5841,7 +5835,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon SES",
         "ref": "",
@@ -5849,7 +5843,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "",
         "ref": "",
@@ -5857,7 +5851,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -5865,7 +5859,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Sendgrid",
         "ref": "https://console.bluemix.net/catalog/services/sendgrid",
@@ -5900,7 +5894,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon SNS",
         "ref": "",
@@ -5908,7 +5902,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Notification Services",
         "ref": "",
@@ -5916,7 +5910,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Firebase Cloud Messaging",
         "ref": "https://firebase.google.com/docs/cloud-messaging/",
@@ -5924,7 +5918,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Push notification",
         "ref": "https://console.bluemix.net/catalog/services/push-notifications",
@@ -5960,7 +5954,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Managed Blockchain (Preview)",
         "ref": "https://aws.amazon.com/managed-blockchain/",
@@ -5968,7 +5962,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Blockchain",
         "ref": "https://azure.microsoft.com/en-us/solutions/blockchain/",
@@ -5982,7 +5976,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -5990,7 +5984,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Blockchain",
         "ref": "https://console.ng.bluemix.net/catalog/services/blockchain/",
@@ -6025,7 +6019,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Lex Chatbots",
         "ref": "",
@@ -6033,7 +6027,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Bot Service",
         "ref": "https://azure.microsoft.com/en-us/services/bot-service/",
@@ -6041,7 +6035,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Dialogflow",
         "ref": "https://dialogflow.com/",
@@ -6049,7 +6043,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Watson Assistant",
         "ref": "https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation",
@@ -6084,7 +6078,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon WorkDocs",
         "ref": "",
@@ -6104,7 +6098,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Microsoft Office 365",
         "ref": "",
@@ -6112,7 +6106,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "G Suite",
         "ref": "",
@@ -6120,7 +6114,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -6155,7 +6149,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon AppStream 2.0",
         "ref": "",
@@ -6163,7 +6157,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "",
         "ref": "",
@@ -6171,7 +6165,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -6179,7 +6173,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -6214,7 +6208,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Marketplace",
         "ref": "",
@@ -6222,7 +6216,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure MarketPlace",
         "ref": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps",
@@ -6230,7 +6224,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud Launcher",
         "ref": "https://cloud.google.com/launcher/",
@@ -6238,7 +6232,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "IBM Marketplace",
         "ref": "https://www.ibm.com/bn-en/marketplace/cloud-platform",
@@ -6273,7 +6267,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS IoT Platform",
         "ref": "",
@@ -6281,7 +6275,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure IoT Platform",
         "ref": "https://azure.microsoft.com/en-us/overview/iot/",
@@ -6295,7 +6289,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "Cloud IoT Core (Beta)",
         "ref": "https://cloud.google.com/iot-core/",
@@ -6309,7 +6303,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Internet of Things Platform",
         "ref": "https://console.ng.bluemix.net/catalog/services/internet-of-things-platform/",
@@ -6344,7 +6338,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Greengrass",
         "ref": "",
@@ -6352,7 +6346,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure IoT SDK",
         "ref": "",
@@ -6366,7 +6360,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -6374,7 +6368,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "Edge Analytics",
         "ref": "https://console.bluemix.net/docs/services/IoT/gateways/gw_dev_index.html#eaa_community",
@@ -6415,7 +6409,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS IoT Button",
         "ref": "",
@@ -6423,7 +6417,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Sphere",
         "ref": "https://azure.microsoft.com/en-us/services/azure-sphere/",
@@ -6431,7 +6425,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -6439,7 +6433,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -6474,7 +6468,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "Amazon Lumberyard",
         "ref": "",
@@ -6482,7 +6476,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Visual Studio",
         "ref": "",
@@ -6490,7 +6484,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -6498,7 +6492,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
@@ -6533,7 +6527,7 @@
       "ref": "",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
-    "corda": [
+    "aws": [
       {
         "name": "AWS Dev/Test",
         "ref": "",
@@ -6541,7 +6535,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "fabric": [
+    "azure": [
       {
         "name": "Azure Dev/Test",
         "ref": "https://azure.microsoft.com/en-in/services/devtest-lab/",
@@ -6549,7 +6543,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "multichain": [
+    "google": [
       {
         "name": "",
         "ref": "",
@@ -6557,7 +6551,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
-    "quorum": [
+    "ibm": [
       {
         "name": "",
         "ref": "https://#",
