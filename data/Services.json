@@ -27,7 +27,7 @@
     ],
     "multichain": [
       {
-        "name": "Blockchain - blocks",
+        "name": "Blockchain - blocks2",
         "ref": "",
         "icon": "blocks.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
