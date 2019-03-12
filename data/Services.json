@@ -76,7 +76,7 @@
     },
     "corda": [
       {
-        "name": "Open Source v. 4",
+        "name": "Open Source v. 4 - Lic Apache v2",
         "ref": "https://aws.amazon.com/ec2/",
         "icon": "Compute_AmazonEC2.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -90,7 +90,7 @@
     ],
     "fabric": [
       {
-        "name": "Open Source v. 1.4",
+        "name": "Open Source v. 1.4  - Lic Apache v2",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/",
         "icon": "Azure Virtual Machine.png",
         "Properties": [ "18", "No", "Yes", "1 Shared � 32 dedicated CPU", "0,6 � 208 GB", "3 TB" ]
@@ -98,7 +98,7 @@
     ],
     "multichain": [
       {
-        "name": "Open Source 1.0.5",
+        "name": "Open Source 1.0.5  - Lic GPL v3",
         "ref": "https://cloud.google.com/compute/",
         "icon": "Compute-Engine.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -106,7 +106,7 @@
     ],
     "quorum": [
       {
-        "name": "Open Source 2.0.2",
+        "name": "Open Source 2.0.2 -  - Lic GPL/LGPL",
         "ref": "https://www.ibm.com/cloud/virtual-servers",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -135,13 +135,13 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Bare Metal Server",
+      "name": "Company or Organization",
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
     "corda": [
       {
-        "name": "Amazon EC2 Bare Metal Instance (Preview)",
+        "name": "R3",
         "ref": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-bare-metal-instances-with-direct-access-to-hardware/",
         "icon": "aws.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -149,7 +149,7 @@
     ],
     "fabric": [
       {
-        "name": "Azure Bare Metal Servers (Large Instance Only for SAP Hana)",
+        "name": "Linux Foundation",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture",
         "icon": "Azure Virtual Machine.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -157,7 +157,7 @@
     ],
     "multichain": [
      {
-        "name": "None",
+        "name": "Coin Sciences Ltd",
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -165,7 +165,7 @@
     ],
     "quorum": [
       {
-        "name": "Bare Metal Servers",
+        "name": "JP Morgan",
         "ref": "https://console.bluemix.net/docs/bare-metal/about.html#about",
         "icon": "ibm-baremetal.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -194,13 +194,13 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Virtual Dedicated Host",
+      "name": "For Profit",
       "ref": "http://#",
       "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
     },
     "corda": [
       {
-        "name": "Amazon EC2 Dedicated Hosts",
+        "name": "Yes",
         "ref": "https://aws.amazon.com/ec2/dedicated-hosts/",
         "icon": "aws.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -208,7 +208,7 @@
     ],
     "fabric": [
       {
-        "name": "None",
+        "name": "No",
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -216,7 +216,7 @@
     ],
     "multichain": [
      {
-        "name": "Sole Tenant Node (Beta)",
+        "name": "Yes",
         "ref": "https://cloud.google.com/compute/docs/nodes/",
         "icon": "Compute-Engine.png",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -224,7 +224,7 @@
     ],
     "quorum": [
       {
-        "name": "Dedicated Virtual Servers Infrastructure (VSi)",
+        "name": "Yes",
         "ref": "https://console.bluemix.net/docs/vsi/vsi_dedicated_host.html#dedicated-hosts-and-dedicated-instances",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -253,21 +253,28 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Container Registration Service",
+      "name": "Network Type",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "corda": [
       {
-        "name": "Amazon EC2 Container Registry",
+        "name": "Private Permissoned",
         "ref": "https://aws.amazon.com/ecr/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "over Corda.Network foundation",
+        "ref": "https://corda.network",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "fabric": [
       {
-        "name": "Azure Container Registry ",
+        "name": "Private Permissoned",
         "ref": "https://azure.microsoft.com/en-in/services/container-registry/",
         "icon": "Microsoft Azure.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -275,7 +282,7 @@
     ],
     "multichain": [
       {
-        "name": "Container Registry",
+        "name": "Private Permissoned",
         "ref": "https://cloud.google.com/container-registry/",
         "icon": "Container-Registry.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -283,7 +290,7 @@
     ],
     "quorum": [
       {
-        "name": "IBM Cloud Container Registry",
+        "name": "Private Permissoned",
         "ref": "https://www.ibm.com/cloud/container-registry",
         "icon": "registry_icon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -312,19 +319,19 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Container Management Service",
+      "name": "Network Topology",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "corda": [
       {
-        "name": "Amazon EC2 Container Service",
+        "name": "Nodes: Full Mesh",
         "ref": "https://aws.amazon.com/ecs/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Amazon Elastic Container Service for Kubernetes (EKS)",
+        "name": "Notary: Full Mesh, Broadcast?",
         "ref": "https://aws.amazon.com/eks/",
         "icon": "Compute_AmazonECS.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -332,13 +339,13 @@
     ],
     "fabric": [
       {
-        "name": "Azure Kubernetes Service (AKS)",
+        "name": "Peers : Full Mesh",
         "ref": "https://azure.microsoft.com/services/kubernetes-service/",
         "icon": "Azure Kubernetes Service.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure Container Instances",
+        "name": "Peers to Orderer : ??",
         "ref": "https://azure.microsoft.com/en-in/services/container-instances/",
         "icon": "Azure Container Service.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -346,7 +353,7 @@
     ],
     "multichain": [
       {
-        "name": "Kubernetes Engine",
+        "name": "Distributed",
         "ref": "https://cloud.google.com/kubernetes-engine/",
         "icon": "Container-Engine.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -354,7 +361,13 @@
     ],
     "quorum": [
       {
-        "name": "IBM Cloud Kubernetes Service",
+        "name": "Public Ledger : Distributed",
+        "ref": "https://www.ibm.com/cloud/container-service",
+        "icon": "containerServiceIcon.svg",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Constellation : Full Mesh",
         "ref": "https://www.ibm.com/cloud/container-service",
         "icon": "containerServiceIcon.svg",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -389,13 +402,31 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Micro Services App Development Platform",
+      "name": "Platform Components",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "corda": [
       {
-        "name": "AWS Lambda",
+        "name": "Node CordApp",
+        "ref": "https://aws.amazon.com/lambda/",
+        "icon": "Compute_AWSLambda.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Notary",
+        "ref": "https://aws.amazon.com/lambda/",
+        "icon": "Compute_AWSLambda.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Network Map Service",
+        "ref": "https://aws.amazon.com/lambda/",
+        "icon": "Compute_AWSLambda.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Doorman",
         "ref": "https://aws.amazon.com/lambda/",
         "icon": "Compute_AWSLambda.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -403,39 +434,60 @@
     ],
     "fabric": [
       {
-        "name": "Azure Service Fabric",
+        "name": "Peer - Committer",
         "ref": "https://azure.microsoft.com/en-in/services/service-fabric/",
         "icon": "Azure Service Fabric.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Azure Functions",
+        "name": "Peer - Endorser",
         "ref": "https://azure.microsoft.com/en-in/services/functions/",
         "icon": "Azure Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Event Grid",
+        "name": "Orderer",
+        "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
+        "icon": "Azure Event Grid.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Membership",
         "ref": "https://azure.microsoft.com/en-us/services/event-grid/",
         "icon": "Azure Event Grid.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "multichain": [
       {
-        "name": "Google Cloud Functions",
+        "name": "Node",
+        "ref": "https://cloud.google.com/functions/",
+        "icon": "Cloud-Functions.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Wallet",
         "ref": "https://cloud.google.com/functions/",
         "icon": "Cloud-Functions.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "quorum": [
       {
-        "name": "IBM Cloud Functions",
+        "name": "Public Ledger",
+        "ref": "https://www.ibm.com/cloud/functions",
+        "icon": "ibm-cloud-functions.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Constellation",
         "ref": "https://www.ibm.com/cloud/functions",
         "icon": "ibm-cloud-functions.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "oracle": [
       {
@@ -460,13 +512,19 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Virtual Private Servers",
+      "name": "Consensus",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "corda": [
       {
-        "name": "Amazon Lightsail",
+        "name": "Nodes: Validating and Uniqueness",
+        "ref": "https://amazonlightsail.com/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Notary : RAFT, Smart PBFT",
         "ref": "https://amazonlightsail.com/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
