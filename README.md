@@ -1,8 +1,11 @@
+<div align="right">
 <a href="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/">
     <img src="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/blob/master/img/logo/Blockchain.jpg" alt="Compare Blockchain" title="Compare Blockchain" align="right" height="180" />
-</a>
-<a href="https://www.freepik.com/free-photos-vectors/people"><font size="10px" >People vector created by rawpixel.com - www.freepik.com</font></a>
-# Blockchain Comparer
+</a><br>
+<a href="https://www.freepik.com/free-photos-vectors/people"><font size="2" >People vector created by rawpixel.com - www.freepik.com</font></a>
+</div>
+
+#<font size="20"> Blockchain Comparer </font>
 
 This is the first version of Enterprise Blockchain Comparison.
 
