@@ -1,15 +1,17 @@
+
+
+## Blockchain Comparer
+
+This is the first version of Enterprise Blockchain Comparison.
+
+The project is open sourced to let fellow Blockchain Architects, IT Pros, Developers to feel free to edit and update the comparison up to date.
+
 <div align="right">
 <a href="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/">
     <img src="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/blob/master/img/logo/Blockchain.jpg" alt="Compare Blockchain" title="Compare Blockchain" align="right" height="180" />
 </a><br>
 <a href="https://www.freepik.com/free-photos-vectors/people"><font size="2" >People vector created by rawpixel.com - www.freepik.com</font></a>
 </div>
-
-##Blockchain Comparer
-
-This is the first version of Enterprise Blockchain Comparison.
-
-The project is open sourced to let fellow Blockchain Architects, IT Pros, Developers to feel free to edit and update the comparison up to date.
 
 
 ## Contributing
