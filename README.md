@@ -1,6 +1,7 @@
-<a href="https://ilyas-it83.github.io/CloudComparer/">
-    <img src="https://github.com/ilyas-it83/CloudComparer/blob/master/img/Logo2.png" alt="Compare Cloud" title="Compare Cloud" align="right" height="180" />
+<a href="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/">
+    <img src="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/img/Blockchain.jpg" alt="Compare Cloud" title="Compare Cloud" align="right" height="180" />
 </a>
+<a href="https://www.freepik.com/free-photos-vectors/people">People vector created by rawpixel.com - www.freepik.com</a>
 # Blockchain Comparer
 
 This is the first version of Enterprise Blockchain Comparison.
