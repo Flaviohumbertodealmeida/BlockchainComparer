@@ -5,7 +5,7 @@
 <a href="https://www.freepik.com/free-photos-vectors/people"><font size="2" >People vector created by rawpixel.com - www.freepik.com</font></a>
 </div>
 
-#<font size="20"> Blockchain Comparer </font>
+##Blockchain Comparer
 
 This is the first version of Enterprise Blockchain Comparison.
 
