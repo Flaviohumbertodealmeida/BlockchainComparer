@@ -27,7 +27,7 @@
     ],
     "multichain": [
       {
-        "name": "Blockchain - blocks2",
+        "name": "Blockchain - blocks",
         "ref": "",
         "icon": "blocks.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -524,7 +524,7 @@
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Notary : RAFT, Smart PBFT",
+        "name": "Notary : RAFT, BFT Smart",
         "ref": "https://amazonlightsail.com/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -532,15 +532,27 @@
     ],
     "fabric": [
       {
-        "name": "Azure App Service Environment",
-        "ref": "https://docs.microsoft.com/en-us/azure/app-service-web/app-service-app-service-environment-intro",
+        "name": "Endorser : Endorse Transactions",
+        "ref": "https://www.skcript.com/svr/consensus-hyperledger-fabric/",
+        "icon": "Azure App Service - Web App (was Websites).png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Orderer : BFT Smart?, Honey Badger of BFT?, SBFT?, Kafka",
+        "ref": "https://www.skcript.com/svr/consensus-hyperledger-fabric/",
+        "icon": "Azure App Service - Web App (was Websites).png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Committer : validates correctness, double spend, endorsement policy",
+        "ref": "https://www.hyperledger.org/wp-content/uploads/2017/08/Hyperledger_Arch_WG_Paper_1_Consensus.pdf",
         "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "PoE",
         "ref": "http://#",
         "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -548,7 +560,7 @@
     ],
     "quorum": [
       {
-        "name": "Virtual Server Infrastructure (VSi)",
+        "name": "Public Ledger: RAFT, Istambul BFT",
         "ref": "https://www.ibm.com/cloud/virtual-servers",
         "icon": "virtual-server.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -577,13 +589,19 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Auto Scaling",
+      "name": "Smart Contract",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "corda": [
       {
-        "name": "Auto Scaling",
+        "name": "Programming Language: Kotlin, Java",
+        "ref": "https://aws.amazon.com/autoscaling/",
+        "icon": "aws.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Components: Flows, Contracts, States, Commands",
         "ref": "https://aws.amazon.com/autoscaling/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -591,13 +609,13 @@
     ],
     "fabric": [
       {
-        "name": "Azure Autoscale",
+        "name": "Programming Language: Go, JS?",
         "ref": "https://azure.microsoft.com/en-us/features/autoscale/",
         "icon": "Azure App Service - Web App (was Websites).png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Virtual Machine Scale Sets",
+        "name": "Components: Chaincode",
         "ref": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview",
         "icon": "Azure VM Scale Set.png",
         "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
@@ -605,19 +623,26 @@
     ],
     "multichain": [
       {
-        "name": "Auto Scaler",
+        "name": "Not Available",
         "ref": "https://cloud.google.com/compute/docs/autoscaler/",
-        "icon": "Blue-Hexagon.png",
+        "icon": "none.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "quorum": [
       {
-        "name": "Auto Scaling",
+        "name": "Programming Language: Solidity",
+        "ref": "https://www.ibm.com/cloud/auto-scaling",
+        "icon": "auto-scaling.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Components: SmartContract",
         "ref": "https://www.ibm.com/cloud/auto-scaling",
         "icon": "auto-scaling.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "oracle": [
       {
@@ -642,40 +667,82 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Batch Jobs",
+      "name": "Blockchain as a Service providers & Accelerator Tools (early stage solutions included)",
       "ref": "https://en.wikipedia.org/wiki/Batch_processing",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "corda": [
       {
-        "name": "AWS Batch",
-        "ref": "https://aws.amazon.com/batch/",
+        "name": "Dovetail",
+        "ref": "https://tibcosoftware.github.io/dovetail/",
         "icon": "aws.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "fabric": [
       {
-        "name": "Azure Batch",
-        "ref": "https://azure.microsoft.com/en-in/services/batch/",
+        "name": "Dovetail",
+        "ref": "https://tibcosoftware.github.io/dovetail/",
+        "icon": "Azure Batch.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "IBM Blockchain Platform",
+        "ref": "https://www.ibm.com/blockchain/platform",
+        "icon": "Azure Batch.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Oracle Blockchain Platform",
+        "ref": "https://www.oracle.com/cloud/blockchain/",
+        "icon": "Azure Batch.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Amazon Managed Blockchain",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
         "icon": "Azure Batch.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "multichain": [
       {
-        "name": "Preemptible VMs",
-        "ref": "https://cloud.google.com/preemptible-vms/",
+        "name": "",
+        "ref": "",
         "icon": "Compute-Engine.png",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "quorum": [
       {
-        "name": "Workload Scheduler",
-        "ref": "https://console.bluemix.net/catalog/services/workload-scheduler",
+        "name": "Ethereum: Kaleido",
+        "ref": "https://kaleido.io",
         "icon": "workload_scheduler.png",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Ethereum: Clovyr",
+        "ref": "https://clovyr.io",
+        "icon": "workload_scheduler.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Ethereum: esprezzo",
+        "ref": "https://esprezzo.io",
+        "icon": "workload_scheduler.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Ethereum: Azure Blockchain Workbench",
+        "ref": "https://docs.microsoft.com/en-us/azure/blockchain/workbench/overview",
+        "icon": "workload_scheduler.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Ethereum: Amazon Managed Blockchain",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "Azure Batch.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "oracle": [
