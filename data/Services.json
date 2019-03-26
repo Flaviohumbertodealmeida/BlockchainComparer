@@ -189,7 +189,7 @@
     },
     "corda": [
       {
-        "name": "Private Permissoned",
+        "name": "Private Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -204,7 +204,7 @@
     ],
     "fabric": [
       {
-        "name": "Private Permissoned",
+        "name": "Private Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -212,7 +212,7 @@
     ],
     "multichain": [
       {
-        "name": "Private Permissoned",
+        "name": "Private Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -220,7 +220,7 @@
     ],
     "quorum": [
       {
-        "name": "Private Permissoned",
+        "name": "Private Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -249,17 +249,29 @@
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Nodes to Notary: ?",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "fabric": [
       {
-        "name": "Peers : Full Mesh",
+        "name": "Client to Endorser : Full Mesh",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "Peers to Orderer : ??",
+        "name": "Client to Orderer : ?",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Orderer to Committer : ??",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
