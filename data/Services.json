@@ -115,6 +115,12 @@
         "ref": "https://www.linuxfoundation.org",
         "icon": "",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+      },
+      {
+        "name": " -- Hyperledger",
+        "ref": "https://www.hyperledger.org",
+        "icon": "",
+        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       }
     ],
     "multichain": [
@@ -294,7 +300,13 @@
       },
       {
         "name": "Constellation : Full Mesh",
-        "ref": "",
+        "ref": "https://github.com/jpmorganchase/constellation",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Tessera: Full Mesh",
+        "ref": "https://github.com/jpmorganchase/tessera",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -387,7 +399,13 @@
       },
       {
         "name": "Constellation",
-        "ref": "",
+        "ref": "https://github.com/jpmorganchase/constellation",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Tessera (To replace Constellation)",
+        "ref": "https://github.com/jpmorganchase/tessera",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -457,17 +475,17 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Smart Contract",
       "ref": "http://#"
     },
     "service": {
-      "name": "Smart Contract",
+      "name": "Language",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
     "corda": [
       {
-        "name": "Programming Language: Kotlin, Java",
+        "name": "Kotlin, Java",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -481,7 +499,7 @@
     ],
     "fabric": [
       {
-        "name": "Programming Language: Go, JS?",
+        "name": "Go, JS?",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -503,7 +521,7 @@
     ],
     "quorum": [
       {
-        "name": "Programming Language: Solidity",
+        "name": "Solidity",
         "ref": "",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -515,6 +533,93 @@
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
 
+    ]
+  },
+
+  {
+    "category": {
+      "name": "Smart Contract",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Execution Environment",
+      "ref": "http://#",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
+      {
+        "name": "JVM",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "secured Docker",
+        "ref": "https://www.hyperledger.org/wp-content/uploads/2018/04/Hyperledger_Arch_WG_Paper_2_SmartContracts.pdf",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "EVM",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Smart Contract",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Deterministic Execution Environment",
+      "ref": "http://#",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
+      {
+        "name": "ongoing DJVM",
+        "ref": "https://medium.com/corda/djvm-behind-the-scenes-2ba7f5cb9275",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "No",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "Not Apply",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Yes",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
     ]
   },
   {
@@ -635,14 +740,14 @@
     ],
     "fabric": [
       {
-        "name": "default: goLevelDB",
-        "ref": "",
+        "name": "default: LevelDB",
+        "ref": "https://dbdb.io/db/leveldb",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "CouchDB (can perform rich and complex query)",
-        "ref": "",
+        "ref": "http://couchdb.apache.org",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -666,6 +771,247 @@
   },
   {
     "category": {
+      "name": "Persistent Layer",
+      "ref": ""
+    },
+    "service": {
+      "name": "Ledger Data Model",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
+      {
+        "name": "UTXO",
+        "ref": "https://docs.corda.net/key-concepts-transactions.html?highlight=utxo",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "versions of keys/values",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/fabric_model.html#ledger-features",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "UTXO",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Account Based",
+        "ref": "https://medium.com/coinmonks/transactions-in-ethereum-e85a73068f74",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Persistent Layer",
+      "ref": ""
+    },
+    "service": {
+      "name": "How to avoid Double Spend",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
+      {
+        "name": "UTXO via Notary",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Public Ledger/Channels: MVCC via Orderer ",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Public Ledger: Account Balance",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Constellation: Not Available",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+
+    ]
+  },
+  {
+    "category": {
+      "name": "Persistent Layer",
+      "ref": ""
+    },
+    "service": {
+      "name": "Allow Imediate Finality",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
+      {
+        "name": "Yes",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Yes",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Yes",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Confidentiality",
+      "ref": ""
+    },
+    "service": {
+      "name": "How to keep data private on the Nodes (ledger)",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
+      {
+        "name": "<b>Native</b>: Copy only the transaction/data (and chain of transactions) to the participants involved in the transaction",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "<b>Enterprise version</b>: Allow the use of <a href='https://www.intel.com/content/www/us/en/architecture-and-technology/software-guard-extensions.html' target='_blank'>Intel <b>SGX</b><a/> to encrypt the chain of the transactions when a Use Case requires visibility only the data of the current transaction/data",
+        "ref": "https://medium.com/corda/developer-preview-java-in-intel-sgx-8d7127ede826",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "via <b>Channels</b>, creating a sub-ledger allowing all the participants in the sub-ledger to see the transaction/data in that channel",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/channels.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "via <b>Data Private collections</b>",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "Not available natively - Data needs to be encrypted before being stored and timestamped on the chain",
+        "ref": "https://www.multichain.com/developers/stream-confidentiality/",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "via <b>Costellation</b>, sending data P2P to the parts involved.",
+        "ref": "https://github.com/jpmorganchase/constellation",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "via <b>Tessera</b>, sending data P2P to the parts involved.",
+        "ref": "https://github.com/jpmorganchase/tessera",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+
+    ]
+  },
+  {
+    "category": {
+      "name": "Confidentiality",
+      "ref": ""
+    },
+    "service": {
+      "name": "How to avoid Double Spend in the Network in private transactions",
+      "ref": "",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
+      {
+        "name": "via Notary, assets/data can have a global control, avoiding double spend",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Not available - only inside Channels, assets/data are locked in the channel without the possibility to transact it outside the channel",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "Not available",
+        "ref": "https://www.multichain.com/developers/stream-confidentiality/",
+        "icon": "none.png",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Not available",
+        "ref": "",
+        "icon": "none.png",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ]
+  },
+  {
+    "category": {
       "name": "Networking & Content Delivery",
       "ref": "http://#"
     },
@@ -676,16 +1022,41 @@
     },
     "corda": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Node to Node (CordApp) - AMQP/1.0 over TLS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Client to Node (CordApp) - RPC over TLS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Admin to Node (CordApp) - SSH",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Node to Doorman - HTTPS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Node to Network Map - HTTPS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "fabric": [
       {
-        "name": "",
-        "ref": "",
+        "name": "over TLS",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/enable_tls.html?highlight=tls",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
