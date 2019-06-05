@@ -10,6 +10,35 @@ html,
 body {
   width: 100%;
   height: 100%;
+  /*background-color: blue;*/
+  padding: 0px;
+  margin-top; 0px;
+
+}
+
+h2, h1 {
+    font-family: worksans-bold;
+    color: #0A0083;
+}
+h3 {
+    font-family: worksans-light;
+    font-size: 10px;
+    color: #0A0083;
+
+}
+@font-face {
+  font-family: 'worksans-light';
+  src: url('../font-work-sans/WorkSans-Light.otf');
+ }
+
+ @font-face {
+   font-family: 'worksans-medium';
+   src: url('../font-work-sans/WorkSans-Medium.otf');
+}
+
+ @font-face {
+   font-family: 'worksans-bold';
+   src: url('../font-work-sans/WorkSans-Bold.otf');
 }
 
 body {
@@ -22,11 +51,12 @@ body {
   vertical-align: middle;
 }
 
-.text-vertical-center h1 {
+
+
+h1 {
   margin: 0;
   padding: 0;
-  font-size: 4.5em;
-  font-weight: 700;
+
 }
 
 /* Custom Button Styles */
@@ -205,11 +235,11 @@ hr.small {
 }
 
 /* Portfolio */
-
+/*
 .portfolio {
   padding: 10px 0;
 }
-
+*/
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -274,9 +304,11 @@ footer {
 
 /* START COMPARISON TABLE STYLES */
 #comparetable {
-  margin: 10px 0 0 3.7%;
-  max-width: 96%;
+  /*margin: 10px 0 0 3.7%;
+  max-width: 96%; */
   table-layout: fixed;
+  font-size: 14px;
+
 }
 
 #comparetable td.rowTitle {
@@ -296,6 +328,7 @@ footer {
 #comparetable td ul.lists {
   text-align: left;
   list-style-type: disc !important;
+
 }
 
 #comparetable td li {
@@ -383,6 +416,7 @@ footer {
     width: 200px;
     overflow: hidden;
     height: 200px;
+    font-size: 10px;
     z-index: 9999;
   }
   #forkongithub a {
@@ -402,9 +436,21 @@ footer {
   table {
     display: table;
     border-spacing: 2px;
-     display: table-cell;
+    display: table-cell;
     border: solid 1px #ccc;
     padding: 2px;
     display: table-row;
     }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+   #comparetable {
+      margin: 10px 0 0 3.7%;
+      max-width: 96%;
+      table-layout: fixed;
+      font-size: 10px;
+   }
 }
