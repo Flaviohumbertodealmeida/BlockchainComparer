@@ -76,7 +76,7 @@
     ],
     "multichain": [
       {
-        "name": "Open Source 1.0.5  - Lic GPL v3",
+        "name": "Open Source 2.0.2  - Lic GPL v3",
         "ref": "",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -185,11 +185,11 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Network",
       "ref": "http://#"
     },
     "service": {
-      "name": "Network Type",
+      "name": "Type",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -235,11 +235,11 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Network",
       "ref": "http://#"
     },
     "service": {
-      "name": "Network Topology",
+      "name": "Topology",
       "ref": "http://#",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -458,7 +458,7 @@
     ],
     "multichain": [
       {
-        "name": "PoE",
+        "name": "Round-Robin with customizable leniency",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -466,7 +466,7 @@
     ],
     "quorum": [
       {
-        "name": "Public Ledger: RAFT, Istambul BFT",
+        "name": "Public Ledger: RAFT, Istanbul BFT, Clique POA",
         "ref": "",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -489,33 +489,21 @@
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Components: Flows, Contracts, States, Commands",
-        "ref": "",
-        "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
     "fabric": [
       {
-        "name": "Go, JS?",
-        "ref": "",
+        "name": "Go, Node.js, Java",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/chaincode4ade.html",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Components: Chaincode",
-        "ref": "",
-        "icon": "",
-        "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
       }
     ],
     "multichain": [
       {
-        "name": "",
-        "ref": "",
-        "icon": "none.png",
+        "name": "Javascript",
+        "ref": "https://www.multichain.com/developers/smart-filters/",
+        "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -525,17 +513,52 @@
         "ref": "",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Smart Contract",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Write Code to Generate - 'Smart Contract'",
+      "ref": "http://#",
+      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+    },
+    "corda": [
       {
-        "name": "Components: SmartContract",
+        "name": "Flows, Contracts, States, Commands",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Chaincode",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "Smart Filters : allow custom data rules and custom transactions",
+        "ref": "https://www.multichain.com/developers/smart-filters/",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "SmartContract",
         "ref": "",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
       }
-
     ]
   },
-
   {
     "category": {
       "name": "Smart Contract",
@@ -564,9 +587,9 @@
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "V8 Javascript Engine",
         "ref": "",
-        "icon": "none.png",
+        "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],
@@ -591,7 +614,7 @@
     },
     "corda": [
       {
-        "name": "ongoing DJVM",
+        "name": "Ongoing: available to test: DJVM (Deterministic Java Virtual Machine)",
         "ref": "https://medium.com/corda/djvm-behind-the-scenes-2ba7f5cb9275",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -607,8 +630,8 @@
     ],
     "multichain": [
       {
-        "name": "Not Apply",
-        "ref": "",
+        "name": "V8 Javascript Engine (made deterministic)",
+        "ref": "https://www.multichain.com/developers/smart-filters/",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -675,11 +698,18 @@
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "Microsoft Azure",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "SAP Leonardo",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "quorum": [
       {
@@ -726,17 +756,54 @@
     },
     "corda": [
       {
-        "name": "H2",
+        "name": "<b>Corda Open Source supports:</b>",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "(development mode only): H2",
         "ref": "http://www.h2database.com/html/main.html",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
         "name": "PostgreSQL",
-        "ref": "https://www.postgresql.org",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "<b>Corda Enterprise supports:</b>",
+        "ref": "https://docs.corda.r3.com/node-database.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "PostgreSQL",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Sql Server",
+        "ref": "https://docs.corda.r3.com/node-database.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Azure SQL",
+        "ref": "https://docs.corda.r3.com/node-database.html",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Oracle",
+        "ref": "https://docs.corda.r3.com/node-database.html",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "fabric": [
       {
@@ -754,7 +821,7 @@
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "LevelDB",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -801,7 +868,14 @@
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Key/value (for streams)",
+        "ref": "https://www.multichain.com/blog/2016/09/introducing-multichain-streams/",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
+
     ],
     "quorum": [
       {
@@ -840,7 +914,7 @@
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "UTXO",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -917,13 +991,13 @@
     },
     "corda": [
       {
-        "name": "<b>Native</b>: Copy only the transaction/data (and chain of transactions) to the participants involved in the transaction",
+        "name": "<b>Native</b>: Copy only the transaction/data (and provenance) to the participants involved in the transaction",
         "ref": "",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       },
       {
-        "name": "<b>Enterprise version</b>: Allow the use of <a href='https://www.intel.com/content/www/us/en/architecture-and-technology/software-guard-extensions.html' target='_blank'>Intel <b>SGX</b><a/> to encrypt the chain of the transactions when a Use Case requires visibility only the data of the current transaction/data",
+        "name": "<b>Enterprise version</b>: Allow the use of <a href='https://www.intel.com/content/www/us/en/architecture-and-technology/software-guard-extensions.html' target='_blank'>Intel <b>SGX</b><a/> to encrypt the provenance of the transactions when a Use Case requires visibility only of the data of the current transaction/state",
         "ref": "https://medium.com/corda/developer-preview-java-in-intel-sgx-8d7127ede826",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
@@ -938,7 +1012,7 @@
       },
       {
         "name": "via <b>Data Private collections</b>",
-        "ref": "",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/private-data/private-data.html",
         "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
@@ -947,7 +1021,13 @@
       {
         "name": "Not available natively - Data needs to be encrypted before being stored and timestamped on the chain",
         "ref": "https://www.multichain.com/developers/stream-confidentiality/",
-        "icon": "none.png",
+        "icon": "",
+        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Multichain Enterprise support: Stream Read Restrictions, Encrypted Data Delivery",
+        "ref": "https://www.multichain.com/enterprise/",
+        "icon": "",
         "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
       }
     ],

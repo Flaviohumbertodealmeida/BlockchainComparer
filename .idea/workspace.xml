@@ -1,115 +1,664 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="361b2b57-2d14-4211-b68e-f9bfe1a74fa8" name="Default Changelist" comment="Added some Blockchain information">
+    <list default="true" id="361b2b57-2d14-4211-b68e-f9bfe1a74fa8" name="Default Changelist" comment="added information">
+      <change afterPath="$PROJECT_DIR$/font-work-sans/SIL Open Font License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-BlackItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-ExtraBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-ExtraBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-ExtraLight.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-ExtraLightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Hairline.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-LightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-SemiBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-Thin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/WorkSans-ThinItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/worksans-italic-vf.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font-work-sans/worksans-roman-vf.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/FSVem.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/emacs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blockchain-Services_AmazonManagedBlockchain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stylish-portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylish-portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/CloudComparer.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Services.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Azure128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo.pdn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo_Design.pdn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo_Design.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/awsvsazurevsgce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/beta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blockchainproviders/corda/none.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudcompare.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudcompare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/API.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/CloudMonitor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/ContainerServi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/DNS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/IDE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/KMS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/MaxCompute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/OSS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/SLB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/SSL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/alibaba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/cdn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/ddos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/directmail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/dts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/ecs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/ehpc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/emr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/expressconnect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/iot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/log-service.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/nas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/none.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/ram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/rds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/redis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/ros.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/vpc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/alibaba/waf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/APIManager.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/AppPerfMonitoring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/BigDataPreparation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/BlockVolume.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/EdgeServices.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/InternetOfThings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/ItAnalytics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/LoadBalancing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/LogAnalytics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/ManagedFileTransf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/NoSQL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/SOA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/appbuilder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/applicationcontainer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/bigdata.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/businessintelligence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/compute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/database.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/databasebackup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/datavisualization.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/developer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/documents.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/exadata.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/gg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/integration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/loadbalancer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/messaging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/mobile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/network.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/none.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/oracle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/process.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/service-bare-metal-compute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/service-database.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/service-fastconnect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/service-governance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/service-object-storage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/service-virtual-cloud-network.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/service-virtual-compute.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cloudproviders/oracle/storage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/forkme.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo - Copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/2xGoogle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/Corda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/Fabric.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/Multichain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/Quorum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/alibaba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/google.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo/oracle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/refs/IBMCloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Services_old.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/location.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AWSDataPipeline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonEMR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonEMR_EMRengine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonEMR_EMRengineMapRM3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonEMR_EMRengineMapRM5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonEMR_EMRengineMapRM7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonEMR_HDFScluster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonEMR_cluster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonElasticsearchService.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonKinesis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonKinesis_AmazonKinesis-enabledapp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonKinesis_AmazonKinesisFirehose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonKinesis_AmazonKinesisStreams.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonMachineLearning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Analytics_AmazonQuickSight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonAPIGateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonAppStream.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonCloudSearch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonCloudSearch_SDFmetadata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonElasticTranscoder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSES.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSES_email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSQS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSQS_message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSQS_queue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSWF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSWF_decider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Application-Services_AmazonSWF_worker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AWSElasticBeanstalk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AWSElasticBeanstalk_application.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AWSElasticBeanstalk_deployment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AWSLambda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_AMI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_AutoScaling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_DBoninstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_ElasticIP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_Spotfleet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_Spotinstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_instance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_instances.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_instancewithCloudWatch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonEC2_optimizedinstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonECR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_AmazonECS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Compute_ElasticLoadBalancing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AWSDatabaseMigrationService.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonDynamoDB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonDynamoDB_attribute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonDynamoDB_attributes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonDynamoDB_globalsecondaryindex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonDynamoDB_item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonDynamoDB_items.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonDynamoDB_table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonElasticCache.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonElasticCache_Memcached.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonElasticCache_Redis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonElasticCache_cachenode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_MSSQLinstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_MSSQLinstancealternate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_MySQLDBinstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_MySQLinstancealternate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_OracleDBinstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_OracleDBinstancealternate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_PIOP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_PostgreSQLinstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_RDSDBinstance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_RDSDBinstancereadreplica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_RDSDBinstancestandby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_SQLmaster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRDS_SQLslave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRedshift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRedshift_densecomputenode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Database_AmazonRedshift_densestoragenode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Developer-Tools_AWSCodeCommit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Developer-Tools_AWSCodeDeploy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Developer-Tools_AWSCodePipeline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Enterprise-Applications_AmazonWorkDocs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Enterprise-Applications_AmazonWorkMail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Enterprise-Applications_AmazonWorkSpaces.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Game-Development_AmazonGameLift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_AWSManagementConsole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_AWScloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_Internet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_client.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_corporatedatacenter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_disk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_forums.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_genericdatabase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_mobileclient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_multimedia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_tapestorage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_traditionalserver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_users.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/General_virtualprivatecloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_HTTP2protocol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_HTTPprotocol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_MQTTprotocol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_actuator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_certificate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_desiredstate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_hardwareboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_policy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_reportedstate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_rule.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_sensor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_servo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_simulator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingbank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingbicycle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingcamera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingcar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingcart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingcoffeepot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingdoorlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingfactory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thinggeneric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thinghouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thinglightbulb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingmedicalemergency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingpoliceemergency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingthermostat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingtravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingutility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_thingwindfarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Internet-Of-Things_AWSIoT_topic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSCloudFormation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSCloudFormation_stack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSCloudFormation_template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSCloudTrail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSConfig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_apps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_deployments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_instances.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_layers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_permissions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_resources.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSOpsWorks_stack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSServiceCatalog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AWSTrustedAdvisor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AmazonCloudWatch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Management-Tools_AmazonCloudWatch_alarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AWSDeviceFarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AWSMobileHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AmazonCognito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AmazonMobileAnalytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AmazonSNS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AmazonSNS_HTTPnotification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AmazonSNS_emailnotification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Mobile-Services_AmazonSNS_topic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AWSDirectConnect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonRoute53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonRoute53_hostedzone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonRoute53_routetable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_VPCNATgateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_VPCpeering.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_VPNconnection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_VPNgateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_customergateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_endpoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_flowlogs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_internetgateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Networking_AmazonVPC_router.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/On-Demand-Workforce_AmazonMechanicalTurk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/On-Demand-Workforce_AmazonMechanicalTurk_assignmenttask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/On-Demand-Workforce_AmazonMechanicalTurk_humanintelligencetasks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/On-Demand-Workforce_AmazonMechanicalTurk_requester.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/On-Demand-Workforce_AmazonMechanicalTurk_workers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_AWSCLI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_AWSToolkitForEclipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_AWSToolkitForVisualStudio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_AWSToolsForWindowsPowerShell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_Android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_Java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_JavaScript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_Net.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_Nodejs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_PHP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_Python.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_Ruby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_Xamarin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/SDKs_iOS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_ACM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_ACM_certificate-manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSCloudHSM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSDirectoryService.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_AWSSTS-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_AWSSTS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_MFAtoken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_addon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_dataencryptionkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_encrypteddata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_long-termsecuritycredential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_permissions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_role.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSIAM_temporarysecuritycredential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSKMS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AWSWAF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Security-Identity_AmazonInspector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AWSImportExportSnowball_importexport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AWSStorageGateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AWSStorageGateway_cachedvolume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AWSStorageGateway_non-cachedvolume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AWSStorageGateway_virtualtapelibrary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonCloudFront.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonCloudFront_downloaddistribution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonCloudFront_edgelocation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonCloudFront_streamingdistribution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonEBS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonEFS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonGlacier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonGlacier_archive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonGlacier_vault.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonS3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonS3_bucket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonS3_bucketwithobjects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_AmazonS3_object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_snapshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/Storage-Content-Delivery_volume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/aws.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/aws/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Accounts - Microsoft account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Accounts - Work account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure API Management.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure API Management_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Acitve Directory Access Control.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Active Directory Health Monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Active Directory Health monitoring_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Active Directory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Active Directory_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Azure API Apps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Azure API Apps_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Logic App.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Logic App_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Mobile App (was Mobile Services).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Mobile App_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Web App (was Websites).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Web App_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Worker Pools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service - Worker Pools_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure App Service_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Application Gateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Application Gateway_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Application Insights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Application Insights_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Automation - Runbooks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Automation - Runbooks_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Automation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Automation_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Backup - Backup Agent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Backup - Recovery Vault.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Backup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Backup_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Batch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure BizTalk Services - Hybrid Connections.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure BizTalk Services - Hybrid Connections_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure BizTalk Services - Hybrid connection manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure BizTalk Services.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure BizTalk Services_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cache Redis Product icon_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cache including Redis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cache including Redis_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cloud Service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cloud Service_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cloud Services - Web role.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cloud Services - Web roles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cloud Services - Worker role.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cloud Services - Worker roles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - Computer Vision_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - Speech_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - emotion_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - face_COLOR.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - luis_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - recommendations_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - textanalytics_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services - web-language-model_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognative Services_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cognitive Services.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Compute - Autoscaling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Container Service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Container Service_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Content Delivery Network (CDN).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Content Delivery Network (CDN)_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Cortona Management Suite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DNS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DNS_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Catalog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Catalog_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Factory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Factory_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Lake Analytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Lake Analytics_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Lake Store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Lake Store_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Lake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Warehouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Data Warehouse_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DataServices category rollup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Database General_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DevTest Labs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DevTest Labs_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DocumentDB - DocDB account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DocumentDB - DocDB collections 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DocumentDB - database.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DocumentDB - document 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DocumentDB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure DocumentDB_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Event Grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Event Hubs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Event Hubs_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Express Route_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure ExpressRoute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Functions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Functions_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure HDInsight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure HDInsight_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure HockeyApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure HockeyApp_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure IoT Hub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure IoT Hub_COLOR.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Key Vault.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure KeyVault_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Load Balancer (feature).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Load Balancer (feature)_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Machine Learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Machine Learning_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Management Portal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Management Portal_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Media Services _COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Media Services.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Mobile Engagement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Mobile Engagement_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Multi-Factor Authentication.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Multi-Factor Authentication_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure MySQL ClearDB database.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure MySQL ClearDB database_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Notification Hubs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Notification Hubs_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure OMS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure RemoteApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure RemoteApp_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Rights Management (RMS).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SDK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SDK_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL DataSync.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL DataWarehouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL DataWarehouse_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL Database (generic).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL Database (generic)_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL Database Premium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL Database.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL Stretch Database.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure SQL Stretch Database_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Scheduler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Search_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Security Center _COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Security Center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Bus Queues.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Bus Queues_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Bus Relay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Bus Topics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Bus Topics_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Bus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Bus_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Fabric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Service Fabric_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Site Recovery _COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Site Recovery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure StorSimple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure StorSimple_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Storage - Blob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Storage - Files.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Storage - Queue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Storage - Table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Store_Marketplace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Store_Marketplace_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Stream Analytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Stream Analytics_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Traffic Manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Traffic Manager_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure VM Scale Set _COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure VM Scale Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure VM container.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure VM symbol only.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure VPN Gateway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure VPN Gateway_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Machine 2_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Machine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Machine_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Machines - Availability Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Machines - Availability Set_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Machines - Linux Penguin shadow_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure Virtual Network_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure WebApp - WebJobs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure WebApp - WebJobs_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure alert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure load balancer (automatic).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure monitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Azure subscription.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/BulkResizePhotos.com.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Cloud, Office 365.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Firewall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Microsoft Azure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Microsoft Flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/OMS Log Analytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/OS image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Office 365 subscription.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Office 365.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Operations Management Suite (OMS).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Operations Management Suite (OMS)_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Power BI Embedded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Resource Group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/ResourceGroup_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Service Endpoint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Unidentified feature object.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Unidentified feature object_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/VHD data disk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/VHD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - Bitbucket code source.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - Bitbucket code source_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - CodePlex source.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - CodePlex source_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - Dropbox code source.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - Dropbox code source_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - Git repository.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - Git repository_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - GitHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services - GitHub_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/Visual Studio Team Services_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/webhooks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/webhooks_COLOR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/azure/xamarin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/App-Engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/BeyondCorp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/BigQuery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Blue-Hexagon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-APIs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Bigtable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-CDN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-DNS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Data-Loss-Prevention-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Dataflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Datalab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Dataprep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Dataproc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Datastore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Deployment-Manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Endpoints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-External-IP-Addresses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Firewall-Rules.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Functions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-IAM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Identity-Aware-Proxy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Interconnect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Jobs-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Load-Balancing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Machine-Learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Natural-Language-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Partner-Interconnect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Platform-Security.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-PubSub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Router.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Routes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-SQL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Spanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Speech-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Tools-for-PowerShell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Tools-for-Visual-Studio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Translation-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-VPN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Video-Intelligence-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Virtual-Network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Cloud-Vision-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Compute-Engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Container-Engine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Container-Optimized-OS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Container-Registry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Data-Studio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Debugger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Deployment-Manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Error-Reporting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/GPU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/GSuite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Generic-GCP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Genomics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Google-Cloud-Platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Google-Cloud-Platform_lockup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Jobs-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Logging.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Natural-Language-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Persistent-Disk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Prediction-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Security-Key-Enforcement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Speech-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Stackdriver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Trace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Translation-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/Vision-API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/gcp/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/api-connect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/app-id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/auto-scaling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/biginsights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/block-storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/blockchain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/cdn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/cloud-foundry-apps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/cloudant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/compose-elastic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/compose-mongo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/compose-mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/compose-postgre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/compose-redis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/containerServiceIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/continuous-delivery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/db2-hosted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/db2-warehouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/db2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/direct-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/discovery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/file-storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/globalization-pipeline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/ibm-baremetal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/ibm-cloud-functions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/ibm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/ibmcloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/informix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/internet-of-things.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/internet-services.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/key-protect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/knowledge-studio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/language-translator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/lift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/log-analysis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/machine-learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/message-hub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/mobile-foundation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/monitoring.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/natural-language-classifier.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/none.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/object-storage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/personality-insights.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/push_notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/registry_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/schematics_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/sendgrid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/speech-to-text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/sql-query.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/ssl-certificates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/teste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/text-to-speech.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/virtual-server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/visual-recognition.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/watson-assistant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/watson-studio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudproviders/ibm/workload_scheduler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo/Quorum-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="BlockchainComparer" />
@@ -119,88 +668,106 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="309" column="57" selection-start-line="309" selection-start-column="57" selection-end-line="309" selection-end-column="57" />
+            <state relative-caret-position="417">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#thead#1;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo/IBM-Cloud-svg-lockup-color8.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo/IBMCloud.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo/msazure.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo/Multichain-2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo/Quorum-2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/refs/aws-logo128x128.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map.html">
+        <entry file="file://$PROJECT_DIR$/data/Services.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="177">
+              <caret line="1012" column="7" selection-start-line="1012" selection-start-column="7" selection-end-line="1012" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web.config">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/stylish-portfolio.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>boots</find>
-      <find>CANONICAL</find>
-      <find>title</find>
-      <find>blockchain</find>
-      <find>public</find>
-      <find>quorum</find>
-      <find>mikle</find>
-      <find>&quot;aws&quot;</find>
-      <find>&quot;Compute&quot;</find>
-      <find>&quot;azure&quot;</find>
-      <find>&quot;ibm&quot;</find>
-      <find>corda.png</find>
-      <find>none.pn</find>
-      <find>github</find>
-      <find>blockchain2</find>
-      <find>blocks2</find>
-      <find>&lt;img</find>
-      <find>dovetail</find>
-      <find>network</find>
-      <find>ORACLE</find>
-      <find>aws</find>
-      <find>r3</find>
-      <find>azure</find>
-      <find>aws.png</find>
-      <find>.pn</find>
+      <find>work</find>
+      <find>comp</find>
+      <find>margin</find>
+      <find>top</find>
+      <find>.top</find>
+      <find>float</find>
+      <find>.com</find>
+      <find>gif</find>
+      <find>456809.gif</find>
+      <find>feed</find>
+      <find>h1</find>
+      <find>persistent</find>
       <find>.png</find>
-      <find>blockchain as a service</find>
-      <find>cloud</find>
+      <find>githb</find>
+      <find>word-break</find>
+      <find>z-ind</find>
+      <find>z-index</find>
+      <find>category</find>
+      <find>r3</find>
+      <find>fsvem</find>
+      <find>H2</find>
+      <find>h2</find>
+      <find>smart filter</find>
+      <find>go,</find>
+      <find>persis</find>
+      <find>blockchain as a ser</find>
+      <find>confident</find>
+      <find>font-size</find>
+      <find>SGX</find>
+      <find>confidenti</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;corda&quot;</replace>
@@ -222,13 +789,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/data/Services_old.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/stylish-portfolio.css" />
         <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/data/Services.json" />
+        <option value="$PROJECT_DIR$/CNAME" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/js/test.html" />
+        <option value="$PROJECT_DIR$/index_backup.html" />
+        <option value="$PROJECT_DIR$/css/stylish-portfolio.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data/Services.json" />
       </list>
     </option>
   </component>
@@ -242,7 +812,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,24 +830,37 @@
               <item name="BlockchainComparer" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BlockchainComparer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlockchainComparer" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlockchainComparer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlockchainComparer" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552865863905" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554725394590" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/logo" />
       <recent name="$PROJECT_DIR$/img/blockchainproviders/quorum" />
       <recent name="$PROJECT_DIR$/img/blockchainproviders/multichain" />
-      <recent name="$PROJECT_DIR$/img/blockchainproviders/fabric" />
-      <recent name="$PROJECT_DIR$/img/blockchainproviders/corda" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,7 +998,70 @@
       <option name="project" value="LOCAL" />
       <updated>1552865457579</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="removed Cloud files&#10;added blockchain information">
+      <created>1552866028264</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552866028264</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed comparecloud.in to enterpriseblockchain">
+      <created>1552866804799</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552866804799</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changed comparecloud.in to enterpriseblockchain.github.io">
+      <created>1552866906749</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1552866906749</updated>
+    </task>
+    <task id="LOCAL-00020" summary="file deleted">
+      <created>1552867265633</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1552867265633</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add generic image">
+      <created>1552868661781</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1552868661781</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added google Analytics">
+      <created>1552869578342</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1552869578342</updated>
+    </task>
+    <task id="LOCAL-00023" summary="html/js fix">
+      <created>1552873022471</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1552873022471</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changed comparecloud.in to enterpriseblockchain.github.io">
+      <created>1553569120096</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1553569120097</updated>
+    </task>
+    <task id="LOCAL-00025" summary="New information about Corda, Fabric, Multichain and Quorum">
+      <created>1554576209754</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1554576209754</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -432,7 +1077,7 @@
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.4170243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.20529328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,15 +1085,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50089765" side_tool="true" weight="0.18168813" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2679558" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.3287483" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.3287483" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50572246" side_tool="true" visible="true" weight="0.23066299" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49427754" visible="true" weight="0.23066299" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5107296" side_tool="true" weight="0.20495185" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4892704" weight="0.2044199" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="10" sideWeight="0.49928468" weight="0.3287483" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" visible="true" weight="0.3287483" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -510,121 +1155,17 @@
     <MESSAGE value="Added logo Blockchain" />
     <MESSAGE value="removed some unnecessary content" />
     <MESSAGE value="Added some Blockchain information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some Blockchain information" />
+    <MESSAGE value="removed Cloud files&#10;added blockchain information" />
+    <MESSAGE value="Changed comparecloud.in to enterpriseblockchain" />
+    <MESSAGE value="file deleted" />
+    <MESSAGE value="add generic image" />
+    <MESSAGE value="Added google Analytics" />
+    <MESSAGE value="html/js fix" />
+    <MESSAGE value="Changed comparecloud.in to enterpriseblockchain.github.io" />
+    <MESSAGE value="New information about Corda, Fabric, Multichain and Quorum" />
+    <option name="LAST_COMMIT_MESSAGE" value="New information about Corda, Fabric, Multichain and Quorum" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Azure128x128.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/cloudcompare.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/forkme.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/gce.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/header-img.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Logo_small.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Logo_Design.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo - Copy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/refs/Azure.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/refs/Cloud Comparer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/refs/Google-Cloud-Platform.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/refs/Google-CloudPlatform.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/refs/Google-CloudPlatform128x128.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/refs/ibm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo/PastedGraphic-1.png" />
-    <entry file="file://$PROJECT_DIR$/img/logo/alibaba.png" />
-    <entry file="file://$PROJECT_DIR$/img/logo/Corda-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo/2xGoogle.png" />
-    <entry file="file://$PROJECT_DIR$/img/logo/google.png" />
-    <entry file="file://$PROJECT_DIR$/img/logo/oracle.png" />
-    <entry file="file://$PROJECT_DIR$/img/logo/Fabric-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo/aws.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="556" lean-forward="true" selection-start-line="556" selection-end-line="556" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/cloudcompare.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/awsvsazurevsgce.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/beta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/addCheck.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/addExclamation.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/addHeart.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/addRedX.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/none.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/stars1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/stars3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/stars15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/stars35.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icons/stars45.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo/IBM-Cloud.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/logo/IBM-Cloud-svg-lockup-color8.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -637,46 +1178,221 @@
     <entry file="file://$PROJECT_DIR$/img/logo/Multichain-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo/Quorum-2.png">
+    <entry file="file://$PROJECT_DIR$/img/logo/quorum-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/refs/IBMCloud.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blockchain-Services_AmazonManagedBlockchain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/refs/IBMCloud.svg" />
+    <entry file="file://$PROJECT_DIR$/Blockchain-Services_AmazonManagedBlockchain.png" />
     <entry file="file://$PROJECT_DIR$/img/refs/aws-logo128x128.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1561756-blockchain/license/license.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+    <entry file="file://$PROJECT_DIR$/1561756-blockchain/license/license.html" />
+    <entry file="file://$PROJECT_DIR$/1561756-blockchain/png/001-addressing.png" />
+    <entry file="file://$PROJECT_DIR$/1561756-blockchain/png/005-blockchain.png" />
+    <entry file="file://$PROJECT_DIR$/CNAME" />
+    <entry file="file://$PROJECT_DIR$/img/blockchainproviders/none.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1561756-blockchain/png/001-addressing.png">
+    <entry file="file://$PROJECT_DIR$/js/jquery.rss.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.floatThead.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/less/animated.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/scss/_animated.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icons/stars1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1561756-blockchain/png/005-blockchain.png">
+    <entry file="file://$PROJECT_DIR$/img/icons/addRedX2.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icons/addLock.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icons/addExclamation2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icons/addCheck.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/SIL Open Font License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-ExtraLight.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2327">
+          <caret line="4" column="14274" selection-start-line="4" selection-start-column="14274" selection-end-line="4" selection-end-column="14274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-BlackItalic.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4006" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-Light.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-Bold.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-ExtraBold.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-Black.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-Medium.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4749">
+          <caret line="267" column="25" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="127" selection-start-line="121" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/scss/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2373">
+          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylish-portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1012" column="7" selection-start-line="1012" selection-start-column="7" selection-end-line="1012" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="308">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/location.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vs/config/applicationhost.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="309" column="57" selection-start-line="309" selection-start-column="57" selection-end-line="309" selection-end-column="57" />
+        <state relative-caret-position="417">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#1;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
