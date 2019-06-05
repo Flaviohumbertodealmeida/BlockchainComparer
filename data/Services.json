@@ -314,7 +314,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Architecture",
       "ref": "http://#"
     },
     "service": {
@@ -414,7 +414,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Architecture",
       "ref": "http://#"
     },
     "service": {
@@ -647,7 +647,7 @@
   },
   {
     "category": {
-      "name": "Basic Info",
+      "name": "Cloud",
       "ref": "http://#"
     },
     "service": {
@@ -1092,11 +1092,11 @@
   },
   {
     "category": {
-      "name": "Networking & Content Delivery",
+      "name": "Networking",
       "ref": "http://#"
     },
     "service": {
-      "name": "Private Connectivity",
+      "name": "Connectivity",
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
       "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
     },
@@ -1160,7 +1160,7 @@
   },
   {
     "category": {
-      "name": "Networking & Content Delivery",
+      "name": "Network",
       "ref": "http://#"
     },
     "service": {

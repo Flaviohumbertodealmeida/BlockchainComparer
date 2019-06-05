@@ -369,10 +369,12 @@ footer {
   border: none;
 }
 
+/*
 .feedwind{
   width: 80%;
   margin: 0 auto;
 }
+*/
 
 #header-fixed {
   position: fixed;
@@ -465,7 +467,7 @@ footer {
   }
 
   #dropdownCollaboration {
-    width: 350px;
+    width: 300px;
   }
 
 }
