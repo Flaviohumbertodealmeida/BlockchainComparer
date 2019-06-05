@@ -302,6 +302,12 @@ footer {
   right: 5px;
 }
 
+#dropdownCollaboration{
+    width: 700px;
+    font-size: 13px;
+    z-index: 50001
+}
+
 /* START COMPARISON TABLE STYLES */
 #comparetable {
   /*margin: 10px 0 0 3.7%;
@@ -448,14 +454,18 @@ footer {
 @media only screen and (max-width: 600px) {
 
    #comparetable {
-      margin: 10px 0 0 3.7%;
-      max-width: 96%;
+/*      margin: 10px 0 0 3.7%;
+      max-width: 100%; 8 */
       table-layout: fixed;
       font-size: 10px;
    }
 
   th {
      font-size: 10px;
+  }
+
+  #dropdownCollaboration {
+    width: 450px;
   }
 
 }
