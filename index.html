@@ -185,6 +185,7 @@
     <script>
 
         //Table Rendering
+        var imgUrlpartial = 'img/blockchainproviders/';
 
         $(document).ready(function () {
             var trHTML = '';
@@ -218,22 +219,33 @@
 
         function dataprocessor(input, type) {
             var trHTML = '';
+
             if (input.length > 1) {
                 trHTML += '<td style="vertical-align: middle;"><ul>';
                 for (var i in input) {
-                    trHTML += '<li><img src="img/blockchainproviders/' + type + '/' + input[i].icon + '"  onerror="imgError(this);" alt="' + input[i].name + '" class=" hidden-sm hidden-xs img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></li>';
+                    trHTML += '<li><img src="' + imgURL(input[i].icon,type) + '"  onerror="imgError(this);" alt="' + input[i].name + '" class=" hidden-sm hidden-xs img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></li>';
                 }
                 trHTML += '</ul></td>';
             }
             else {
-                trHTML += '<td style="vertical-align: middle;"><img src="img/blockchainproviders/' + type + '/' + input[0].icon + '" onerror="imgError(this);" alt="' + input[0].name + '" class="hidden-sm hidden-xs img-responsive img-icons" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></td>';
+             trHTML += '<td style="vertical-align: middle;"><img src="' + imgURL(input[0].icon,type) + '" onerror="imgError(this);" alt="' + input[0].name + '" class="hidden-sm hidden-xs img-responsive img-icons" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></td>';
             }
             return trHTML;
         }
 
+
+
+        function imgURL(imageIcon,type) {
+
+                if (imageIcon.trim() == '')
+                    return 'img/blockchainproviders/none.png';
+
+                return imgUrlpartial + type + '/' + imageIcon;
+        }
+
         function imgError(image) {
             image.onerror = "";
-            image.src = "img/blockchainproviders/none.png";
+            image.src = "img/icons/addRedX2.png";
             return true;
         }
 
@@ -296,7 +308,7 @@
 <!--    <script id="dsq-count-scr" src="//Blockchaincomparer.disqus.com/count.js" async></script>-->
 
     <div class="container-fluid" style="margin: 50px;">
-        <div class="col-md-10 text-center">Webpage author: <a href="https://www.linkedin.com/in/flaviohumbertodealmeida/" target="_blank">Flavio Humberto de Almeida</a> - Fork of http://comparecloud.in</div>
+        <div class="col-md-12 text-center">Webpage author: <a href="https://www.linkedin.com/in/flaviohumbertodealmeida/" target="_blank">Flavio Humberto de Almeida</a> - Fork of http://comparecloud.in</div>
         <!-- required because we used icons from flaticon -->
         <div class="col-md-12 text-center">Icons made by <a href="https://www.flaticon.com/packs/blockchain-24" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </div>

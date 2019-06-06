@@ -7,7 +7,7 @@
     "service": {
       "name": "Type of Platform",
       "ref": "http://#",
-      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
+      "Properties": [  ]
     },
     "corda": [
       {
@@ -54,13 +54,13 @@
     },
     "corda": [
       {
-        "name": "Open Source v. 4 - Lic Apache v2",
+        "name": "Free: Open Source v. 4 - Lic Apache v2",
         "ref": "",
         "icon": "",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
       },
       {
-        "name": "Enterprise v. 4",
+        "name": "Paid: Enterprise v. 4",
         "ref": "",
         "icon": "",
         "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
@@ -68,7 +68,7 @@
     ],
     "fabric": [
       {
-        "name": "Open Source v. 1.4  - Lic Apache v2",
+        "name": "Free: Open Source v. 1.4  - Lic Apache v2",
         "ref": "",
         "icon": "",
         "Properties": [ "18", "No", "Yes", "1 Shared � 32 dedicated CPU", "0,6 � 208 GB", "3 TB" ]
@@ -76,7 +76,13 @@
     ],
     "multichain": [
       {
-        "name": "Open Source 2.0.2  - Lic GPL v3",
+        "name": "Free: Open Source 2.0.2  - Lic GPL v3",
+        "ref": "",
+        "icon": "",
+        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+      },
+      {
+        "name": "Paid: Enterprise 2.0",
         "ref": "",
         "icon": "",
         "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
@@ -99,7 +105,7 @@
     "service": {
       "name": "Company or Organization",
       "ref": "",
-      "Properties": [ "Number of instance templates available", "GPU acceleration", "Custom instance creation feature", "CPU Limits", "Memory Limits", "Temporary Storage Limits" ]
+      "Properties": [ ]
     },
     "corda": [
       {
@@ -120,7 +126,7 @@
         "name": " -- Hyperledger",
         "ref": "https://www.hyperledger.org",
         "icon": "",
-        "Properties": [ "39", "Yes", "No", "1 � 40", "0,5 � 244 GB", "Up to 48 TB (Multiple Disks)" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -221,7 +227,7 @@
         "name": "Private Permissioned",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ],
     "quorum": [
@@ -1086,26 +1092,26 @@
         "name": "Not available",
         "ref": "",
         "icon": "none.png",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ]
   },
   {
     "category": {
-      "name": "Networking",
+      "name": "Network",
       "ref": "http://#"
     },
     "service": {
       "name": "Connectivity",
       "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [ ]
     },
     "corda": [
       {
         "name": "Node to Node (CordApp) - AMQP/1.0 over TLS",
         "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "Client to Node (CordApp) - RPC over TLS",
