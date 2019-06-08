@@ -235,7 +235,7 @@
         "name": "Private Permissioned",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ]
   },
@@ -247,26 +247,26 @@
     "service": {
       "name": "Topology",
       "ref": "http://#",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "Nodes: Full Mesh",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Notary: Full Mesh, Broadcast?",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Nodes to Notary: ?",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -274,19 +274,19 @@
         "name": "Client to Endorser : Full Mesh",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Client to Orderer : ?",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Orderer to Committer : ??",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -294,7 +294,7 @@
         "name": "Distributed",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -302,19 +302,19 @@
         "name": "Public Ledger : Distributed",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Constellation : Full Mesh",
         "ref": "https://github.com/jpmorganchase/constellation",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Tessera: Full Mesh",
         "ref": "https://github.com/jpmorganchase/tessera",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -326,32 +326,32 @@
     "service": {
       "name": "Platform Components",
       "ref": "http://#",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "Node CordApp",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Notary",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Network Map Service",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Doorman",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -359,25 +359,25 @@
         "name": "Peer - Committer",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Peer - Endorser",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "Orderer",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "Membership",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -386,13 +386,13 @@
         "name": "Node",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Wallet",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -401,19 +401,19 @@
         "name": "Public Ledger",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Constellation",
         "ref": "https://github.com/jpmorganchase/constellation",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Tessera (To replace Constellation)",
         "ref": "https://github.com/jpmorganchase/tessera",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ]
@@ -426,20 +426,20 @@
     "service": {
       "name": "Consensus",
       "ref": "http://#",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "Nodes: Validating and Uniqueness",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "Notary : RAFT, BFT Smart",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ],
     "fabric": [
@@ -447,19 +447,19 @@
         "name": "Endorser : Endorse Transactions",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Orderer : BFT Smart?, Honey Badger of BFT?, SBFT?, Kafka",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Committer : validates correctness, double spend, endorsement policy",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -467,7 +467,7 @@
         "name": "Round-Robin with customizable leniency",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -475,7 +475,7 @@
         "name": "Public Ledger: RAFT, Istanbul BFT, Clique POA",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -487,14 +487,14 @@
     "service": {
       "name": "Language",
       "ref": "http://#",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "Kotlin, Java",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -502,7 +502,7 @@
         "name": "Go, Node.js, Java",
         "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/chaincode4ade.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -510,7 +510,7 @@
         "name": "Javascript",
         "ref": "https://www.multichain.com/developers/smart-filters/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -518,7 +518,7 @@
         "name": "Solidity",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -530,14 +530,14 @@
     "service": {
       "name": "Write Code to Generate - 'Smart Contract'",
       "ref": "http://#",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [ ]
     },
     "corda": [
       {
         "name": "Flows, Contracts, States, Commands",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -545,7 +545,7 @@
         "name": "Chaincode",
         "ref": "",
         "icon": "",
-        "Properties": [ "40", "No", "No", "1 � 32 CPU", "0,75 � 448 GB", "2 TB" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -553,7 +553,7 @@
         "name": "Smart Filters : allow custom data rules and custom transactions",
         "ref": "https://www.multichain.com/developers/smart-filters/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -561,7 +561,7 @@
         "name": "SmartContract",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -573,14 +573,14 @@
     "service": {
       "name": "Execution Environment",
       "ref": "http://#",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "JVM",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -588,7 +588,7 @@
         "name": "secured Docker",
         "ref": "https://www.hyperledger.org/wp-content/uploads/2018/04/Hyperledger_Arch_WG_Paper_2_SmartContracts.pdf",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -596,7 +596,7 @@
         "name": "V8 Javascript Engine",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ],
     "quorum": [
@@ -604,7 +604,7 @@
         "name": "EVM",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -616,14 +616,14 @@
     "service": {
       "name": "Deterministic Execution Environment",
       "ref": "http://#",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "Ongoing: available to test: DJVM (Deterministic Java Virtual Machine)",
         "ref": "https://medium.com/corda/djvm-behind-the-scenes-2ba7f5cb9275",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -631,7 +631,7 @@
         "name": "No",
         "ref": "",
         "icon": "none.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -639,7 +639,7 @@
         "name": "V8 Javascript Engine (made deterministic)",
         "ref": "https://www.multichain.com/developers/smart-filters/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -647,7 +647,7 @@
         "name": "Yes",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -659,14 +659,14 @@
     "service": {
       "name": "Blockchain as a Service providers & Accelerator Tools (early stage solutions included)",
       "ref": "https://en.wikipedia.org/wiki/Batch_processing",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "Dovetail",
         "ref": "https://tibcosoftware.github.io/dovetail/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -674,31 +674,31 @@
         "name": "Dovetail",
         "ref": "https://tibcosoftware.github.io/dovetail/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "IBM Blockchain Platform",
         "ref": "https://www.ibm.com/blockchain/platform",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Oracle Blockchain Platform",
         "ref": "https://www.oracle.com/cloud/blockchain/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Amazon Managed Blockchain",
         "ref": "https://aws.amazon.com/managed-blockchain/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Xooa",
         "ref": "https://docs.xooa.com/product.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -707,13 +707,13 @@
         "name": "Microsoft Azure",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "SAP Leonardo",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -722,19 +722,19 @@
         "name": "Ethereum: Kaleido",
         "ref": "https://kaleido.io",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Ethereum: Clovyr",
         "ref": "https://clovyr.io",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Ethereum: esprezzo",
         "ref": "https://esprezzo.io",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Ethereum: Azure Blockchain Workbench",
@@ -746,7 +746,7 @@
         "name": "Ethereum: Amazon Managed Blockchain",
         "ref": "https://aws.amazon.com/managed-blockchain/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -758,56 +758,56 @@
     "service": {
       "name": "Database",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [ ]
     },
     "corda": [
       {
         "name": "<b>Corda Open Source supports:</b>",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "(development mode only): H2",
         "ref": "http://www.h2database.com/html/main.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "PostgreSQL",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "<b>Corda Enterprise supports:</b>",
         "ref": "https://docs.corda.r3.com/node-database.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "PostgreSQL",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Sql Server",
         "ref": "https://docs.corda.r3.com/node-database.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Azure SQL",
         "ref": "https://docs.corda.r3.com/node-database.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Oracle",
         "ref": "https://docs.corda.r3.com/node-database.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -816,13 +816,13 @@
         "name": "default: LevelDB",
         "ref": "https://dbdb.io/db/leveldb",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       },
       {
         "name": "CouchDB (can perform rich and complex query)",
         "ref": "http://couchdb.apache.org",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -830,7 +830,7 @@
         "name": "LevelDB",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -838,7 +838,7 @@
         "name": "LevelDB",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -850,14 +850,14 @@
     "service": {
       "name": "Ledger Data Model",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "UTXO",
         "ref": "https://docs.corda.net/key-concepts-transactions.html?highlight=utxo",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -865,7 +865,7 @@
         "name": "versions of keys/values",
         "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/fabric_model.html#ledger-features",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -873,13 +873,13 @@
         "name": "UTXO",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Key/value (for streams)",
         "ref": "https://www.multichain.com/blog/2016/09/introducing-multichain-streams/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -888,7 +888,7 @@
         "name": "Account Based",
         "ref": "https://medium.com/coinmonks/transactions-in-ethereum-e85a73068f74",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -900,14 +900,14 @@
     "service": {
       "name": "How to avoid Double Spend",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "UTXO via Notary",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -915,7 +915,7 @@
         "name": "Public Ledger/Channels: MVCC via Orderer ",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ],
     "multichain": [
@@ -923,7 +923,7 @@
         "name": "UTXO",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -931,13 +931,13 @@
         "name": "Public Ledger: Account Balance",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Constellation: Not Available",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ]
@@ -950,14 +950,14 @@
     "service": {
       "name": "Allow Imediate Finality",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "Yes",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -965,7 +965,7 @@
         "name": "Yes",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -973,7 +973,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -981,7 +981,7 @@
         "name": "Yes",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -993,20 +993,20 @@
     "service": {
       "name": "How to keep data private on the Nodes (ledger)",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "<b>Native</b>: Copy only the transaction/data (and provenance) to the participants involved in the transaction",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "<b>Enterprise version</b>: Allow the use of <a href='https://www.intel.com/content/www/us/en/architecture-and-technology/software-guard-extensions.html' target='_blank'>Intel <b>SGX</b><a/> to encrypt the provenance of the transactions when a Use Case requires visibility only of the data of the current transaction/state",
         "ref": "https://medium.com/corda/developer-preview-java-in-intel-sgx-8d7127ede826",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1014,13 +1014,13 @@
         "name": "via <b>Channels</b>, creating a sub-ledger allowing all the participants in the sub-ledger to see the transaction/data in that channel",
         "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/channels.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "via <b>Data Private collections</b>",
         "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/private-data/private-data.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1028,13 +1028,13 @@
         "name": "Not available natively - Data needs to be encrypted before being stored and timestamped on the chain",
         "ref": "https://www.multichain.com/developers/stream-confidentiality/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Multichain Enterprise support: Stream Read Restrictions, Encrypted Data Delivery",
         "ref": "https://www.multichain.com/enterprise/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ],
     "quorum": [
@@ -1042,13 +1042,13 @@
         "name": "via <b>Costellation</b>, sending data P2P to the parts involved.",
         "ref": "https://github.com/jpmorganchase/constellation",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "via <b>Tessera</b>, sending data P2P to the parts involved.",
         "ref": "https://github.com/jpmorganchase/tessera",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ]
@@ -1061,14 +1061,14 @@
     "service": {
       "name": "How to avoid Double Spend in the Network in private transactions",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "via Notary, assets/data can have a global control, avoiding double spend",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1076,7 +1076,7 @@
         "name": "Not available - only inside Channels, assets/data are locked in the channel without the possibility to transact it outside the channel",
         "ref": "",
         "icon": "none.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1084,7 +1084,7 @@
         "name": "Not available",
         "ref": "https://www.multichain.com/developers/stream-confidentiality/",
         "icon": "none.png",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ],
     "quorum": [
@@ -1123,19 +1123,19 @@
         "name": "Admin to Node (CordApp) - SSH",
         "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Node to Doorman - HTTPS",
         "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "Node to Network Map - HTTPS",
         "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -1144,7 +1144,7 @@
         "name": "over TLS",
         "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/enable_tls.html?highlight=tls",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1152,7 +1152,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1160,7 +1160,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1172,14 +1172,14 @@
     "service": {
       "name": "Load Balancers",
       "ref": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1187,7 +1187,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1195,7 +1195,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1203,7 +1203,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1215,20 +1215,20 @@
     "service": {
       "name": "Integrated Development Environment",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
         {
         "name": "Free: Jet Brains IntelliJ Community",
         "ref": "https://www.jetbrains.com/idea/download/",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
         },
         {
           "name": "Commercial: Jet Brains IntelliJ Ultimate",
           "ref": "https://www.jetbrains.com/idea/download/",
           "icon": "",
-          "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+          "Properties": [  ]
         }
     ],
     "fabric": [
@@ -1236,7 +1236,7 @@
         "name": "Visual Studio Code",
         "ref": "https://code.visualstudio.com",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1244,7 +1244,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1252,7 +1252,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1264,14 +1264,14 @@
     "service": {
       "name": "Logging & Monitoring",
       "ref": "https://en.wikipedia.org/wiki/Log_management",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1279,7 +1279,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
 
     ],
@@ -1288,7 +1288,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1296,7 +1296,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1308,14 +1308,14 @@
     "service": {
       "name": "Software",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1323,13 +1323,13 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1337,7 +1337,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1345,7 +1345,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1357,14 +1357,14 @@
     "service": {
       "name": "Hardware",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1372,13 +1372,13 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1386,7 +1386,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1394,7 +1394,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1406,14 +1406,14 @@
     "service": {
       "name": "Identity & Access Management",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1421,7 +1421,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1429,7 +1429,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1437,7 +1437,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1449,14 +1449,14 @@
     "service": {
       "name": "Secured Socket Layer (SSL) Certificates",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1464,7 +1464,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1472,7 +1472,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1480,7 +1480,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1492,20 +1492,20 @@
     "service": {
       "name": "Hardware Based Security Module",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       },
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1513,7 +1513,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1521,7 +1521,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1529,7 +1529,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [ ]
       }
     ]
   },
@@ -1541,14 +1541,14 @@
     "service": {
       "name": "DDos Protection Service",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1556,7 +1556,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1564,7 +1564,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1572,7 +1572,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1584,14 +1584,14 @@
     "service": {
       "name": "Decentralized Applications",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "R3 Marketplace",
         "ref": "https://marketplace.r3.com/dashboard",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1599,7 +1599,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1607,7 +1607,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1615,7 +1615,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   },
@@ -1627,14 +1627,14 @@
     "service": {
       "name": "Development & Testing",
       "ref": "",
-      "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+      "Properties": [  ]
     },
     "corda": [
       {
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "fabric": [
@@ -1642,7 +1642,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "multichain": [
@@ -1650,7 +1650,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ],
     "quorum": [
@@ -1658,7 +1658,7 @@
         "name": "",
         "ref": "",
         "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
+        "Properties": [  ]
       }
     ]
   }

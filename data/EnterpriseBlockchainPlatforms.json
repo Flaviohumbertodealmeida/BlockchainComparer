@@ -229,7 +229,7 @@
         ]
       },
       {
-        "name": "over Corda.Network foundation",
+        "name": "Permissioned over Corda Network  (see Corda Network foundation)",
         "ref": "https://corda.network",
         "icon": "",
         "Properties": [
@@ -475,25 +475,25 @@
     "corda": [
       {
         "name": "Node CordApp",
-        "ref": "",
+        "ref": "https://docs.corda.net/head/cordapp-overview.html",
         "icon": "",
         "Properties": [  ]
       },
       {
-        "name": "Notary",
-        "ref": "",
+        "name": "Notary (Validating or non-Validating)",
+        "ref": "https://docs.corda.net/key-concepts-notaries.html",
         "icon": "",
         "Properties": [  ]
       },
       {
         "name": "Network Map Service",
-        "ref": "",
+        "ref": "https://docs.corda.net/network-map.html",
         "icon": "",
         "Properties": [  ]
       },
       {
         "name": "Doorman",
-        "ref": "",
+        "ref": "https://docs.corda.net/releases/M16-RC04/permissioning.html",
         "icon": "",
         "Properties": [  ]
       }
@@ -574,19 +574,19 @@
     },
     "corda": [
       {
-        "name": "Nodes: Validating and Uniqueness",
+        "name": "Nodes: Validity Consensus",
         "ref": "https://docs.corda.net/key-concepts-consensus.html",
         "icon": "",
         "Properties": [ ]
       },
       {
-        "name": "Notary : BFT Smart",
+        "name": "Notary Cluster : BFT Smart + Uniqueness consensus",
         "ref": "https://github.com/corda/corda/tree/master/node/src/main/kotlin/net/corda/notary/experimental/bftsmart",
         "icon": "",
         "Properties": [ ]
       },
       {
-        "name": "Notary : RAFT",
+        "name": "Notary Cluster : RAFT + Uniqueness consensus",
         "ref": "https://github.com/corda/corda/tree/master/node/src/main/kotlin/net/corda/notary/experimental/raft",
         "icon": "",
         "Properties": [
@@ -685,10 +685,31 @@
     },
     "corda": [
       {
-        "name": "Flows, Contracts, States, Commands",
-        "ref": "",
+        "name": "Flows",
+        "ref": "https://docs.corda.net/head/key-concepts-flows.html",
         "icon": "",
         "Properties": [  ]
+      },
+      {
+        "name": "Contracts",
+        "ref": "https://docs.corda.net/head/key-concepts-contracts.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "States",
+        "ref": "https://docs.corda.net/head/key-concepts-states.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Commands",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
       }
     ],
     "fabric": [
@@ -772,7 +793,7 @@
     "corda": [
       {
         "name": "Ongoing: available to test: DJVM (Deterministic Java Virtual Machine)",
-        "ref": "https://medium.com/corda/djvm-behind-the-scenes-2ba7f5cb9275",
+        "ref": "https://docs.corda.net/head/key-concepts-djvm.html",
         "icon": "",
         "Properties": [  ]
       }
@@ -1055,7 +1076,7 @@
     },
     "corda": [
       {
-        "name": "UTXO via Notary",
+        "name": "UTXO via Notary (uniqueness consensus)",
         "ref": "",
         "icon": "",
         "Properties": [  ]

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="361b2b57-2d14-4211-b68e-f9bfe1a74fa8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Services.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/Services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,15 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+            <state relative-caret-position="197">
+              <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/Services.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1094" column="24" selection-start-line="1094" selection-start-column="24" selection-end-line="1094" selection-end-column="24" />
+            <state relative-caret-position="5061">
+              <caret line="241" column="3" selection-start-line="241" selection-start-column="3" selection-end-line="241" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -72,9 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>r3</find>
-      <find>H2</find>
-      <find>h2</find>
       <find>smart filter</find>
       <find>go,</find>
       <find>persis</find>
@@ -102,6 +99,9 @@
       <find>icon&quot;: &quot;</find>
       <find>imgurl</find>
       <find>network</find>
+      <find>services.json</find>
+      <find>services.jsn</find>
+      <find>consolid</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;corda&quot;</replace>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/js/test.html" />
         <option value="$PROJECT_DIR$/index_backup.html" />
         <option value="$PROJECT_DIR$/css/stylish-portfolio.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/data/Services.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -147,6 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,8 +175,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,7 +475,35 @@
       <option name="project" value="LOCAL" />
       <updated>1559781204327</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Layout adjust">
+      <created>1559791842245</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1559791842245</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added: &#10;  Free and Paid versions">
+      <created>1559792703341</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1559792703341</updated>
+    </task>
+    <task id="LOCAL-00040" summary="New version - some basic reviews, removed unnecessary information">
+      <created>1559961083030</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1559961083030</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added new information/links related with Corda">
+      <created>1559970940960</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1559970940960</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -489,9 +517,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.21387696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +533,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.3287483" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.3287483" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5107296" side_tool="true" visible="true" weight="0.23480663" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5107296" side_tool="true" weight="0.23480663" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4892704" weight="0.2044199" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="10" sideWeight="0.49928468" weight="0.3287483" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" weight="0.32872927" />
@@ -581,10 +608,12 @@
     <MESSAGE value="mobile layout update" />
     <MESSAGE value="mobile layout update - dropdown and table" />
     <MESSAGE value="Layout adjust" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout adjust" />
+    <MESSAGE value="added: &#10;  Free and Paid versions" />
+    <MESSAGE value="New version - some basic reviews, removed unnecessary information" />
+    <MESSAGE value="added new information/links related with Corda" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new information/links related with Corda" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/font-awesome/less/animated.less" />
     <entry file="file://$PROJECT_DIR$/font-awesome/scss/_animated.scss" />
     <entry file="file://$PROJECT_DIR$/img/icons/stars1.png">
@@ -733,14 +762,25 @@
     <entry file="file://$PROJECT_DIR$/.idea/BlockchainComparer.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/Services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5061">
+          <caret line="241" column="3" selection-start-line="241" selection-start-column="3" selection-end-line="241" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7622" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+        <state relative-caret-position="197">
+          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -757,13 +797,6 @@
             <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1094" column="24" selection-start-line="1094" selection-start-column="24" selection-end-line="1094" selection-end-column="24" />
         </state>
       </provider>
     </entry>
