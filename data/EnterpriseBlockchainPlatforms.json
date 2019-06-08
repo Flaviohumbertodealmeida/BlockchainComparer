@@ -222,7 +222,7 @@
     },
     "corda": [
       {
-        "name": "Private Permissioned",
+        "name": "Private / Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [
@@ -239,7 +239,7 @@
     ],
     "fabric": [
       {
-        "name": "Private Permissioned",
+        "name": "Private / Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [
@@ -248,7 +248,7 @@
     ],
     "multichain": [
       {
-        "name": "Private Permissioned",
+        "name": "Private / Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [ ]
@@ -256,7 +256,7 @@
     ],
     "quorum": [
       {
-        "name": "Private Permissioned",
+        "name": "Private / Permissioned",
         "ref": "",
         "icon": "",
         "Properties": [ ]
@@ -275,20 +275,8 @@
     },
     "corda": [
       {
-        "name": "Nodes: Full Mesh",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Notary: Full Mesh, Broadcast?",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Nodes to Notary: ?",
-        "ref": "",
+        "name": "Node to Node : P2P (Full Mesh)",
+        "ref": "https://solutions.corda.net/corda-modelling-notation/high-level-architecture/arch-corda-network.html",
         "icon": "",
         "Properties": [  ]
       }
@@ -337,6 +325,138 @@
       {
         "name": "Tessera: Full Mesh",
         "ref": "https://github.com/jpmorganchase/tessera",
+        "icon": "",
+        "Properties": [  ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Network",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Connectivity",
+      "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
+      "Properties": [ ]
+    },
+    "corda": [
+      {
+        "name": "Node to Node (CordApp) - AMQP/1.0 over TLS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [ ]
+      },
+      {
+        "name": "Client to Node (CordApp) - RPC over TLS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Admin to Node (CordApp) - SSH",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Node to Doorman - HTTPS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Node to Network Map - HTTPS",
+        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Node to Cluster Notary - P2P (round robin)",
+        "ref": "https://docs.corda.r3.com/running-a-notary-cluster/introduction.html#about-the-ha-notary-installation",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Cluster: Notary node to Notary node - ?",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "over TLS",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/enable_tls.html?highlight=tls",
+        "icon": "",
+        "Properties": [  ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [  ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [  ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Network",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Load Balancers",
+      "ref": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
+      "Properties": [  ]
+    },
+    "corda": [
+      {
+        "name": "Required for Corda Node, Database",
+        "ref": "",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Enterprise version: Provide additional tools",
+        "ref": "https://docs.corda.net/head/design/hadr/design.html",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [  ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [  ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
         "icon": "",
         "Properties": [  ]
       }
@@ -455,15 +575,22 @@
     "corda": [
       {
         "name": "Nodes: Validating and Uniqueness",
-        "ref": "",
+        "ref": "https://docs.corda.net/key-concepts-consensus.html",
         "icon": "",
         "Properties": [ ]
       },
       {
-        "name": "Notary : RAFT, BFT Smart",
-        "ref": "",
+        "name": "Notary : BFT Smart",
+        "ref": "https://github.com/corda/corda/tree/master/node/src/main/kotlin/net/corda/notary/experimental/bftsmart",
         "icon": "",
         "Properties": [ ]
+      },
+      {
+        "name": "Notary : RAFT",
+        "ref": "https://github.com/corda/corda/tree/master/node/src/main/kotlin/net/corda/notary/experimental/raft",
+        "icon": "",
+        "Properties": [
+        ]
       }
     ],
     "fabric": [
@@ -1122,118 +1249,7 @@
   },
   {
     "category": {
-      "name": "Network",
-      "ref": "http://#"
-    },
-    "service": {
-      "name": "Connectivity",
-      "ref": "https://en.wikipedia.org/wiki/Platform_as_a_service",
-      "Properties": [ ]
-    },
-    "corda": [
-      {
-        "name": "Node to Node (CordApp) - AMQP/1.0 over TLS",
-        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
-        "icon": "",
-        "Properties": [ ]
-      },
-      {
-        "name": "Client to Node (CordApp) - RPC over TLS",
-        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
-        "icon": "",
-        "Properties": [ "To be added", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Admin to Node (CordApp) - SSH",
-        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Node to Doorman - HTTPS",
-        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Node to Network Map - HTTPS",
-        "ref": "https://docs.corda.net/design/threat-model/corda-threat-model.html",
-        "icon": "",
-        "Properties": [  ]
-      }
-
-    ],
-    "fabric": [
-      {
-        "name": "over TLS",
-        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/enable_tls.html?highlight=tls",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "multichain": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "quorum": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ]
-  },
-  {
-    "category": {
-      "name": "Network",
-      "ref": "http://#"
-    },
-    "service": {
-      "name": "Load Balancers",
-      "ref": "https://en.wikipedia.org/wiki/Load_balancing_(computing)",
-      "Properties": [  ]
-    },
-    "corda": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "fabric": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "multichain": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "quorum": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ]
-  },
-  {
-    "category": {
-      "name": "Developer Tools",
+      "name": "Development & Testing",
       "ref": "https://en.wikipedia.org/wiki/Programming_tool"
     },
     "service": {
