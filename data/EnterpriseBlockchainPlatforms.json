@@ -211,6 +211,246 @@
   },
   {
     "category": {
+      "name": "Platform Use Cases",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Recommended to be used by",
+      "ref": "http://#",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Any Industry",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Any Industry",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "Any Industry",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Any Industry",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Platform Use Cases",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Public use cases category",
+      "ref": "http://#",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Trade Finance, Insurance, Identity, Supply Chain, Digital Assets, Real Estate and others",
+        "ref": "https://marketplace.r3.com/directory",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Supply Chain, Trade Finance and others",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Payments, Regulatory, ",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Platform Use Cases",
+      "ref": ""
+    },
+    "service": {
+      "name": "Daps Marketplace",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "R3 Marketplace",
+        "ref": "https://marketplace.r3.com/dashboard",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Platform Use Cases",
+      "ref": ""
+    },
+    "service": {
+      "name": "Open Source Business Use Cases",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Project UBIN",
+        "ref": "https://github.com/project-ubin",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Project UBIN",
+        "ref": "https://github.com/project-ubin",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Project UBIN",
+        "ref": "https://github.com/project-ubin",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Platform Use Cases",
+      "ref": ""
+    },
+    "service": {
+      "name": "Networks in Production",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Marco Polo (Trade Finance)",
+        "ref": "https://www.marcopolo.finance",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "We.Trade (Trade Finance)",
+        "ref": "https://we-trade.com",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "IIN (Interbank Information Network)",
+        "ref": "https://www.jpmorgan.com/country/US/en/detail/1320570135560",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
       "name": "Network",
       "ref": "http://#"
     },
@@ -806,105 +1046,6 @@
       {
         "name": "Yes",
         "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ]
-  },
-  {
-    "category": {
-      "name": "Cloud",
-      "ref": "http://#"
-    },
-    "service": {
-      "name": "Blockchain as a Service providers & Accelerator Tools (early stage solutions included)",
-      "ref": "https://en.wikipedia.org/wiki/Batch_processing",
-      "Properties": [  ]
-    },
-    "corda": [
-      {
-        "name": "Dovetail",
-        "ref": "https://tibcosoftware.github.io/dovetail/",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "fabric": [
-      {
-        "name": "Dovetail",
-        "ref": "https://tibcosoftware.github.io/dovetail/",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "IBM Blockchain Platform",
-        "ref": "https://www.ibm.com/blockchain/platform",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Oracle Blockchain Platform",
-        "ref": "https://www.oracle.com/cloud/blockchain/",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Amazon Managed Blockchain",
-        "ref": "https://aws.amazon.com/managed-blockchain/",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Xooa",
-        "ref": "https://docs.xooa.com/product.html",
-        "icon": "",
-        "Properties": [  ]
-      }
-
-    ],
-    "multichain": [
-      {
-        "name": "Microsoft Azure",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "SAP Leonardo",
-        "ref": "https://cloudplatform.sap.com/capabilities/technical-asset-info.MultiChain-on-SAP-Cloud-Platform.9f71d788-971e-44c5-84c3-d3f6bb1cee5f.html",
-        "icon": "",
-        "Properties": [  ]
-      }
-
-    ],
-    "quorum": [
-      {
-        "name": "Ethereum: Kaleido",
-        "ref": "https://kaleido.io",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Ethereum: Clovyr",
-        "ref": "https://clovyr.io",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Ethereum: esprezzo",
-        "ref": "https://esprezzo.io",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Ethereum: Azure Blockchain Workbench",
-        "ref": "https://docs.microsoft.com/en-us/azure/blockchain/workbench/overview",
-        "icon": "",
-        "Properties": [ "Yes", "To be added", "To be added", "To be added", "To be added" ]
-      },
-      {
-        "name": "Ethereum: Amazon Managed Blockchain",
-        "ref": "https://aws.amazon.com/managed-blockchain/",
         "icon": "",
         "Properties": [  ]
       }
@@ -1627,18 +1768,18 @@
   },
   {
     "category": {
-      "name": "MarketPlace",
+      "name": "Development & Testing",
       "ref": ""
     },
     "service": {
-      "name": "Decentralized Applications",
+      "name": "Development & Testing",
       "ref": "",
       "Properties": [  ]
     },
     "corda": [
       {
-        "name": "R3 Marketplace",
-        "ref": "https://marketplace.r3.com/dashboard",
+        "name": "",
+        "ref": "",
         "icon": "",
         "Properties": [  ]
       }
@@ -1670,44 +1811,117 @@
   },
   {
     "category": {
-      "name": "Development & Testing",
-      "ref": ""
+      "name": "Cloud",
+      "ref": "http://#"
     },
     "service": {
-      "name": "Development & Testing",
-      "ref": "",
-      "Properties": [  ]
+      "name": "Blockchain as a Service providers & Accelerator Tools (early stage solutions included)",
+      "ref": "https://en.wikipedia.org/wiki/Batch_processing",
+      "Properties": [
+      ]
     },
     "corda": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Dovetail",
+        "ref": "https://tibcosoftware.github.io/dovetail/",
         "icon": "",
-        "Properties": [  ]
+        "Properties": [
+        ]
       }
     ],
     "fabric": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Dovetail",
+        "ref": "https://tibcosoftware.github.io/dovetail/",
         "icon": "",
-        "Properties": [  ]
+        "Properties": [
+        ]
+      },
+      {
+        "name": "IBM Blockchain Platform",
+        "ref": "https://www.ibm.com/blockchain/platform",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Oracle Blockchain Platform",
+        "ref": "https://www.oracle.com/cloud/blockchain/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Amazon Managed Blockchain",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Xooa",
+        "ref": "https://docs.xooa.com/product.html",
+        "icon": "",
+        "Properties": [
+        ]
       }
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "Microsoft Azure",
         "ref": "",
         "icon": "",
-        "Properties": [  ]
+        "Properties": [
+        ]
+      },
+      {
+        "name": "SAP Leonardo",
+        "ref": "https://cloudplatform.sap.com/capabilities/technical-asset-info.MultiChain-on-SAP-Cloud-Platform.9f71d788-971e-44c5-84c3-d3f6bb1cee5f.html",
+        "icon": "",
+        "Properties": [
+        ]
       }
     ],
     "quorum": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Ethereum: Kaleido",
+        "ref": "https://kaleido.io",
         "icon": "",
-        "Properties": [  ]
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Ethereum: Clovyr",
+        "ref": "https://clovyr.io",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Ethereum: esprezzo",
+        "ref": "https://esprezzo.io",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Ethereum: Azure Blockchain Workbench",
+        "ref": "https://docs.microsoft.com/en-us/azure/blockchain/workbench/overview",
+        "icon": "",
+        "Properties": [
+          "Yes",
+          "To be added",
+          "To be added",
+          "To be added",
+          "To be added"
+        ]
+      },
+      {
+        "name": "Ethereum: Amazon Managed Blockchain",
+        "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "",
+        "Properties": [
+        ]
       }
     ]
   }
