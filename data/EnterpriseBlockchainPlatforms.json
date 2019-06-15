@@ -2269,6 +2269,212 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "EEA - Enterprise Ethereum Alliance Client Specification",
+        "ref": "https://entethalliance.org/wp-content/uploads/2019/05/EEA_Enterprise_Ethereum_Client_Specification_V3.pdf",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Community",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Slack, Chat and Forum",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Cordaledger on Slack (6112 users registered - Jun/19)",
+        "ref": "https://slack.corda.net/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Corda Development",
+        "ref": "https://groups.io/g/corda-dev",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Hyperledger Fabric on Chat",
+        "ref": "https://chat.hyperledger.org/channel/fabric",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Quorum on Slack",
+        "ref": "https://clh7rniov2.execute-api.us-east-1.amazonaws.com/Express/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Community",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "GitHub",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "GitHub Corda / Corda",
+        "ref": "https://github.com/corda/corda",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "GitHub Hyperledger / Fabric (mirror of gerrit)",
+        "ref": "https://github.com/hyperledger/fabric",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "GitHub Multichain / Multichain",
+        "ref": "https://github.com/MultiChain/multichain",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "GitHub JpMorganChase / Quorum",
+        "ref": "https://github.com/jpmorganchase/quorum",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Community",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "GitHub Activities (coming soon)",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "#commits, #releases, #contributors, #issues, #pr",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": " #commits, #releases, #contributors, #issues, #pr",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": " #commits, #releases, #contributors, #issues, #pr",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": " #commits, #releases, #contributors, #issues, #pr",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Community",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Website",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Corda",
+        "ref": "https://www.corda.net/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Fabric",
+        "ref": "https://www.hyperledger.org/projects/fabric",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "Multichain",
+        "ref": "https://www.multichain.com/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Quorum",
+        "ref": "https://www.goquorum.com/",
+        "icon": "",
+        "Properties": [
+        ]
       }
     ]
   }
