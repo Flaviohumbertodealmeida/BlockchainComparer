@@ -163,11 +163,11 @@
   },
   {
     "category": {
-      "name": "Company or Organization",
+      "name": "Basic Info",
       "ref": "http://#"
     },
     "service": {
-      "name": "For Profit",
+      "name": "Organization For Profit",
       "ref": "http://#",
       "Properties": [
       ]
@@ -283,20 +283,8 @@
     ],
     "fabric": [
       {
-        "name": "Client to Endorser : Full Mesh",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Client to Orderer : ?",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "Orderer to Committer : ??",
-        "ref": "",
+        "name": "Broadcast (gossip data dissemination protocol) data and heartbeat to Peers in the same channel",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/gossip.html",
         "icon": "",
         "Properties": [  ]
       }
@@ -317,13 +305,13 @@
         "Properties": [  ]
       },
       {
-        "name": "Constellation : Full Mesh",
+        "name": "Constellation : P2P (Full Mesh)",
         "ref": "https://github.com/jpmorganchase/constellation",
         "icon": "",
         "Properties": [  ]
       },
       {
-        "name": "Tessera: Full Mesh",
+        "name": "Tessera: P2P (Full Mesh)",
         "ref": "https://github.com/jpmorganchase/tessera",
         "icon": "",
         "Properties": [  ]
@@ -883,7 +871,7 @@
       },
       {
         "name": "SAP Leonardo",
-        "ref": "",
+        "ref": "https://cloudplatform.sap.com/capabilities/technical-asset-info.MultiChain-on-SAP-Cloud-Platform.9f71d788-971e-44c5-84c3-d3f6bb1cee5f.html",
         "icon": "",
         "Properties": [  ]
       }
