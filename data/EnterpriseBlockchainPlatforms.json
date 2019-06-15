@@ -59,7 +59,7 @@
     },
     "corda": [
       {
-        "name": "Free: Open Source v. 4 - Lic Apache v2",
+        "name": "Free: Open Source v. 4.1 - Lic Apache v2",
         "ref": "",
         "icon": "",
         "Properties": [
@@ -297,7 +297,7 @@
     ],
     "quorum": [
       {
-        "name": "Payments, Regulatory, ",
+        "name": "Payments, Regulatory and others",
         "ref": "",
         "icon": "",
         "Properties": [
@@ -407,7 +407,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Networks in Production",
+      "name": "Networks in Production with Live Transactions",
       "ref": "",
       "Properties": [
       ]
@@ -1298,13 +1298,13 @@
     },
     "corda": [
       {
-        "name": "<b>Native</b>: Copy only the transaction/data (and provenance) to the participants involved in the transaction",
-        "ref": "",
+        "name": "<b>Native</b>: Copy transaction data (state) only to the participants involved in the transaction, also in order to validate the current transaction, involves receiving transactions from the history chain of states.",
+        "ref": "https://solutions.corda.net/corda-modelling-notation/privacy/privacy-why-model.html",
         "icon": "",
         "Properties": [  ]
       },
       {
-        "name": "<b>Enterprise version</b>: Allow the use of <a href='https://www.intel.com/content/www/us/en/architecture-and-technology/software-guard-extensions.html' target='_blank'>Intel <b>SGX</b><a/> to encrypt the provenance of the transactions when a Use Case requires visibility only of the data of the current transaction/state",
+        "name": "<b>Enterprise version</b>: Will allow the use of <a href='https://www.intel.com/content/www/us/en/architecture-and-technology/software-guard-extensions.html' target='_blank'>Intel <b>SGX</b><a/> to encrypt the provenance of the transactions when a Use Case requires visibility only of the data of the current transaction/state",
         "ref": "https://medium.com/corda/developer-preview-java-in-intel-sgx-8d7127ede826",
         "icon": "",
         "Properties": [  ]
@@ -1400,7 +1400,7 @@
   {
     "category": {
       "name": "Development & Testing",
-      "ref": "https://en.wikipedia.org/wiki/Programming_tool"
+      "ref": ""
     },
     "service": {
       "name": "Integrated Development Environment",
@@ -1448,6 +1448,82 @@
   },
   {
     "category": {
+      "name": "Development & Testing",
+      "ref": ""
+    },
+    "service": {
+      "name": "Tools and Accelerators",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Dovetail",
+        "ref": "https://tibcosoftware.github.io/dovetail/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Corda Demobench",
+        "ref": "https://docs.corda.net/demobench.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Corda Network Builder",
+        "ref": "https://docs.corda.net/network-builder.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Network Bootstrapper",
+        "ref": "https://docs.corda.net/network-bootstrapper.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Node Explorer",
+        "ref": "https://docs.corda.net/node-explorer.html",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Dovetail",
+        "ref": "https://tibcosoftware.github.io/dovetail/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
       "name": "Management Tools",
       "ref": "https://en.wikipedia.org/wiki/Infrastructure_as_Code"
     },
@@ -1458,10 +1534,38 @@
     },
     "corda": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Jolokia (agent)",
+        "ref": "https://jolokia.org/",
         "icon": "",
         "Properties": [  ]
+      },
+      {
+        "name": "Datadog agent (Monitoring)",
+        "ref": "https://docs.datadoghq.com/getting_started/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Telegraph",
+        "ref": "https://github.com/influxdata/telegraf",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Log4J 2",
+        "ref": "https://logging.apache.org/log4j/2.x/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Corda Monitoring and Logging Design",
+        "ref": "https://docs.corda.net/head/design/monitoring-management/design.html",
+        "icon": "",
+        "Properties": [
+        ]
       }
     ],
     "fabric": [
@@ -1492,20 +1596,22 @@
   },
   {
     "category": {
-      "name": "Disaster Recovery",
+      "name": "HA & Disaster Recovery",
       "ref": ""
     },
     "service": {
-      "name": "Software",
+      "name": "Software & Hardware",
       "ref": "",
       "Properties": [  ]
     },
     "corda": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Hot-Cold (minimum requirement) or Hot-Warm (Medium-term solution) or Hot-Hot (long-term solution)",
+        "ref": "https://docs.corda.net/head/design/hadr/design.html",
         "icon": "",
-        "Properties": [  ]
+        "Properties": [
+          "link: https://solutions.corda.net/deployment/node-firewall-deployment.html#ha-corda-node-bridge-float"
+        ]
       }
     ],
     "fabric": [
@@ -1541,56 +1647,7 @@
   },
   {
     "category": {
-      "name": "Disaster Recovery",
-      "ref": ""
-    },
-    "service": {
-      "name": "Hardware",
-      "ref": "",
-      "Properties": [  ]
-    },
-    "corda": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "fabric": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "multichain": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "quorum": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ]
-  },
-  {
-    "category": {
-      "name": "Security & Identity, Compliance",
+      "name": "Security & Identity",
       "ref": ""
     },
     "service": {
@@ -1600,16 +1657,16 @@
     },
     "corda": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Identity Service",
+        "ref": "https://docs.corda.net/head/corda-network/index.html?highlight=identity#identity-service",
         "icon": "",
         "Properties": [  ]
       }
     ],
     "fabric": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Membership Service Provider (MSP)",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/msp.html",
         "icon": "",
         "Properties": [  ]
       }
@@ -1633,17 +1690,17 @@
   },
   {
     "category": {
-      "name": "Security & Identity, Compliance",
+      "name": "Security & Identity",
       "ref": ""
     },
     "service": {
-      "name": "Secured Socket Layer (SSL) Certificates",
+      "name": "Communication between nodes",
       "ref": "",
       "Properties": [  ]
     },
     "corda": [
       {
-        "name": "",
+        "name": "over TLS",
         "ref": "",
         "icon": "",
         "Properties": [  ]
@@ -1676,7 +1733,7 @@
   },
   {
     "category": {
-      "name": "Security & Identity, Compliance",
+      "name": "Security & Identity",
       "ref": ""
     },
     "service": {
@@ -1686,8 +1743,8 @@
     },
     "corda": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Doorman and NetworkMap signing keys are stored inside a Hardware Security Module (HSM) in the Corda Network (corda.network)",
+        "ref": "https://docs.corda.net/head/design/threat-model/corda-threat-model.html",
         "icon": "",
         "Properties": [  ]
       },
@@ -1768,75 +1825,67 @@
   },
   {
     "category": {
-      "name": "Development & Testing",
-      "ref": ""
-    },
-    "service": {
-      "name": "Development & Testing",
-      "ref": "",
-      "Properties": [  ]
-    },
-    "corda": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "fabric": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "multichain": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ],
-    "quorum": [
-      {
-        "name": "",
-        "ref": "",
-        "icon": "",
-        "Properties": [  ]
-      }
-    ]
-  },
-  {
-    "category": {
       "name": "Cloud",
       "ref": "http://#"
     },
     "service": {
-      "name": "Blockchain as a Service providers & Accelerator Tools (early stage solutions included)",
+      "name": "Blockchain as a Service",
       "ref": "https://en.wikipedia.org/wiki/Batch_processing",
       "Properties": [
       ]
     },
     "corda": [
       {
-        "name": "Dovetail",
-        "ref": "https://tibcosoftware.github.io/dovetail/",
+        "name": "Corda Enterprise Blockchain on AWS",
+        "ref": "https://aws.amazon.com/quickstart/architecture/r3-corda/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "AWS Marketplace : Corda 4.0 Open Source by R3",
+        "ref": "https://aws.amazon.com/marketplace/pp/B07MXHSR6P/ref=portal_asin_url",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "AWS Marketplace : Corda Enterprise 4.0 Virtual Machine by R3",
+        "ref": "https://aws.amazon.com/marketplace/pp/B07RLRDXL8/ref=portal_asin_url",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Corda Enterprise on Corda Testnet",
+        "ref": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/corda.cordaenterprise",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Azure Marketplace - Corda Open Source 3.2 by R3",
+        "ref": "\n",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Azure Marketplace - Corda v3.1 Single VM Network by R3",
+        "ref": "\n",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Azure Marketplace - Corda Custom Network Map by BCS Technology",
+        "ref": "\n",
         "icon": "",
         "Properties": [
         ]
       }
     ],
     "fabric": [
-      {
-        "name": "Dovetail",
-        "ref": "https://tibcosoftware.github.io/dovetail/",
-        "icon": "",
-        "Properties": [
-        ]
-      },
       {
         "name": "IBM Blockchain Platform",
         "ref": "https://www.ibm.com/blockchain/platform",
@@ -1861,6 +1910,13 @@
       {
         "name": "Xooa",
         "ref": "https://docs.xooa.com/product.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "iBlock",
+        "ref": "https://intelligentblock.io/index",
         "icon": "",
         "Properties": [
         ]
@@ -1909,16 +1965,307 @@
         "ref": "https://docs.microsoft.com/en-us/azure/blockchain/workbench/overview",
         "icon": "",
         "Properties": [
-          "Yes",
-          "To be added",
-          "To be added",
-          "To be added",
-          "To be added"
         ]
       },
       {
         "name": "Ethereum: Amazon Managed Blockchain",
         "ref": "https://aws.amazon.com/managed-blockchain/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Integration",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Capture External Data Outside the Blockchain Network",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Oracle",
+        "ref": "https://docs.corda.net/key-concepts-oracles.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Oracle: Oraclize/Provable",
+        "ref": "https://provable.xyz",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "via User Interface (e.g. Manual Input) when all parties involved can validate the data sent.",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "System sending data to Flows when all parties involved are able to validate the data sent.",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Oracle",
+        "ref": "https://developer.ibm.com/articles/oracles-common-architectural-patterns-for-fabric/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Oracle : Oraclize/Provable",
+        "ref": "https://provable.xyz",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "via User Interface (e.g. Manual Input) when all parties involved can validate the data sent.",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "System sending data to the Chaincode when all parties involved are able to validate the data sent.",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "Oracle",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Oracle: Oraclize/Provable",
+        "ref": "https://provable.xyz",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Integration",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Consume/Query Data from the Ledger (Node)",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Using Corda APIs: in Flows, using VaultService",
+        "ref": "https://docs.corda.net/api-vault-query.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Using Corda APIs: in Client Applications (Web APIs, Desktop Apps, other types of Apps), via CordaRPCOps",
+        "ref": "https://docs.corda.net/api-vault-query.html",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Integration",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Queries complexity ",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "Query with pagination, Query (history and actual data), Query by Criteria, Query with Sort",
+        "ref": "https://docs.corda.net/api-vault-query.html",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Interoperability",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Other Blockchain Platforms",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Standards",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Blockchain Platforms",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "TTI (Token Taxonomy Initiative)",
+        "ref": "https://entethalliance.org/participate/token-taxonomy-initiative/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "EEA - TTI (Token Taxonomy Initiative)",
+        "ref": "https://entethalliance.org/participate/token-taxonomy-initiative/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "multichain": [
+      {
+        "name": "EEA - TTI (Token Taxonomy Initiative)",
+        "ref": "https://entethalliance.org/participate/token-taxonomy-initiative/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "EEA - TTI (Token Taxonomy Initiative)",
+        "ref": "https://entethalliance.org/participate/token-taxonomy-initiative/",
         "icon": "",
         "Properties": [
         ]
