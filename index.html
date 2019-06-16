@@ -215,7 +215,7 @@
             var trHTML = '';
 
             if (input.length > 1) {
-                trHTML += '<td style="vertical-align: middle;"><ul>';
+                trHTML += '<td style="vertical-align: middle; middle;word-wrap: break-word"><ul>';
                 for (var i in input) {
                     trHTML += '<li><img src="' + imgURL(input[i].icon,type) + '"  onerror="imgError(this);" alt="' + input[i].name + '" class=" hidden-sm hidden-xs img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></li>';
                 }
