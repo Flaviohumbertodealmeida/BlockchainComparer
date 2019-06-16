@@ -8,8 +8,8 @@ The project is open sourced to let fellow Blockchain Architects, IT Pros, Develo
 Our goal: Give a broad view about the main DLT/Blockchain platforms being used by enterprises to build business use cases, allowing technical professionals to have very quickly, a good understanding about the main differences about these platforms, and more important, how these differences might affect or not the requirements of the business use cases considering Blockchain as the underpinning technology.
 
 <div align="right">
-<a href="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/">
-    <img src="https://github.com/Flaviohumbertodealmeida/BlockchainComparer/blob/master/img/logo/Blockchain.jpg" alt="Compare Blockchain" title="Compare Blockchain" align="right" height="180" />
+<a href="https://flaviohumbertodealmeida.github.io/enterpriseblockchainplatforms/">
+    <img src="img/EnterpriseBlockchainPlatforms.png" alt="Compare Blockchain" title="Enterprise Blockchain Platforms" align="center" width="800px" />
 </a><br>
 
 
