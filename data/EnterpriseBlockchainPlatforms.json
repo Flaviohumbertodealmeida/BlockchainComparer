@@ -2146,7 +2146,15 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "Query DSL (Vaultaire)",
+        "ref": "https://github.com/manosbatsis/vaultaire",
+        "icon": "",
+        "Properties": [
+        ]
       }
+
     ],
     "fabric": [
       {
@@ -2472,6 +2480,69 @@
       {
         "name": "Quorum",
         "ref": "https://www.goquorum.com/",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Community",
+      "ref": "http://#"
+    },
+    "service": {
+      "name": "Books",
+      "ref": "",
+      "Properties": [
+      ]
+    },
+    "corda": [
+      {
+        "name": "R3 Corda for Architects and Developers - Author: Debajani Mohanty",
+        "ref": "https://www.apress.com/gp/book/9781484245316",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "fabric": [
+      {
+        "name": "Hands-On Blockchain with Hyperledger - Author: Nitin Gaur, Luc Desrosiers, Et al",
+        "ref": "https://www.hyperledger.org/projects/fabric",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric - Author: Nakul Shah",
+        "ref": "https://www.amazon.com/Blockchain-Business-Hyperledger-Fabric-implementation/dp/9388511654/ref=asc_df_9388511654/?tag=hyprod-20&linkCode=df0&hvadid=366338326237&hvpos=1o1&hvnetw=g&hvrand=4338664236434106120&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003534&hvtargid=pla-783216057559&psc=1&tag=&ref=&adgrpid=78795693280&hvpone=&hvptwo=&hvadid=366338326237&hvpos=1o1&hvnetw=g&hvrand=4338664236434106120&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003534&hvtargid=pla-783216057559",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Hyperledger Fabric A Complete Guide - 2019 Edition - Author: Gerardus Blokdyk",
+        "ref": "https://www.amazon.com/Hyperledger-Fabric-Complete-Guide-2019/dp/0655542485/ref=pd_sbs_14_1/136-8360958-7782248?_encoding=UTF8&pd_rd_i=0655542485&pd_rd_r=cc930a93-0cc4-424a-aa5e-e7442a332c26&pd_rd_w=FFwlc&pd_rd_wg=5Cc2x&pf_rd_p=1c11b7ff-9ffb-4ba6-8036-be1b0afa79bb&pf_rd_r=FCF0ZN2X94Z4FQ654JNS&psc=1&refRID=FCF0ZN2X94Z4FQ654JNS",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+
+    ],
+    "multichain": [
+      {
+        "name": "",
+        "ref": "",
+        "icon": "",
+        "Properties": [
+        ]
+      }
+    ],
+    "quorum": [
+      {
+        "name": "",
+        "ref": "",
         "icon": "",
         "Properties": [
         ]
