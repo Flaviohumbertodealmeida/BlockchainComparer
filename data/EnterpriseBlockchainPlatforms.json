@@ -1883,7 +1883,15 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "Chainstack",
+        "ref": "https://chainstack.com",
+        "icon": "",
+        "Properties": [
+        ]
       }
+
     ],
     "fabric": [
       {
@@ -1915,8 +1923,8 @@
         ]
       },
       {
-        "name": "iBlock",
-        "ref": "https://intelligentblock.io/index",
+        "name": "Multiledger",
+        "ref": "https://multiledger.io/index",
         "icon": "",
         "Properties": [
         ]
