@@ -18,10 +18,9 @@
     <META NAME="Subject" CONTENT="Enterprise Blockchain Platforms - Capabilities | Corda - Fabric - Multichain - Quorum">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Enterprise Blockchain Capabilities | Corda - Fabric - Multichain - Quorum">
+    <meta property="og:title" content="Enterprise Blockchain Platforms Capabilities | Corda - Fabric - Multichain - Quorum">
     <meta property="og:locale" content="en_US">
     <meta property="og:description" content="A detailed public list of capabilities of the main Enterprise Blockchain Platforms - Corda, Fabric, Multichain, Quorum">
-    <!--<link rel="canonical" href="http://comparecloud.in/">-->
     <link rel="canonical" href="http://localhost:63342/">
 
     <meta property="og:url" content="https://fsvem.org">
@@ -29,8 +28,9 @@
     <meta property="og:image" content="/img/Logo_small.jpg">
     <title>Enterprise Blockchain - Capabilities</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css"     rel="stylesheet" type="text/css">
     <link href="css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css"            rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -100,10 +100,12 @@
         </div>
 
         <table id="comparetable" class="table table-bordered table-striped table-hover table-responsive" >
-            <thead style="background: -webkit-linear-gradient(top, rgba(235,205,235,1) 0%, rgba(230,230,230,1) 14%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(217,217,217,1) 96%, rgba(184,184,184,1) 100%);">
+            <thead class="table-header">
                 <tr>
-                    <th style="width:10%; vertical-align: middle;word-wrap: break-word">Category</th>
-                    <th style="width:10%; vertical-align: middle;word-wrap: break-word">Service</th>
+                    <th style="width:10%; vertical-align: middle;word-wrap: break-word">
+                        Category <img src="img/icons/filter.png" style="width: 15px; display: inline; cursor:pointer;" title="Filter"  data-toggle="modal" data-target="#myModal"/>
+                    </th>
+                    <th style="width:10%; vertical-align: middle;word-wrap: break-word">Subcategory</th>
                     <th>
                         <img class="img-responsive" src='img/logo/Corda-2.png' alt='icon' />
                     </th>
@@ -123,7 +125,7 @@
         </table>
     </section>
 
-    <section id="blockchain-feed" class="hidden-print" style="margin-left:10%; width:80%">
+    <section id="blockchain-feed" class="hidden-print" style="margin-left:10%; width:80%;">
         <h2 class="text-center">Blockchain Feed</h2>
         <hr class="small">
         <div class="container-fluid">
@@ -176,136 +178,41 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.floatThead.min.js"></script>
-    <script>
-
-        //Table Rendering
-        var imgUrlpartial = 'img/blockchainproviders/';
-
-        $(document).ready(function () {
-            var trHTML = '';
-            $.getJSON('data/EnterpriseBlockchainPlatforms.json', function (Json) {
-                $.each(Json, function (key, value) {
-                    trHTML += '<tr><td style="background-color: #F0F0F0; vertical-align: middle; word-wrap: break-word"><b>' + value.category.name + '</b></td>';
-                    trHTML += '<td style="background-color: #F0F0F0; vertical-align: middle; word-wrap: break-word"><b>' + value.service.name + ' <a href="' + value.service.ref + '" class="glyphicon glyphicon-link hidden-print" target="_blank"></a></b></td>';
-                    trHTML += dataprocessor(value.corda, 'corda');
-                    trHTML += dataprocessor(value.fabric, 'fabric');
-                    trHTML += dataprocessor(value.multichain, 'multichain');
-                    trHTML += dataprocessor(value.quorum, 'quorum');
-                });
-                var $table = $('#comparetable');
-                $table.append(trHTML);
-                $('body').css("display","block");
-                $table.floatThead();
-                RemoveEmptyAHref();
-            });
-        });
-
-
-
-        function RemoveEmptyAHref() {
-            $("a").each(function () {
-                var href = $(this).attr("href");
-                if (href == 'https://#' || href == '' || href == 'http://#' || href == '#') { // or anything else you want to remove...
-                    $(this).remove();
-                }
-            });
-        }
-
-        function dataprocessor(input, type) {
-            var trHTML = '';
-
-            if (input.length > 1) {
-                trHTML += '<td style="vertical-align: middle; word-wrap: break-word"><ul>';
-                for (var i in input) {
-                    trHTML += '<li><img src="' + imgURL(input[i].icon,type) + '"  onerror="imgError(this);" alt="' + input[i].name + '" class=" hidden-sm hidden-xs img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></li>';
-                }
-                trHTML += '</ul></td>';
-            }
-            else {
-             trHTML += '<td style="vertical-align: middle; word-wrap: break-word"><img src="' + imgURL(input[0].icon,type) + '" onerror="imgError(this);" alt="' + input[0].name + '" class="hidden-sm hidden-xs img-responsive img-icons" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></td>';
-            }
-            return trHTML;
-        }
-
-
-
-        function imgURL(imageIcon,type) {
-
-                if (imageIcon.trim() == '')
-                    return 'img/blockchainproviders/none.png';
-
-                return imgUrlpartial + type + '/' + imageIcon;
-        }
-
-        function imgError(image) {
-            image.onerror = "";
-            image.src = "img/icons/addRedX2.png";
-            return true;
-        }
-
-
-        // Scrolls to the selected menu item on the page
-        $(function () {
-            $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-
-        //#to-top button appears after scrolling
-        var fixed = false;
-        $(document).scroll(function () {
-            if ($(this).scrollTop() > 250) {
-                if (!fixed) {
-                    fixed = true;
-                    // $('#to-top').css({position:'fixed', display:'block'});
-                    $('#to-top').show("slow", function () {
-                        $('#to-top').css({
-                            position: 'fixed',
-                            display: 'block'
-                        });
-                    });
-                }
-            } else {
-                if (fixed) {
-                    fixed = false;
-                    $('#to-top').hide("slow", function () {
-                        $('#to-top').css({
-                            display: 'none'
-                        });
-                    });
-                }
-            }
-        });
-    </script>
-
-<!--     Disqus / Google Analytics / Addthis-->
-<!--    <script>-->
-<!--        (function () {-->
-<!--            var d = document, s = d.createElement('script');-->
-<!--            s.src = '//Blockchaincomparer.disqus.com/embed.js';-->
-<!--            s.setAttribute('data-timestamp', +new Date());-->
-<!--            (d.head || d.body).appendChild(s);-->
-<!--        })();-->
-<!--    </script>-->
-<!--    <noscript>Please enable JavaScript to view the-->
-<!--        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>-->
-<!--    </noscript>-->
-<!--    <script id="dsq-count-scr" src="//Blockchaincomparer.disqus.com/count.js" async></script>-->
+    <script src="js/jsonreader.js"></script>
 
     <div class="container-fluid" style="margin: 50px;">
         <div class="col-md-12 text-center">Webpage author: <a href="https://www.linkedin.com/in/flaviohumbertodealmeida/" target="_blank">Flavio Humberto de Almeida</a> - Fork of http://comparecloud.in</div>
         <!-- required because we used icons from flaticon -->
-        <div class="col-md-12 text-center">Icons made by <a href="https://www.flaticon.com/packs/blockchain-24" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        <div class="col-md-12 text-center">Icons made by <a href="https://www.flaticon.com/packs/blockchain-24" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>        
+        <div class="col-md-12 text-center">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
     </div>
+
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header" style="background-color: gainsboro; border-top-left-radius: 6px; border-top-right-radius: 6px;">
+              <h2 class="modal-title" style="display: inline;">Category Filter</h2>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">                            
+                <div><input type="checkbox" checked="false" id="checkCategorySelectAll" onclick="selectAllCategories()" value="Select All" style="margin:5px;">Select All</checkbox></div>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">        
+              <button type="button" onclick="filter()" class="btn btn-primary" data-dismiss="modal">Filter</button>
+            </div>
+      
+          </div>
+        </div>
+</div>
 
 
 </body>

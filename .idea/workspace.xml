@@ -4,9 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361b2b57-2d14-4211-b68e-f9bfe1a74fa8" name="Default Changelist" comment="">
+    <list default="true" id="361b2b57-2d14-4211-b68e-f9bfe1a74fa8" name="Default Changelist" comment="fix layout">
+      <change afterPath="$PROJECT_DIR$/js/jsonreader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="224" column="237" lean-forward="true" selection-start-line="224" selection-start-column="237" selection-end-line="224" selection-end-column="237" />
+            <state relative-caret-position="57">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,43 +39,19 @@
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#19691#19698#1" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="294">
-                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/Services.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5061">
-              <caret line="241" column="3" selection-start-line="241" selection-start-column="3" selection-end-line="241" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -88,10 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>confident</find>
-      <find>SGX</find>
-      <find>confidenti</find>
-      <find>font-size</find>
       <find>FSVEM.webp</find>
       <find>fsvem.web</find>
       <find>FSVem.webp</find>
@@ -114,10 +89,14 @@
       <find>services.json</find>
       <find>services.jsn</find>
       <find>consolid</find>
-      <find>service</find>
       <find>ordered</find>
       <find>right</find>
       <find>word</find>
+      <find>query with pa</find>
+      <find>tools</find>
+      <find>service</find>
+      <find>dataLayer</find>
+      <find>multiled</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;corda&quot;</replace>
@@ -149,14 +128,15 @@
         <option value="$PROJECT_DIR$/css/stylish-portfolio.css" />
         <option value="$PROJECT_DIR$/data/Services.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json" />
+        <option value="$PROJECT_DIR$/js/jsonreader.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,6 +144,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,27 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548571693108</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added img-logos related with Platforms">
-      <created>1552364900479</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1552364900479</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added Readme - Logo blockchain">
-      <created>1552366300671</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1552366300671</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added logo Blockchain">
-      <created>1552366329156</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1552366329156</updated>
     </task>
     <task id="LOCAL-00009" summary="Added some Blockchain information">
       <created>1552366788928</created>
@@ -575,7 +534,28 @@
       <option name="project" value="LOCAL" />
       <updated>1560645340956</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="fix layout">
+      <created>1560646973902</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1560646973902</updated>
+    </task>
+    <task id="LOCAL-00056" summary="added information related with Corda Query DSL &amp; Books about Corda and Hyperledger Fabric">
+      <created>1566253892520</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1566253892522</updated>
+    </task>
+    <task id="LOCAL-00057" summary="updated content">
+      <created>1570983291007</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1570983291007</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView">
@@ -588,10 +568,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -607,7 +587,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.3287483" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.3287483" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5107296" side_tool="true" weight="0.23480663" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4892704" visible="true" weight="0.2038835" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4892704" visible="true" weight="0.036144577" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="10" sideWeight="0.49928468" weight="0.3287483" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" weight="0.32872927" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -661,9 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed Cloud files&#10;added blockchain information" />
-    <MESSAGE value="Changed comparecloud.in to enterpriseblockchain" />
-    <MESSAGE value="file deleted" />
     <MESSAGE value="add generic image" />
     <MESSAGE value="Added google Analytics" />
     <MESSAGE value="html/js fix" />
@@ -686,20 +663,12 @@
     <MESSAGE value="Added image" />
     <MESSAGE value="Readme review" />
     <MESSAGE value="fix layout to Mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix layout to Mobile" />
+    <MESSAGE value="fix layout" />
+    <MESSAGE value="added information related with Corda Query DSL &amp; Books about Corda and Hyperledger Fabric" />
+    <MESSAGE value="updated content" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated content" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/font-awesome/scss/_animated.scss" />
-    <entry file="file://$PROJECT_DIR$/img/icons/stars1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-work-sans/SIL Open Font License.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/font-work-sans/WorkSans-ExtraLight.otf">
       <provider selected="true" editor-type-id="fontseditor" />
     </entry>
@@ -806,9 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/icons/addCheck.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -836,29 +802,57 @@
     <entry file="file://$PROJECT_DIR$/.idea/BlockchainComparer.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5061">
-          <caret line="241" column="3" selection-start-line="241" selection-start-column="3" selection-end-line="241" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <first_editor relative-caret-position="322">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23036">
+          <caret line="241" column="3" selection-start-line="241" selection-start-column="3" selection-end-line="241" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jsonreader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-981">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="224" column="237" lean-forward="true" selection-start-line="224" selection-start-column="237" selection-end-line="224" selection-end-column="237" />
+        <state relative-caret-position="57">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -866,20 +860,19 @@
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19691#19698#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/EnterpriseBlockchainPlatforms.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
         </state>
       </provider>
     </entry>

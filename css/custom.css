@@ -1,0 +1,15 @@
+.table-header { 
+    background: -webkit-linear-gradient(top, rgba(235,205,235,1) 0%,rgba(230,230,230,1) 14%,rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(217,217,217,1) 96%, rgba(184,184,184,1) 100%);
+}
+
+.css-test {
+    display: inline;
+    margin-left: 10px;
+    background-color: aquamarine;
+}
+
+.css-test2 {
+    border-bottom-color: blue;
+    border-bottom-width: 1px;
+
+}
