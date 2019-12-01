@@ -59,14 +59,14 @@
     },
     "corda": [
       {
-        "name": "Free: Open Source v. 4.1 - Lic Apache v2",
-        "ref": "",
+        "name": "Free: Open Source v. 4.3 - Lic Apache v2",
+        "ref": "https://github.com/corda/corda",
         "icon": "",
         "Properties": [
         ]
       },
       {
-        "name": "Paid: Enterprise v. 4",
+        "name": "Paid: Enterprise v. 4.3",
         "ref": "",
         "icon": "",
         "Properties": [
@@ -75,8 +75,8 @@
     ],
     "fabric": [
       {
-        "name": "Free: Open Source v. 1.4  - Lic Apache v2",
-        "ref": "",
+        "name": "Free: Open Source v. 2.0 Alpha  - Lic Apache v2",
+        "ref": "https://github.com/hyperledger/fabric",
         "icon": "",
         "Properties": [
         ]
@@ -100,8 +100,8 @@
     ],
     "quorum": [
       {
-        "name": "Free: Open Source 2.0.2 -  - Lic GPL/LGPL",
-        "ref": "",
+        "name": "Free: Open Source 2.3.0 -  - Lic GPL/LGPL",
+        "ref": "https://bintray.com/quorumengineering/quorum/geth/v2.3.0",
         "icon": "",
         "Properties": [
         ]
