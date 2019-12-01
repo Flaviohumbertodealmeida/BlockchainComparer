@@ -1419,7 +1419,14 @@
           "ref": "https://www.jetbrains.com/idea/download/",
           "icon": "",
           "Properties": [  ]
+        },
+        {
+          "name": "Visual Studio Code with Corda Extension",
+          "ref": "https://github.com/corda/vscode-corda",
+          "icon": "",
+          "Properties": [  ]
         }
+
     ],
     "fabric": [
       {
@@ -1459,35 +1466,70 @@
     },
     "corda": [
       {
-        "name": "Dovetail",
+        "name": "<b>Cordacity</b> - Enterprise frameworks and libraries for Corda developers",
+        "ref": "http://www.cordacity.io/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "<b>Web3j Corda</b> - lightweight client library for working with CorDapps and interacting with different nodes on Corda network",
+        "ref": "https://corda.web3j.io/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "<b>Corbeans</b> - Corda integration for Spring Boot",
+        "ref": "https://manosbatsis.github.io/corbeans/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "<b>Vautaire</b> - Query DSL and data access utilities for Corda developers",
+        "ref": "https://github.com/manosbatsis/vaultaire/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "<b>Partiture</b> - A compact component framework for your Corda apps",
+        "ref": "https://manosbatsis.github.io/partiture/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "<b>Dovetail</b> - tool for modelling blockchain smart contracts",
         "ref": "https://tibcosoftware.github.io/dovetail/",
         "icon": "",
         "Properties": [
         ]
       },
       {
-        "name": "Corda Demobench",
+        "name": "<b>Corda Demobench</b> - Launch local Corda nodes",
         "ref": "https://docs.corda.net/demobench.html",
         "icon": "",
         "Properties": [
         ]
       },
       {
-        "name": "Corda Network Builder",
+        "name": "<b>Corda Network Builder</b> - tool for building Corda networks for testing purposes",
         "ref": "https://docs.corda.net/network-builder.html",
         "icon": "",
         "Properties": [
         ]
       },
       {
-        "name": "Network Bootstrapper",
+        "name": "<b>Network Bootstrapper</b> - development tool for setting up Corda networks for development and testing",
         "ref": "https://docs.corda.net/network-bootstrapper.html",
         "icon": "",
         "Properties": [
         ]
       },
       {
-        "name": "Node Explorer",
+        "name": "<b>Node Explorer</b> - provides views into a node’s vault and transaction data",
         "ref": "https://docs.corda.net/node-explorer.html",
         "icon": "",
         "Properties": [
@@ -1496,7 +1538,7 @@
     ],
     "fabric": [
       {
-        "name": "Dovetail",
+        "name": "<b>Dovetail</b> - tool for modelling blockchain smart contracts",
         "ref": "https://tibcosoftware.github.io/dovetail/",
         "icon": "",
         "Properties": [
