@@ -75,7 +75,7 @@
     ],
     "fabric": [
       {
-        "name": "Free: Open Source v. 2.0 Alpha  - Lic Apache v2",
+        "name": "Free: Open Source v. 2.0 Beta  - Lic Apache v2",
         "ref": "https://github.com/hyperledger/fabric",
         "icon": "",
         "Properties": [
@@ -100,8 +100,8 @@
     ],
     "quorum": [
       {
-        "name": "Free: Open Source 2.3.0 -  - Lic GPL/LGPL",
-        "ref": "https://bintray.com/quorumengineering/quorum/geth/v2.3.0",
+        "name": "Free: Open Source 2.4.0 -  - Lic GPL/LGPL",
+        "ref": "https://github.com/jpmorganchase/quorum/tree/v2.4.0",
         "icon": "",
         "Properties": [
         ]
