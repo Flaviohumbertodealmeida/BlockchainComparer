@@ -145,29 +145,52 @@
             });
         }
 
+
         function dataProcessor(input, type) {
             var trHTML = '';
+            
+            var tdIn = '<td>';            
+            var tdOut = '</td>';
+            var lineContent = '';
 
-            if (input.length > 1) {
-                trHTML += '<td style="vertical-align: middle; word-wrap: break-word"><ul>';
-                for (var i in input) {
-                    trHTML += '<li><img src="' + imgURL(input[i].icon,type) + '"  onerror="imgError(this);" alt="' + input[i].name + '" class=" hidden-sm hidden-xs img-responsive img-icons" />' + input[i].name + ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></li>';
-                    
-                }
-                trHTML += '</ul></td>';
+
+            for (var i in input) {
+
+                var divContainerIn = '<div class="clearfix">';            
+                
+                var divImgContainerIn = '<div class="img-container hidden-sm hidden-xs">';
+                var img = '<img src="' + imgURL(input[i].icon,type) + '" style="width:100%" />';
+                var divImgContainerOut = '</div>';
+                var divTextContainerIn = '<div class="text-container">';
+                var divTextContent = input[i].name;
+                var hrefLink = ' <a href="' + input[i].ref + '"class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a>'
+                var divTextContainerOut = '</div>';
+                
+                var divContainerOut = '</div>';
+    
+                lineContent +=  divContainerIn + 
+                                    divImgContainerIn + 
+                                        img + 
+                                    divImgContainerOut + 
+                                    divTextContainerIn + 
+                                        divTextContent +  
+                                        hrefLink + 
+                                    divTextContainerOut + 
+                                divContainerOut;
+
+
             }
-            else {
-             trHTML += '<td style="vertical-align: middle; word-wrap: break-word"><img src="' + imgURL(input[0].icon,type) + '" onerror="imgError(this);" alt="' + input[0].name + '" class="hidden-sm hidden-xs img-responsive img-icons" /> ' + input[0].name + ' <a href="' + input[0].ref + '" class="glyphicon glyphicon-link srvc-hyperlink hidden-print"  target="_blank"></a></td>';
-            }
+
+            trHTML = tdIn + lineContent + tdOut;
+            
             return trHTML;
         }
-
 
 
         function imgURL(imageIcon,type) {
 
                 if (imageIcon.trim() == '')
-                    return 'img/blockchainproviders/none.png';
+                    return 'img/blockchainproviders/none2.png';
 
                 return imgUrlpartial + type + '/' + imageIcon;
         }

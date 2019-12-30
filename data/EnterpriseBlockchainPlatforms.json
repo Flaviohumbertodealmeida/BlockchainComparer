@@ -263,14 +263,56 @@
       "ref": "http://#"
     },
     "service": {
-      "name": "Public use cases category",
+      "name": "Public Business Solutions",
       "ref": "http://#",
       "Properties": [
       ]
     },
     "corda": [
       {
-        "name": "Trade Finance, Insurance, Identity, Supply Chain, Digital Assets, Real Estate and others",
+        "name": "B3i - Insurance",
+        "ref": "https://b3i.tech/home.html",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "TradeIX - Trade Finance",
+        "ref": "https://tradeix.com/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "RiskBlock Alliance (Canopy) - Insurance",
+        "ref": "https://www.theinstitutes.org/about-us/media-center/articles/institutes-riskstream-collaborativetm-launches-canopy-risk-management",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "HQLAx - Securities",
+        "ref": "https://www.hqla-x.com",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Finastra - Fusion LenderComm - Syndicated Lending",
+        "ref": "https://www.finastra.com/solutions/lending/syndicated-lending/fusion-lendercomm",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Ivno - Settlement, Payment and Collateral",
+        "ref": "https://www.ivno.io",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "More Use Cases: Marketplace",
         "ref": "https://marketplace.r3.com/directory",
         "icon": "",
         "Properties": [
@@ -279,8 +321,22 @@
     ],
     "fabric": [
       {
-        "name": "Supply Chain, Trade Finance and others",
-        "ref": "",
+        "name": "SecureKey - Identity Network",
+        "ref": "https://securekey.com",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "We.Trade - Trade Finance",
+        "ref": "https://we-trade.com/the-platform",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "CLSNet - Post-trade FX",
+        "ref": "https://www.cls-group.com/products/processing/clsnet/",
         "icon": "",
         "Properties": [
         ]
@@ -288,8 +344,71 @@
     ],
     "multichain": [
       {
-        "name": "",
-        "ref": "",
+        "name": "SAP for Pharmaceuticals",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "TruBudget",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Connected Health",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Collateralizing livestock",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Tagcash KYC",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Bureau Veritas Origin",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "ILSBlockchain",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Air Quality Chain",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Deepshore Archive",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Fantastec SWAP",
+        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
         "icon": "",
         "Properties": [
         ]
@@ -297,8 +416,8 @@
     ],
     "quorum": [
       {
-        "name": "Payments, Regulatory and others",
-        "ref": "",
+        "name": "IIN - Interbank Information Network",
+        "ref": "https://www.jpmorgan.com/global/treasury-services/IIN",
         "icon": "",
         "Properties": [
         ]
@@ -311,7 +430,7 @@
       "ref": ""
     },
     "service": {
-      "name": "Daps Marketplace",
+      "name": "DApps Marketplace",
       "ref": "",
       "Properties": [
       ]
@@ -327,27 +446,27 @@
     ],
     "fabric": [
       {
-        "name": "",
+        "name": "No",
         "ref": "",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [
         ]
       }
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "No",
         "ref": "",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [
         ]
       }
     ],
     "quorum": [
       {
-        "name": "",
+        "name": "No",
         "ref": "",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [
         ]
       }
@@ -371,7 +490,15 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "Real Estate Management System",
+        "ref": "https://github.com/gatsinski/real-estate-management-system",
+        "icon": "",
+        "Properties": [
+        ]
       }
+
     ],
     "fabric": [
       {
@@ -419,7 +546,15 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "HQLAx - liquidity management and collateral management solutions - global securities financing markets",
+        "ref": "https://www.hqla-x.com",
+        "icon": "",
+        "Properties": [
+        ]
       }
+
     ],
     "fabric": [
       {
@@ -1030,7 +1165,7 @@
       {
         "name": "No",
         "ref": "",
-        "icon": "none.png",
+        "icon": "",
         "Properties": [  ]
       }
     ],
@@ -1376,7 +1511,7 @@
       {
         "name": "Not available - only inside Channels, assets/data are locked in the channel without the possibility to transact it outside the channel",
         "ref": "",
-        "icon": "none.png",
+        "icon": "",
         "Properties": [  ]
       }
     ],
@@ -1384,7 +1519,7 @@
       {
         "name": "Not available",
         "ref": "https://www.multichain.com/developers/stream-confidentiality/",
-        "icon": "none.png",
+        "icon": "",
         "Properties": [ ]
       }
     ],
@@ -1392,7 +1527,7 @@
       {
         "name": "Not available",
         "ref": "",
-        "icon": "none.png",
+        "icon": "",
         "Properties": [ ]
       }
     ]
@@ -1446,8 +1581,8 @@
     ],
     "quorum": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Visual Studio Code with Solidity extensions",
+        "ref": "https://code.visualstudio.com",
         "icon": "",
         "Properties": [  ]
       }
@@ -1534,7 +1669,15 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "<b>Ganache</b> - Corda network configuration and initialization, application's data, multiple workspaces, PostgreSQL database",
+        "ref": "https://github.com/trufflesuite/ganache/releases",
+        "icon": "",
+        "Properties": [
+        ]
       }
+
     ],
     "fabric": [
       {
@@ -1556,12 +1699,20 @@
     ],
     "quorum": [
       {
-        "name": "",
-        "ref": "",
+        "name": "<b>Ganache</b> - fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates",
+        "ref": "https://www.trufflesuite.com/ganache",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "<b>Truffle</b> - SMART CONTRACTS MADE SWEETER",
+        "ref": "https://www.trufflesuite.com/truffle",
         "icon": "",
         "Properties": [
         ]
       }
+
     ]
   },
   {
@@ -1787,12 +1938,6 @@
       {
         "name": "Doorman and NetworkMap signing keys are stored inside a Hardware Security Module (HSM) in the Corda Network (corda.network)",
         "ref": "https://docs.corda.net/head/design/threat-model/corda-threat-model.html",
-        "icon": "",
-        "Properties": [  ]
-      },
-      {
-        "name": "",
-        "ref": "",
         "icon": "",
         "Properties": [  ]
       }
@@ -2099,7 +2244,7 @@
     ],
     "multichain": [
       {
-        "name": "",
+        "name": "via User Interface (e.g. Manual Input) when all parties involved can validate the data sent.",
         "ref": "",
         "icon": "",
         "Properties": [
@@ -2117,6 +2262,13 @@
       {
         "name": "Oracle: Oraclize/Provable",
         "ref": "https://provable.xyz",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "via User Interface (e.g. Manual Input) when all parties involved can validate the data sent.",
+        "ref": "",
         "icon": "",
         "Properties": [
         ]

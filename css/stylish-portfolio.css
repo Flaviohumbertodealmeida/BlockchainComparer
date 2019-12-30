@@ -350,6 +350,7 @@ footer {
   padding-left: 0px;
   vertical-align: middle;
 }
+
 #comparetable tr.odd td {
   background: #fff url(../img/row_bkg.png) repeat-x scroll center left;
   cursor: pointer;

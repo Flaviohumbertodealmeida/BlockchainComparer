@@ -13,3 +13,30 @@
     border-bottom-width: 1px;
 
 }
+
+  .border-box {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 25px;
+    padding: 1px;
+  }
+
+  .text-container {
+    float: left;
+    width: 80%; 
+    padding: 6px; 
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .text-format{
+    word-wrap: break-word
+  }
+
