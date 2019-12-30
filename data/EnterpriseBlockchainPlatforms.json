@@ -352,7 +352,7 @@
       },
       {
         "name": "TruBudget",
-        "ref": "https://www.multichain.com/blog/2019/06/ten-enterprise-blockchains/",
+        "ref": "https://openkfw.github.io/trubudget-website/",
         "icon": "",
         "Properties": [
         ]
@@ -1711,8 +1711,14 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "<b>Remix</b> - Quorum plugin for Ethereum's Remix IDE adds support for creating and interacting with private contracts on a Quorum network",
+        "ref": "https://github.com/jpmorganchase/quorum-remix",
+        "icon": "",
+        "Properties": [
+        ]
       }
-
     ]
   },
   {
