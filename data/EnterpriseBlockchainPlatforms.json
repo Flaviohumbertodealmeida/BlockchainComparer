@@ -1244,8 +1244,31 @@
         "ref": "https://docs.corda.r3.com/node-database.html",
         "icon": "",
         "Properties": [  ]
+      },
+      {
+        "name": "<b>Notary at Corda Enterprise supports:</b>",
+        "ref": "https://docs.corda.r3.com/node-database.html",
+        "icon": "",
+        "Properties": [ ]
+      },
+      {
+        "name": "CockroachDB",
+        "ref": "https://www.r3.com/blog/discover-corda-enterprise-4-3-and-the-power-of-accounts/",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Oracle 12c RAC",
+        "ref": "https://www.r3.com/blog/discover-corda-enterprise-4-3-and-the-power-of-accounts/",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Any other database supported by Java Persistence API",
+        "ref": "https://www.r3.com/blog/discover-corda-enterprise-4-3-and-the-power-of-accounts/",
+        "icon": "",
+        "Properties": [  ]
       }
-
     ],
     "fabric": [
       {
