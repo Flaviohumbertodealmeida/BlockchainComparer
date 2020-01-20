@@ -2165,8 +2165,7 @@
         "name": "Chainstack",
         "ref": "https://chainstack.com/",
         "icon": "",
-        "Properties": [
-        ]
+        "Properties": []
       }
     ],
     "quorum": [
@@ -2211,7 +2210,7 @@
         "icon": "",
         "Properties": [
         ]
-      },
+      }
     ]
   },
   {
