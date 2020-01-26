@@ -2746,8 +2746,13 @@
         "name": "R3 Corda for Architects and Developers - Author: Debajani Mohanty",
         "ref": "https://www.apress.com/gp/book/9781484245316",
         "icon": "",
-        "Properties": [
-        ]
+        "Properties": []
+      },
+      {
+        "name": "Mastering Corda - Blockchain for Java Developers -  Author: Jamiel Sheikh",
+        "ref": "http://shop.oreilly.com/product/0636920229940.do",
+        "icon": "",
+        "Properties": []
       }
     ],
     "fabric": [
