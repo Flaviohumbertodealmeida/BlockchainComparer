@@ -75,7 +75,7 @@
     ],
     "fabric": [
       {
-        "name": "Free: Open Source v. 2.0 Beta  - Lic Apache v2",
+        "name": "Free: Open Source v. 2.0.0  - Lic Apache v2",
         "ref": "https://github.com/hyperledger/fabric",
         "icon": "",
         "Properties": [
@@ -752,7 +752,7 @@
     ],
     "fabric": [
       {
-        "name": "over TLS",
+        "name": "gRPC over TLS",
         "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/enable_tls.html?highlight=tls",
         "icon": "",
         "Properties": [  ]
@@ -768,8 +768,20 @@
     ],
     "quorum": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Ethereum Nodes: TCP/RLPx Transport Protocol",
+        "ref": "https://github.com/ethereum/devp2p/blob/master/rlpx.md",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Client (web3j) to Node: JSON-RPC",
+        "ref": "https://github.com/web3j/web3j",
+        "icon": "",
+        "Properties": [  ]
+      },
+      {
+        "name": "Tessera Nodes: HTTPS - REST protocol",
+        "ref": "https://docs.goquorum.com/en/latest/Privacy/Tessera/How%20Tessera%20Works/",
         "icon": "",
         "Properties": [  ]
       }
@@ -964,8 +976,8 @@
         "Properties": [  ]
       },
       {
-        "name": "Orderer : BFT Smart?, Honey Badger of BFT?, SBFT?, Kafka",
-        "ref": "",
+        "name": "Orderer : recommended: etcdRAFT, Kafka (production), Solo (testing)",
+        "ref": "https://github.com/hyperledger/fabric/tree/master/orderer",
         "icon": "",
         "Properties": [  ]
       },
@@ -1014,7 +1026,7 @@
     "fabric": [
       {
         "name": "Go, Node.js, Java",
-        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/chaincode4ade.html",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-2.0/chaincode.html#what-is-chaincode",
         "icon": "",
         "Properties": [  ]
       }
@@ -1078,7 +1090,7 @@
     "fabric": [
       {
         "name": "Chaincode",
-        "ref": "",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-2.0/chaincode.html#what-is-chaincode",
         "icon": "",
         "Properties": [  ]
       }
@@ -1298,6 +1310,12 @@
         "ref": "",
         "icon": "",
         "Properties": [  ]
+      },
+      {
+        "name": "Quorum Tessera: any SQL DB - supports the JDBC client ",
+        "ref": "https://docs.goquorum.com/en/latest/Privacy/Tessera/Tessera/",
+        "icon": "",
+        "Properties": [  ]
       }
     ]
   },
@@ -1470,14 +1488,14 @@
     ],
     "fabric": [
       {
-        "name": "via <b>Channels</b>, creating a sub-ledger allowing all the participants in the sub-ledger to see the transaction/data in that channel",
-        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/channels.html",
+        "name": "via <b>Channels</b>: Creating a sub-ledger allowing all the participants in the sub-ledger to see the transaction/data in that channel. <br>Channels need to be configured/created in advance",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-2.0/channels.html",
         "icon": "",
         "Properties": [  ]
       },
       {
-        "name": "via <b>Data Private collections</b>",
-        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/private-data/private-data.html",
+        "name": "via <b>Private data collection</b>: Only private data hashes are sent to the Orderer Service. <br>Endorsing Peers disseminate private data to other Peers (authorized organizations). <br>Private Data policies (e.g. which Orgs will receive the private data) are configured during the Chaincode instantiation. <br>** Recommended to have the private data salted in order to avoid attacks",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-2.0/private-data-arch.html#private-data-collection-definition",
         "icon": "",
         "Properties": [  ]
       }
@@ -1542,7 +1560,7 @@
       {
         "name": "Not available",
         "ref": "https://www.multichain.com/developers/stream-confidentiality/",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ ]
       }
     ],
@@ -1550,7 +1568,7 @@
       {
         "name": "Not available",
         "ref": "",
-        "icon": "",
+        "icon": "none.png",
         "Properties": [ ]
       }
     ]
@@ -1741,7 +1759,15 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "<b>CakeShop</b> - Node Management, Blockchain Explorer, Admin Console, Peer Management, Solidity Sandbox",
+        "ref": "https://docs.goquorum.com/en/latest/Cakeshop/Overview/",
+        "icon": "",
+        "Properties": [
+        ]
       }
+
     ]
   },
   {
@@ -1930,8 +1956,8 @@
     ],
     "fabric": [
       {
-        "name": "",
-        "ref": "",
+        "name": "over TLS",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/release-1.4/enable_tls.html",
         "icon": "",
         "Properties": [  ]
       }
@@ -1946,8 +1972,8 @@
     ],
     "quorum": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Tessera: over TLS",
+        "ref": "https://docs.goquorum.com/en/latest/Privacy/Tessera/Configuration/TLS/",
         "icon": "",
         "Properties": [  ]
       }
@@ -1973,8 +1999,8 @@
     ],
     "fabric": [
       {
-        "name": "",
-        "ref": "",
+        "name": "Hardware Security Module (HSM) is supported to store private keys used by Fabric Nodes",
+        "ref": "https://hyperledger-fabric.readthedocs.io/en/latest/hsm.html",
         "icon": "",
         "Properties": [  ]
       }
@@ -2046,7 +2072,7 @@
     },
     "service": {
       "name": "Blockchain as a Service",
-      "ref": "https://en.wikipedia.org/wiki/Batch_processing",
+      "ref": "https://en.wikipedia.org/wiki/Blockchain_as_a_service",
       "Properties": [
       ]
     },
@@ -2081,21 +2107,21 @@
       },
       {
         "name": "Azure Marketplace - Corda Open Source 3.2 by R3",
-        "ref": "\n",
+        "ref": "",
         "icon": "",
         "Properties": [
         ]
       },
       {
         "name": "Azure Marketplace - Corda v3.1 Single VM Network by R3",
-        "ref": "\n",
+        "ref": "",
         "icon": "",
         "Properties": [
         ]
       },
       {
         "name": "Azure Marketplace - Corda Custom Network Map by BCS Technology",
-        "ref": "\n",
+        "ref": "",
         "icon": "",
         "Properties": [
         ]
@@ -2103,6 +2129,13 @@
       {
         "name": "Chainstack",
         "ref": "https://chainstack.com",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Corda Enterprise: Azure Blockchain Service",
+        "ref": "https://azure.microsoft.com/en-us/blog/introducing-corda-enterprise-on-azure-blockchain-service/",
         "icon": "",
         "Properties": [
         ]
@@ -2210,7 +2243,16 @@
         "icon": "",
         "Properties": [
         ]
+      },
+      {
+        "name": "Quorum: Azure Blockchain Service",
+        "ref": "https://azure.microsoft.com/en-us/services/blockchain-service/",
+        "icon": "",
+        "Properties": [
+        ]
       }
+
+
     ]
   },
   {

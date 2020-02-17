@@ -34,4 +34,5 @@ This project is licensed under the MIT License - see the [LICENSE.md] (LICENSE.m
 ## Local Test
 python -m SimpleHTTPServer 8000
 
-
+Open the browser and type: 
+> http://localhost:8000/
