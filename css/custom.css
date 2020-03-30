@@ -40,3 +40,26 @@
     word-wrap: break-word
   }
 
+  .img-responsive-custom {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    min-width: 63px;
+    border: 0;
+
+  }
+
+
+  .imgFilter {
+    width : 15px;
+ }
+
+
+  .categories-text-breakword {            
+    word-wrap: break-word;    
+  }
+
+  .categories-text-width {        
+    max-width: 90%; 
+    /* font-size: 100%;    */
+  }

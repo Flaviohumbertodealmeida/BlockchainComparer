@@ -59,14 +59,14 @@
     },
     "corda": [
       {
-        "name": "Free: Open Source v. 4.3 - Lic Apache v2",
+        "name": "Free: Open Source v. 4.4 - Lic Apache v2",
         "ref": "https://github.com/corda/corda",
         "icon": "",
         "Properties": [
         ]
       },
       {
-        "name": "Paid: Enterprise v. 4.3",
+        "name": "Paid: Enterprise v. 4.4",
         "ref": "",
         "icon": "",
         "Properties": [

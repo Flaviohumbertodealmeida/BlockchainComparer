@@ -27,8 +27,8 @@
     <link rel="canonical" href="https://github.com/Flaviohumbertodealmeida/enterpriseblockchainplatforms">
     <title>Enterprise Blockchain Platforms</title>
     <link href="css/bootstrap.min.css"     rel="stylesheet" type="text/css">
-    <link href="css/stylish-portfolio.css" rel="stylesheet" type="text/css">
-    <link href="css/custom.css"            rel="stylesheet" type="text/css">
+    <link href="css/stylish-portfolio.css?id=2" rel="stylesheet" type="text/css">
+    <link href="css/custom.css?id=5"            rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -97,31 +97,37 @@
                 </div>
             </div>
         </div>
-
-        <table id="comparetable" class="table table-bordered table-striped table-hover table-responsive" >
-            <thead class="table-header">
-                <tr>
-                    <th style="width:10%; vertical-align: middle;word-wrap: break-word">
-                        Category <img src="img/icons/filter.png" style="width: 15px; display: inline; cursor:pointer;" title="Filter"  data-toggle="modal" data-target="#myModal"/>
-                    </th>
-                    <th style="width:10%; vertical-align: middle;word-wrap: break-word">Subcategory</th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/Corda-2.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/Fabric-2.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/Multichain-2.png' alt='icon' />
-                    </th>
-                    <th>
-                        <img class="img-responsive" src='img/logo/Quorum-2.png' alt='icon' />
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+        <div class="table-container">
+            <table id="comparetable" class="table table-bordered table-striped table-hover table-responsive" >
+                <thead class="table-header">
+                    <tr>
+                        <!-- <th style="width:10%; vertical-align: middle;word-wrap: break-word"> -->
+                        <th style="width: 10%; padding : 2;vertical-align: middle"> 
+                            <div class="categories-text-width">
+                            <div class="categories-text-breakword" style="display: inline-block;">Category </div> <img src="img/icons/filter.png" id="imgFilter" class="img-responsive" style="width: 15px; display: inline; cursor:pointer;" title="Filter"  data-toggle="modal" data-target="#myModal"/>
+                            </div>
+                        </th>
+                        <th style="width: 10%; padding : 2; vertical-align: middle;">
+                            <div class="categories-text-width categories-text-breakword">Subcategory</div>
+                        </th>
+                        <th style="width: 20%">
+                            <img class="img-responsive" src='img/logo/Corda-2.png' alt='icon' />
+                        </th>
+                        <th  style="width: 20%">
+                            <img class="img-responsive" src='img/logo/Fabric-2.png' alt='icon' />
+                        </th>
+                        <th  style="width: 20%">
+                            <img class="img-responsive" src='img/logo/Multichain-2.png' alt='icon' />
+                        </th>
+                        <th  style="width: 20%">
+                            <img class="img-responsive" src='img/logo/Quorum-2.png' alt='icon' />
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
     </section>
 
     <section id="blockchain-feed" class="hidden-print" style="margin-left:10%; width:80%;">

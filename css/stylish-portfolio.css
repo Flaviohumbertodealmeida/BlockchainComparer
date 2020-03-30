@@ -454,13 +454,32 @@ footer {
 
 }
 
+@media only screen and (max-width: 813px) {
+
+  #comparetable {
+/*      margin: 10px 0 0 3.7%;
+     max-width: 100%; 8 */
+     table-layout: fixed;
+     font-size: 8px;
+  }
+
+ th {
+    font-size: 8px;
+ }
+
+ #dropdownCollaboration {
+   width: 300px;
+ }
+
+}
+
 @media only screen and (max-width: 600px) {
 
    #comparetable {
 /*      margin: 10px 0 0 3.7%;
       max-width: 100%; 8 */
       table-layout: fixed;
-      font-size: 10px;
+      font-size: 7px;
    }
 
   th {
@@ -470,5 +489,26 @@ footer {
   #dropdownCollaboration {
     width: 300px;
   }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+  #comparetable {
+     table-layout: fixed;
+     font-size: 8px;
+  }
+
+ th {
+    font-size: 6px;
+ }
+ 
+ .imgFilter {
+    width : 5px;
+ }
+
+ #dropdownCollaboration {
+   width: 200px;
+ }
 
 }

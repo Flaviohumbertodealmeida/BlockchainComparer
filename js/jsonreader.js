@@ -92,7 +92,7 @@
                 $table.trigger('reflow');
             }
             else {
-                $table.floatThead();
+                $table.floatThead();            
             }
             
             
