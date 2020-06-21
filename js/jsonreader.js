@@ -243,3 +243,86 @@
                 }
             }
         });
+
+
+
+
+        //RSS FEEDER **********************************************************************************************************
+
+        //code based on https://css-tricks.com/how-to-fetch-and-parse-rss-feeds-in-javascript/ , https://github.com/Rob--W/cors-anywhere/#documentation
+        
+
+        var dataFeeder = [
+            {
+                name: "Corda - Medium Publications",
+                url : "https://medium.com/feed/corda",
+                container : "corda-blockchain-feed"
+            },
+            {
+                name: "Hyperledger Fabric - Blog",
+                url : "https://www.hyperledger.org/category/blog/feed",
+                container : "fabric-blockchain-feed"
+            },
+            {
+                name: "Multichain - Blog",
+                url : "https://www.multichain.com/feed/",
+                container : "multichain-blockchain-feed"
+            },
+            {
+                name: "Quorum - Medium Publications",
+                url : "https://medium.com/feed/goquorum",
+                container : "quorum-blockchain-feed"
+            },
+
+        ];
+
+        loadFeeders();
+
+        function loadFeeders(content){
+            
+            dataFeeder.forEach(element => buildFeeder(element));
+
+            function buildFeeder(feeder){
+
+                var options = feeder.url;
+                var header = `<h1><a href="${feeder.url}" target="_blank" rel="noopener">${feeder.name}</a></h1>`
+                
+    
+                $.ajaxPrefilter(function(options) {
+                    if (options.crossDomain && jQuery.support.cors) {
+                        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+                    }
+                });            
+    
+                $.get(options, function (response) {
+                            $(response)
+                            .find("item")
+                            .each(function() {
+                                const el = $(this);
+    
+                                const template = `
+                                <article>                            
+                                    <h2>
+                                    <a href="${el
+                                        .find("link")
+                                        .text()}" target="_blank" rel="noopener">
+                                        ${el.find("title").text()}
+                                    </a>
+                                    </h2>
+                                </article>
+                                `;
+    
+    
+                                document.getElementById(feeder.container).insertAdjacentHTML("beforeend", template);
+                            });
+                });
+    
+                document.getElementById(feeder.container).insertAdjacentHTML("afterbegin", header);
+    
+            }
+
+        }
+
+
+        //END RSS FEEDER **********************************************************************************************************
+

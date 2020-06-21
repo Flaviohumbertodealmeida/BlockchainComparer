@@ -63,3 +63,51 @@
     max-width: 90%; 
     /* font-size: 100%;    */
   }
+
+
+
+  #container-blockchain-feed {
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    background-color : whitesmoke;
+    width: 95%;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+
+  }
+
+  .feeder-item {    
+    height: 300px;
+    background-color: FCFBFB;
+    padding: 10px;
+    overflow: scroll;
+    
+  }
+
+  #container-blockchain-feed h2 {
+      font-size: small;
+  }
+
+#container-blockchain-feed h1 {
+    font-size: large;    
+}
+
+#container-blockchain-feed h1 a {  
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #container-blockchain-feed {
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    background-color : whitesmoke;
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6,1fr);    
+
+  }
+
+}
