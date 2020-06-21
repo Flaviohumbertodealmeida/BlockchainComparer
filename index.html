@@ -27,10 +27,9 @@
     <link rel="canonical" href="https://github.com/Flaviohumbertodealmeida/enterpriseblockchainplatforms">
     <title>Enterprise Blockchain Platforms</title>
     <link href="css/bootstrap.min.css"     rel="stylesheet" type="text/css">
-    <link href="css/stylish-portfolio.css?id=2" rel="stylesheet" type="text/css">
-    <link href="css/custom.css?id=5"            rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <link href="css/stylish-portfolio.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css"            rel="stylesheet" type="text/css">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,8 +53,6 @@
 
 <body style="display:none;" >
     <section id="top" class="portfolio" >
-<!--        <div style="background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(50%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1))); padding:15px">-->
-<!--        <div style="background: -webkit-linear-gradient(-45deg, rgba(230,227,230,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,1) 24%, rgba(252,0,105,1) 42%, rgba(186,10,255,1) 53%, rgba(0,36,143,1) 78%, rgba(255,148,228,1) 98%, rgba(255,148,228,1) 100%); padding:15px">-->
         <div class="container-fluid" style="background: -webkit-linear-gradient(45deg, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 41%, rgba(247,205,250,1) 64%, rgba(153,0,255,1) 83%, rgba(127,133,255,1) 100%); padding:15px">
             <div class="row text-center">
                 <div class="col-md-2 align-center">
@@ -130,60 +127,19 @@
         </div>
     </section>
 
-    <section id="blockchain-feed" class="hidden-print" style="margin-left:10%; width:80%;">
-        <h2 class="text-center">Blockchain Feed</h2>
-        <hr class="small">
-        <div class="container-fluid">
-            <div class="row" >
-
-                <div class="col-md-3">
-                    <!-- Corda --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="103182/"></script>
-                </div>
-                <div class="col-md-3">
-                    <!-- Fabric --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="103190/"></script>
-                </div>
-                <div class="col-md-3">
-                    <!-- Mulitchain --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="103192/"></script>
-                </div>
-                <div class="col-md-3">
-                    <!-- Quorum --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="103195/"></script>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Disqus Comments -->
-<!--    <section id="portfolio" class="portfolio container hidden-print">-->
-<!--        <h2 class="text-center">Comments</h2>-->
-<!--        <hr class="small">-->
-<!--        <div id="disqus_thread"></div>-->
-<!--    </section>-->
-
-    <!-- Advice -->
-<!--    <section id="advice" class="services bg-primary hidden-print">-->
-<!--        <div class="container">-->
-<!--            <h2 class="text-center">Piece of Advice</h2>-->
-<!--            <hr class="small">-->
-<!--            <div class="advice-item">-->
-<!--                <ul class="list-unstyled">-->
-<!--                    <li>The portal presents service & feature level mapping between 4 major Blockchain platforms used as an Enterprise level, specially in the the financial market</li>-->
-<!--                    <li>A Reference manual to help anyone to quickly learn the alternate features & services between Enterprise Blockchains</li>-->
-<!--                    <li>We are working to have all the definition & benefits of services mentioned in this presentation sourced from the respective Blockchain provider websites and documentations.</li>-->
-<!--                    <li>For any queries or issues, please raise an issue <a href="https://github.com/flaviohumbertodealmeida/BlockchainComparer/issues/">here</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-
-
+    
+    <div id="container-blockchain-feed">
+        <div id="corda-blockchain-feed" class="feeder-item"></div>
+        <div id="fabric-blockchain-feed" class="feeder-item"></div>
+        <div id="multichain-blockchain-feed" class="feeder-item"></div>
+        <div id="quorum-blockchain-feed" class="feeder-item"></div>
+    </div>
 
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.floatThead.min.js"></script>
-    <script src="js/jsonreader.js"></script>
+    <script src="js/jsonreader.js?id=5"></script>
 
     <div class="container-fluid" style="margin: 50px;">
         <div class="col-md-12 text-center">Webpage author: <a href="https://www.linkedin.com/in/flaviohumbertodealmeida/" target="_blank">Flavio Humberto de Almeida</a> - Fork of http://comparecloud.in</div>
