@@ -150,30 +150,30 @@
 
 
 
-<!-- The Modal -->
-<div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-      
-            <!-- Modal Header -->
-            <div class="modal-header" style="background-color: gainsboro; border-top-left-radius: 6px; border-top-right-radius: 6px;">
-              <h2 class="modal-title" style="display: inline;">Category Filter</h2>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header" style="background-color: gainsboro; border-top-left-radius: 6px; border-top-right-radius: 6px;">
+                <h2 class="modal-title" style="display: inline;">Category Filter</h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">                            
+                    <div><input type="checkbox" checked="false" id="checkCategorySelectAll" onclick="selectAllCategories()" value="Select All" style="margin:5px;">Select All</checkbox></div>
+                </div>
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">        
+                <button type="button" onclick="filter()" class="btn btn-primary" data-dismiss="modal">Filter</button>
+                </div>
+        
             </div>
-      
-            <!-- Modal body -->
-            <div class="modal-body">                            
-                <div><input type="checkbox" checked="false" id="checkCategorySelectAll" onclick="selectAllCategories()" value="Select All" style="margin:5px;">Select All</checkbox></div>
             </div>
-      
-            <!-- Modal footer -->
-            <div class="modal-footer">        
-              <button type="button" onclick="filter()" class="btn btn-primary" data-dismiss="modal">Filter</button>
-            </div>
-      
-          </div>
-        </div>
-</div>
+    </div>
 
 
 </body>
