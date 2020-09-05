@@ -59,7 +59,7 @@
     },
     "corda": [
       {
-        "name": "Free: Corda OS 4.5 - Lic Apache v2",
+        "name": "Free: Corda OS v. 4.5 - Lic Apache v2",
         "ref": "https://github.com/corda/corda",
         "icon": "",
         "Properties": [
@@ -75,7 +75,7 @@
     ],
     "fabric": [
       {
-        "name": "Free: Open Source v. 2.0.0  - Lic Apache v2",
+        "name": "Free: Open Source v. 2.2.0  - Lic Apache v2",
         "ref": "https://github.com/hyperledger/fabric",
         "icon": "",
         "Properties": [
@@ -84,14 +84,14 @@
     ],
     "multichain": [
       {
-        "name": "Free: Open Source 2.0.2  - Lic GPL v3",
+        "name": "Free: Open Source v. 2.0.2  - Lic GPL v3",
         "ref": "",
         "icon": "",
         "Properties": [
         ]
       },
       {
-        "name": "Paid: Enterprise 2.0",
+        "name": "Paid: Enterprise v. 2.0",
         "ref": "",
         "icon": "",
         "Properties": [
@@ -100,7 +100,7 @@
     ],
     "quorum": [
       {
-        "name": "Free: Open Source 2.7.0 -  - Lic GPL/LGPL",
+        "name": "Free: Open Source v. 2.7.0 -  - Lic GPL/LGPL",
         "ref": "https://github.com/ConsenSys/quorum/tree/v2.7.0",
         "icon": "",
         "Properties": [
@@ -307,6 +307,13 @@
       {
         "name": "Ivno - Settlement, Payment and Collateral",
         "ref": "https://www.ivno.io",
+        "icon": "",
+        "Properties": [
+        ]
+      },
+      {
+        "name": "Contour Network - Trade Finance",
+        "ref": "https://www.contour.network",
         "icon": "",
         "Properties": [
         ]
